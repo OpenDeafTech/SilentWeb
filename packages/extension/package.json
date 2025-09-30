@@ -1,0 +1,30 @@
+{
+  "name": "@silentweb/extension",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "NODE_ENV=production rollup -c",
+    "dev": "rollup -c -w",
+    "fx:run": "web-ext run --source-dir dist",
+    "fx:build": "web-ext build --overwrite-dest --source-dir dist --artifacts-dir web-ext-artifacts",
+    "fx:sign": "web-ext sign --source-dir dist --artifacts-dir web-ext-artifacts"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-replace": "^6.0.2",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.4",
+    "@types/firefox-webext-browser": "^120.0.4",
+    "rollup": "^4.52.3",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-css-only": "^4.5.5",
+    "typescript": "^5.6.3",
+    "web-ext": "^8.3.0"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1"
+  }
+}

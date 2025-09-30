@@ -1,0 +1,1 @@
+{"version":3,"file":"logger-T-JRt-Bg.js","sources":["../../src/content/utils/logger.ts"],"sourcesContent":["export function logInfo(...args: unknown[]) { console.debug(\"[SilentWeb]\", ...args); }\n"],"names":["logInfo","args","console","debug"],"mappings":"SAAgBA,KAAWC,GAAmBC,QAAQC,MAAM,iBAAkBF,EAAO"}

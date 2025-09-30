@@ -1,23 +1,43 @@
 {
   "name": "silentweb",
   "version": "1.0.0",
-  "description": "",
+  "description": "SilentWeb — Extension Firefox open-source pour l’accessibilité (sous-titres, transcription, alertes visuelles).",
   "main": "web-ext.config.js",
   "directories": {
     "doc": "docs",
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf dist web-ext-artifacts && mkdir -p dist/content dist/worker dist/vendor",
+    "build:inject": "terser src/content/inject.js -c -m -o dist/content/inject.min.js --source-map 'filename=inject.min.js.map,url=inject.min.js.map,includeSources'",
+    "build:overlay:js": "terser src/content/overlay.js -c -m -o dist/content/overlay.min.js --source-map 'filename=overlay.min.js.map,url=overlay.min.js.map,includeSources'",
+    "build:overlay:css": "cleancss -o dist/content/overlay.min.css --source-map src/content/overlay.css",
+    "build:sw": "terser src/worker/service.js -c -m -o dist/worker/service.min.js --source-map 'filename=service.min.js.map,url=service.min.js.map,includeSources'",
+    "build:ts": "tsc -p tsconfig.json",
+    "build": "pnpm run clean && pnpm run build:ts && pnpm run build:inject && pnpm run build:overlay:js && pnpm run build:overlay:css && pnpm run build:sw",
+    "lint": "tsc --noEmit",
+    "test": "echo \"No test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "firefox-extension",
+    "accessibility",
+    "subtitles",
+    "transcription",
+    "silentweb"
+  ],
+  "author": "SilentWeb Contributors",
+  "license": "MIT",
   "dependencies": {
-    "opus-recorder": "^8.0.5"
+    "opus-recorder": "^8.0.5",
+    "webextension-polyfill": "^0.10.0"
   },
   "devDependencies": {
+    "@types/firefox-webext-browser": "^120.0.4",
     "clean-css-cli": "^5.6.3",
-    "terser": "^5.44.0"
+    "terser": "^5.44.0",
+    "typescript": "^5.9.2"
+  },
+  "resolutions": {
+    "glob": "^10.3.10"
   }
 }
