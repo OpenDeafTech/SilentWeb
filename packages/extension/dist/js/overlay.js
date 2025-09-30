@@ -1,0 +1,2 @@
+import{l as e}from"./logger-T-JRt-Bg.js";function t(){e("overlay initialized");const t=document.createElement("div");t.id="silentweb-overlay",t.textContent="SilentWeb Overlay actif",t.style.position="fixed",t.style.top="0",t.style.left="0",t.style.right="0",t.style.padding="8px",t.style.background="rgba(0,0,0,0.7)",t.style.color="white",t.style.zIndex="9999",document.body.appendChild(t)}export{t as initOverlay};
+//# sourceMappingURL=overlay.js.map
