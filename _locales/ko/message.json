@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb" },
+  "shortName": { "message": "SilentWeb" },
+  "appDescription": { "message": "청각장애인과 난청인을 위한 접근 가능한 웹." },
+  "action_toggle": { "message": "오버레이 전환" },
+  "action_enable_captions": { "message": "자막 켜기" },
+  "action_disable_captions": { "message": "자막 끄기" }
+}

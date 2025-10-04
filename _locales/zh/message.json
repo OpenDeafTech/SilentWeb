@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb" },
+  "shortName": { "message": "SilentWeb" },
+  "appDescription": { "message": "为聋人和听障人士提供的无障碍网络。" },
+  "action_toggle": { "message": "切换覆盖层" },
+  "action_enable_captions": { "message": "启用字幕" },
+  "action_disable_captions": { "message": "禁用字幕" }
+}

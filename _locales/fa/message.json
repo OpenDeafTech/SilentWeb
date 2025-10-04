@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb" },
+  "shortName": { "message": "SilentWeb" },
+  "appDescription": { "message": "وب در دسترس برای ناشنوایان و کم‌شنوایان." },
+  "action_toggle": { "message": "تغییر نمایش لایه" },
+  "action_enable_captions": { "message": "فعال‌سازی زیرنویس" },
+  "action_disable_captions": { "message": "غیرفعال‌سازی زیرنویس" }
+}

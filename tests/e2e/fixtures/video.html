@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SilentWeb Video Fixture</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 2rem;
+      line-height: 1.6;
+    }
+    video {
+      width: 100%;
+      max-width: 600px;
+      margin-top: 1rem;
+      border: 1px solid #ccc;
+    }
+    button {
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>SilentWeb Video Test Fixture</h1>
+  <p>This page is used for end-to-end testing with HTML5 video playback.</p>
+
+  <video id="testVideo" controls>
+    <source src="sample.mp4" type="video/mp4" />
+    <source src="sample.webm" type="video/webm" />
+    <p>Your browser does not support HTML5 video.</p>
+  </video>
+
+  <div>
+    <button id="playBtn">Play</button>
+    <button id="pauseBtn">Pause</button>
+  </div>
+
+  <script>
+    const video = document.getElementById("testVideo");
+    document.getElementById("playBtn").addEventListener("click", () => video.play());
+    document.getElementById("pauseBtn").addEventListener("click", () => video.pause());
+  </script>
+</body>
+</html>

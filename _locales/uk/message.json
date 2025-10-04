@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb" },
+  "shortName": { "message": "SilentWeb" },
+  "appDescription": { "message": "Доступна мережа для глухих та людей з порушеннями слуху." },
+  "action_toggle": { "message": "Перемкнути накладку" },
+  "action_enable_captions": { "message": "Увімкнути субтитри" },
+  "action_disable_captions": { "message": "Вимкнути субтитри" }
+}

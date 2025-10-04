@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb", "description": "Nom de l’extension" },
+  "shortName": { "message": "SilentWeb", "description": "Nom court" },
+  "appDescription": { "message": "Web accessible pour les personnes sourdes et malentendantes.", "description": "Description" },
+  "action_toggle": { "message": "Afficher/masquer l’overlay", "description": "Libellé de commande" },
+  "action_enable_captions": { "message": "Activer les sous-titres", "description": "Libellé de commande" },
+  "action_disable_captions": { "message": "Désactiver les sous-titres", "description": "Libellé de commande" }
+}

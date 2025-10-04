@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb" },
+  "shortName": { "message": "SilentWeb" },
+  "appDescription": { "message": "شبكة متاحة للصم وضعاف السمع." },
+  "action_toggle": { "message": "تبديل التراكب" },
+  "action_enable_captions": { "message": "تفعيل الترجمة" },
+  "action_disable_captions": { "message": "إيقاف الترجمة" }
+}

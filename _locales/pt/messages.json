@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb", "description": "Nome da extensão" },
+  "shortName": { "message": "SilentWeb", "description": "Nome curto" },
+  "appDescription": { "message": "Web acessível para pessoas surdas e com deficiência auditiva.", "description": "Descrição" },
+  "action_toggle": { "message": "Alternar sobreposição", "description": "Rótulo do comando" },
+  "action_enable_captions": { "message": "Ativar legendas", "description": "Rótulo do comando" },
+  "action_disable_captions": { "message": "Desativar legendas", "description": "Rótulo do comando" }
+}

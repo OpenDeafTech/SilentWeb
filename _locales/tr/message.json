@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb" },
+  "shortName": { "message": "SilentWeb" },
+  "appDescription": { "message": "Sağır ve işitme engelli kullanıcılar için erişilebilir web." },
+  "action_toggle": { "message": "Yer paylaşımını aç/kapat" },
+  "action_enable_captions": { "message": "Altyazıları aç" },
+  "action_disable_captions": { "message": "Altyazıları kapat" }
+}

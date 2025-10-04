@@ -1,3 +1,9 @@
 {
-    "CodeGPT.apiKey": "Ollama"
+  "json.schemas": [
+    {
+      "fileMatch": ["**/.jscpd.json", "**/jscpd.json"],
+      "url": "./schemas/jscpd.schema.json"
+    }
+  ],
+  "json.schemaDownload.enable": false
 }

@@ -1,20 +1,15 @@
 {
   "name": "@silentweb/ui",
-  "version": "1.0.0",
-  "description": "SilentWeb UI components",
+  "version": "0.1.0",
   "type": "module",
-  "private": true,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "typecheck": "tsc -p tsconfig.json --noEmit",
-    "clean": "rm -rf dist",
-    "test": "vitest run --passWithNoTests"
+    "build": "tsc -b",
+    "clean": "rimraf dist"
   },
-  "files": ["dist"],
   "devDependencies": {
-    "typescript": "^5.9.2",
-    "vitest": "^2.0.5"
+    "@types/node": "^24.6.2",
+    "vite": "^7.1.9"
   }
 }

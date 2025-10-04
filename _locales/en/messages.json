@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb", "description": "Extension name" },
+  "shortName": { "message": "SilentWeb", "description": "Short name" },
+  "appDescription": { "message": "Accessible web for deaf and hard of hearing users.", "description": "Extension description" },
+  "action_toggle": { "message": "Toggle overlay", "description": "Command label" },
+  "action_enable_captions": { "message": "Enable captions", "description": "Command label" },
+  "action_disable_captions": { "message": "Disable captions", "description": "Command label" }
+}

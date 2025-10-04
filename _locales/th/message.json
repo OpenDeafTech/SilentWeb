@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb" },
+  "shortName": { "message": "SilentWeb" },
+  "appDescription": { "message": "เว็บที่เข้าถึงได้สำหรับผู้บกพร่องทางการได้ยิน." },
+  "action_toggle": { "message": "สลับการแสดงผล" },
+  "action_enable_captions": { "message": "เปิดคำบรรยาย" },
+  "action_disable_captions": { "message": "ปิดคำบรรยาย" }
+}

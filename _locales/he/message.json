@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb" },
+  "shortName": { "message": "SilentWeb" },
+  "appDescription": { "message": "אינטרנט נגיש לחירשים ולכבד שמיעה." },
+  "action_toggle": { "message": "החלף שכבת־על" },
+  "action_enable_captions": { "message": "אפשר כתוביות" },
+  "action_disable_captions": { "message": "בטל כתוביות" }
+}

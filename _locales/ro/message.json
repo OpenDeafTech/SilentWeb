@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb" },
+  "shortName": { "message": "SilentWeb" },
+  "appDescription": { "message": "Web accesibil pentru persoanele surde și cu deficiențe de auz." },
+  "action_toggle": { "message": "Comută suprapunerea" },
+  "action_enable_captions": { "message": "Activează subtitrările" },
+  "action_disable_captions": { "message": "Dezactivează subtitrările" }
+}

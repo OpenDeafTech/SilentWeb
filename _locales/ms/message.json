@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb" },
+  "shortName": { "message": "SilentWeb" },
+  "appDescription": { "message": "Web boleh diakses untuk pengguna pekak dan kurang pendengaran." },
+  "action_toggle": { "message": "Togol lapisan" },
+  "action_enable_captions": { "message": "Hidupkan kapsyen" },
+  "action_disable_captions": { "message": "Matikan kapsyen" }
+}

@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb" },
+  "shortName": { "message": "SilentWeb" },
+  "appDescription": { "message": "بہرے اور کم سننے والے صارفین کے لیے قابل رسائی ویب۔" },
+  "action_toggle": { "message": "اوورلے ٹوگل کریں" },
+  "action_enable_captions": { "message": "کیپشن فعال کریں" },
+  "action_disable_captions": { "message": "کیپشن غیر فعال کریں" }
+}

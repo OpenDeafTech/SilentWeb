@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb" },
+  "shortName": { "message": "SilentWeb" },
+  "appDescription": { "message": "Přístupný web pro neslyšící a nedoslýchavé uživatele." },
+  "action_toggle": { "message": "Přepnout překrytí" },
+  "action_enable_captions": { "message": "Zapnout titulky" },
+  "action_disable_captions": { "message": "Vypnout titulky" }
+}

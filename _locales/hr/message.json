@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb" },
+  "shortName": { "message": "SilentWeb" },
+  "appDescription": { "message": "Pristupačan web za gluhe i nagluhe korisnike." },
+  "action_toggle": { "message": "Uključi/isključi sloj" },
+  "action_enable_captions": { "message": "Uključi titlove" },
+  "action_disable_captions": { "message": "Isključi titlove" }
+}

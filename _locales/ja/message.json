@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb" },
+  "shortName": { "message": "SilentWeb" },
+  "appDescription": { "message": "聴覚障害者のためのアクセシブルなウェブ。" },
+  "action_toggle": { "message": "オーバーレイ切替" },
+  "action_enable_captions": { "message": "字幕を有効にする" },
+  "action_disable_captions": { "message": "字幕を無効にする" }
+}

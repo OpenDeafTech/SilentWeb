@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb", "description": "Название расширения" },
+  "shortName": { "message": "SilentWeb", "description": "Короткое имя" },
+  "appDescription": { "message": "Доступная сеть для глухих и слабослышащих пользователей.", "description": "Описание" },
+  "action_toggle": { "message": "Показать/скрыть оверлей", "description": "Надпись команды" },
+  "action_enable_captions": { "message": "Включить субтитры", "description": "Надпись команды" },
+  "action_disable_captions": { "message": "Выключить субтитры", "description": "Надпись команды" }
+}

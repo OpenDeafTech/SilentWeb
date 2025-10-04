@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb", "description": "Erweiterungsname" },
+  "shortName": { "message": "SilentWeb", "description": "Kurzname" },
+  "appDescription": { "message": "Barrierefreies Web für gehörlose und schwerhörige Nutzer.", "description": "Beschreibung" },
+  "action_toggle": { "message": "Overlay ein/aus", "description": "Befehl" },
+  "action_enable_captions": { "message": "Untertitel aktivieren", "description": "Befehl" },
+  "action_disable_captions": { "message": "Untertitel deaktivieren", "description": "Befehl" }
+}

@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb" },
+  "shortName": { "message": "SilentWeb" },
+  "appDescription": { "message": "கேளாதவர்களுக்கும் கேட்கும் குறைபாடுடையவர்களுக்கும் அணுகக்கூடிய வலை." },
+  "action_toggle": { "message": "ஒவர்லே மாற்று" },
+  "action_enable_captions": { "message": "சப்டைட்டில்கள் இயக்கு" },
+  "action_disable_captions": { "message": "சப்டைட்டில்கள் அணை" }
+}

@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb", "description": "Nome estensione" },
+  "shortName": { "message": "SilentWeb", "description": "Nome breve" },
+  "appDescription": { "message": "Web accessibile per persone sorde e con ipoacusia.", "description": "Descrizione" },
+  "action_toggle": { "message": "Mostra/nascondi overlay", "description": "Etichetta comando" },
+  "action_enable_captions": { "message": "Attiva sottotitoli", "description": "Etichetta comando" },
+  "action_disable_captions": { "message": "Disattiva sottotitoli", "description": "Etichetta comando" }
+}

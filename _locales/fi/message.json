@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb" },
+  "shortName": { "message": "SilentWeb" },
+  "appDescription": { "message": "Saavutettava verkko kuuroille ja huonokuuloisille." },
+  "action_toggle": { "message": "Vaihda peite" },
+  "action_enable_captions": { "message": "Ota tekstitys käyttöön" },
+  "action_disable_captions": { "message": "Poista tekstitys käytöstä" }
+}

@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb" },
+  "shortName": { "message": "SilentWeb" },
+  "appDescription": { "message": "Tilgjengelig web for døve og hørselshemmede." },
+  "action_toggle": { "message": "Bytt overlay" },
+  "action_enable_captions": { "message": "Aktiver undertekster" },
+  "action_disable_captions": { "message": "Deaktiver undertekster" }
+}

@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb" },
+  "shortName": { "message": "SilentWeb" },
+  "appDescription": { "message": "Tillgängligt webben för döva och hörselskadade." },
+  "action_toggle": { "message": "Växla overlay" },
+  "action_enable_captions": { "message": "Aktivera undertexter" },
+  "action_disable_captions": { "message": "Inaktivera undertexter" }
+}

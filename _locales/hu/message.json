@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb" },
+  "shortName": { "message": "SilentWeb" },
+  "appDescription": { "message": "Akadálymentes web a siket és nagyothalló felhasználóknak." },
+  "action_toggle": { "message": "Átfedés váltása" },
+  "action_enable_captions": { "message": "Feliratok bekapcsolása" },
+  "action_disable_captions": { "message": "Feliratok kikapcsolása" }
+}

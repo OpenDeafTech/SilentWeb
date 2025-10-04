@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SilentWeb E2E Fixture</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 2rem;
+      line-height: 1.6;
+    }
+    button {
+      padding: 0.5rem 1rem;
+      margin-top: 1rem;
+      cursor: pointer;
+    }
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>SilentWeb Test Fixture</h1>
+  <p>This page is used for end-to-end testing of the SilentWeb extension.</p>
+
+  <button id="toggle">Toggle Message</button>
+  <p id="message" class="hidden">Hello from SilentWeb!</p>
+
+  <script>
+    document.getElementById("toggle").addEventListener("click", () => {
+      const msg = document.getElementById("message");
+      msg.classList.toggle("hidden");
+    });
+  </script>
+</body>
+</html>

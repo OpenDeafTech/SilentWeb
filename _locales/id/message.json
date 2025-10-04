@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb" },
+  "shortName": { "message": "SilentWeb" },
+  "appDescription": { "message": "Web yang dapat diakses untuk pengguna tuli dan gangguan pendengaran." },
+  "action_toggle": { "message": "Beralih overlay" },
+  "action_enable_captions": { "message": "Aktifkan teks" },
+  "action_disable_captions": { "message": "Nonaktifkan teks" }
+}

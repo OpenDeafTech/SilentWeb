@@ -1,0 +1,49 @@
+# Build outputs
+dist/
+build/
+web-ext-artifacts/
+coverage/
+reports/
+
+# Node dependencies
+node_modules/
+.pnpm-store/
+
+# Generated assets
+*.min.js
+*.min.css
+*.map
+
+# Configuration and lock files
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Environment and system files
+.env
+.env.local
+.DS_Store
+Thumbs.db
+
+# Documentation and assets
+docs/
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.ico
+
+# Tests output
+.vitest/
+test-results/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore manifest and bundled extension zips
+manifest.json
+*.zip

@@ -8,15 +8,21 @@
     "test": "tests"
   },
   "scripts": {
-    "clean": "rm -rf dist web-ext-artifacts && mkdir -p dist/content dist/worker dist/vendor",
+    "clean": "rimraf dist web-ext-artifacts && mkdir -p dist/content dist/worker dist/vendor",
     "build:inject": "terser src/content/inject.js -c -m -o dist/content/inject.min.js --source-map 'filename=inject.min.js.map,url=inject.min.js.map,includeSources'",
     "build:overlay:js": "terser src/content/overlay.js -c -m -o dist/content/overlay.min.js --source-map 'filename=overlay.min.js.map,url=overlay.min.js.map,includeSources'",
     "build:overlay:css": "cleancss -o dist/content/overlay.min.css --source-map src/content/overlay.css",
     "build:sw": "terser src/worker/service.js -c -m -o dist/worker/service.min.js --source-map 'filename=service.min.js.map,url=service.min.js.map,includeSources'",
     "build:ts": "tsc -p tsconfig.json",
     "build": "pnpm run clean && pnpm run build:ts && pnpm run build:inject && pnpm run build:overlay:js && pnpm run build:overlay:css && pnpm run build:sw",
-    "lint": "tsc --noEmit",
-    "test": "echo \"No test specified\" && exit 1"
+    "dev": "web-ext run --source-dir dist --firefox=firefox-developer-edition",
+    "lint": "eslint src --ext .js,.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "serve:e2e": "vite --port 3000 --strictPort",
+    "format": "prettier -w ."
   },
   "keywords": [
     "firefox-extension",
@@ -31,11 +37,31 @@
     "opus-recorder": "^8.0.5",
     "webextension-polyfill": "^0.10.0"
   },
+  "pnpm": {
+    "overrides": {
+      "node-fetch": "2.6.11"
+    }
+  },
   "devDependencies": {
+    "@eslint/js": "8.57.0",
+    "@playwright/test": "^1.55.1",
     "@types/firefox-webext-browser": "^120.0.4",
+    "@types/node": "^22.18.6",
+    "@vitest/coverage-v8": "2.1.9",
     "clean-css-cli": "^5.6.3",
+    "cssnano": "^7.1.1",
+    "eslint": "8.57.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-unused-imports": "3.2.0",
+    "jsdom": "^27.0.0",
+    "node-fetch": "2.6.11",
+    "prettier": "^3.3.3",
+    "rimraf": "^6.0.1",
     "terser": "^5.44.0",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "vite": "^5.4.10",
+    "vitest": "2.1.9",
+    "web-ext": "^7.11.0"
   },
   "resolutions": {
     "glob": "^10.3.10"

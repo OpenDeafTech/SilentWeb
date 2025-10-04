@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb" },
+  "shortName": { "message": "SilentWeb" },
+  "appDescription": { "message": "Достъпен уеб за глухи и хора с увреден слух." },
+  "action_toggle": { "message": "Превключи слоя" },
+  "action_enable_captions": { "message": "Включи субтитри" },
+  "action_disable_captions": { "message": "Изключи субтитри" }
+}

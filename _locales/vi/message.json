@@ -1,0 +1,8 @@
+{
+  "appName": { "message": "SilentWeb" },
+  "shortName": { "message": "SilentWeb" },
+  "appDescription": { "message": "Trang web dễ tiếp cận cho người khiếm thính." },
+  "action_toggle": { "message": "Bật/tắt lớp phủ" },
+  "action_enable_captions": { "message": "Bật phụ đề" },
+  "action_disable_captions": { "message": "Tắt phụ đề" }
+}
