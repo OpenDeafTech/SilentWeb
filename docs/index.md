@@ -2,11 +2,7 @@
 
 Bienvenue sur la documentation officielle du projet SilentWeb. Cette section est conçue pour GitHub Pages et offre une vue synthétique de l’extension, des guides d’installation et des ressources pour les contributrices et contributeurs.
 
-<p align="center">
-  <a href="../README.md" style="display:inline-block;padding:0.55rem 1.4rem;margin:0.5rem 0;background-color:#0f172a;color:#ffffff;text-decoration:none;border-radius:0.5rem;font-weight:600;">
-    🏠 Retour à l’accueil SilentWeb
-  </a>
-</p>
+
 
 ## Aperçu
 SilentWeb est une extension Firefox et Google Chrome open-source qui génère des sous-titres enrichis, des transcriptions locales et des alertes visuelles afin de faciliter la navigation des personnes sourdes ou malentendantes. L’intégralité du traitement est réalisée en local pour respecter la vie privée.
