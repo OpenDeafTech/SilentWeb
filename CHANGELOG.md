@@ -5,6 +5,13 @@ Ce fichier suit librement le format "Keep a Changelog" et s'appuie sur le versio
 
 ## [Unreleased]
 
+## [1.4.5] - 2025-12-12
+
+### Fixed
+
+- Les workflows GitHub (`ci.yml`, `perf.yml`, `release.yml`) ne forcent plus `pnpm@9` côté action `pnpm/action-setup@v4`, ce qui supprime l’erreur “Multiple versions of pnpm specified” apparue lors de l’installation (le runner lit désormais uniquement `packageManager: pnpm@9.12.0`).
+- Le pipeline de release retrouve un comportement déterministe : l’auto-installer pnpm n’est plus redéclenché avec une version incohérente, ce qui évite les échecs précoces et garantit l’exécution de `pnpm install --frozen-lockfile`.
+
 ## [1.4.4] - 2025-12-11
 
 ### Changed
