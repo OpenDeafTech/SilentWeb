@@ -40,7 +40,7 @@
     "serve:e2e": "vite --port 3000 --strictPort",
     "format": "prettier -w .",
     "prepublishOnly": "pnpm run build",
-    "prepare": "if command -v simple-git-hooks >/dev/null 2>&1; then simple-git-hooks; else echo \"simple-git-hooks skipped (not installed)\"; fi"
+    "prepare": "node scripts/run-simple-git-hooks.mjs"
   },
   "keywords": [
     "firefox-extension",
@@ -101,6 +101,6 @@
     "*.{json,md,css,scss,html,yml,yaml}": "pnpm exec prettier -w"
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm exec lint-staged"
+    "pre-commit": "node scripts/run-lint-staged.mjs"
   }
 }

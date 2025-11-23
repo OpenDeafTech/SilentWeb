@@ -9,6 +9,12 @@ Ce fichier suit librement le format "Keep a Changelog" et s'appuie sur le versio
 
 - Le paquet `packages/extension` expose désormais `pnpm run build:chrome`, un alias dédié qui nettoie puis reconstruit le bundle Rollup sans lancer `web-ext`. Les pipelines Chrome/Chromium peuvent ainsi récupérer un dossier `dist/` prêt à être chargé, tandis que `pnpm run build:firefox` continue d’enchaîner la build et `fx:build` pour produire les artefacts signables côté Firefox.
 
+### Fixed
+
+- L’étape `prepare` ne plante plus quand `NODE_ENV=production` (cas des installations `--prod` qui omettent les devDependencies) : le script vérifie désormais la présence de `simple-git-hooks` avant de l’exécuter et se contente de consigner un message “skipped” si l’outil n’est pas installé.
+- Les hooks `pre-commit` détectent l’absence de `lint-staged` (installations `--prod` ou repo sans devDependencies) et s’arrêtent proprement au lieu de laisser `pnpm exec lint-staged` échouer avec “Command not found”.
+- Les dépôts existants voient automatiquement leur `.git/hooks/pre-commit` migré vers le nouveau shim `node scripts/run-lint-staged.mjs` pendant `prepare`, même lorsque `simple-git-hooks` n’est pas installé (installations `--prod`). Les anciens hooks n’essaient plus d’appeler `pnpm exec lint-staged`.
+
 ## [1.4.6] - 2025-12-12
 
 ### Fixed
