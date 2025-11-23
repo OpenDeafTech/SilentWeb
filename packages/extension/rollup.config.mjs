@@ -4,7 +4,7 @@
    - JS bundles to dist/content/* and dist/worker/*
    - Generates .min.js variants (inject.min.js, overlay.min.js, sw.min.js)
    - Extracts styles.css and builds styles.min.css
-   - Builds content/overlay.min.css from src/content/overlay.css
+   - Builds content/overlay.min.css from src/content/overlay/overlay.css
    - Copies public/* and vendor opus-recorder if present
    ============================================================================ */
 
@@ -56,9 +56,9 @@ function minifyCssCopy({ src = "dist/styles.css", dest = "dist/styles.min.css" }
   };
 }
 
-/* Build dist/content/overlay.min.css from src/content/overlay.css */
+/* Build dist/content/overlay.min.css from src/content/overlay/overlay.css */
 function buildOverlayMinCss({
-  src = "src/content/overlay.css",
+  src = "src/content/overlay/overlay.css",
   dest = "dist/content/overlay.min.css",
 } = {}) {
   return {
@@ -124,7 +124,7 @@ const baseConfig = {
     css({ output: "styles.css" }),
     minifyCssCopy({ src: "dist/styles.css", dest: "dist/styles.min.css" }),
     buildOverlayMinCss({
-      src: "src/content/overlay.css",
+      src: "src/content/overlay/overlay.css",
       dest: "dist/content/overlay.min.css",
     }),
     copy({

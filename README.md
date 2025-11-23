@@ -61,15 +61,16 @@ L’extension prête à être chargée se trouve ensuite dans `dist/` (scripts, 
 
 ## Scripts PNPM utiles
 
-| Script               | Description                                                                 |
-| -------------------- | --------------------------------------------------------------------------- |
-| `pnpm run dev`       | Lance l’extension avec `web-ext` dans Firefox Dev Edition et rechargements. |
-| `pnpm run build`     | Nettoie `dist/` puis construit TypeScript, content scripts, overlay et SW.  |
-| `pnpm run test`      | Exécute la suite Vitest (unitaires, mocks).                                 |
-| `pnpm run test:e2e`  | Lance les scénarios Playwright (nécessite Firefox + dépendances).           |
-| `pnpm run lint`      | Vérifie le code JS/TS via ESLint.                                           |
-| `pnpm run format`    | Formate le dépôt avec Prettier.                                             |
-| `pnpm run typecheck` | Vérifie les types TypeScript sans émettre de fichiers.                      |
+| Script                  | Description                                                                 |
+| ----------------------- | --------------------------------------------------------------------------- |
+| `pnpm run dev`          | Lance l’extension avec `web-ext` dans Firefox Dev Edition et rechargements. |
+| `pnpm run build`        | Nettoie `dist/` puis construit TypeScript, content scripts, overlay et SW.  |
+| `pnpm run build:chrome` | Alias de `build`, pensé pour les pipelines Chrome/Chromium (même bundle).   |
+| `pnpm run test`         | Exécute la suite Vitest (unitaires, mocks).                                 |
+| `pnpm run test:e2e`     | Lance les scénarios Playwright (nécessite Firefox + dépendances).           |
+| `pnpm run lint`         | Vérifie le code JS/TS via ESLint.                                           |
+| `pnpm run format`       | Formate le dépôt avec Prettier.                                             |
+| `pnpm run typecheck`    | Vérifie les types TypeScript sans émettre de fichiers.                      |
 
 > Astuce : utilisez `pnpm run test:watch` pour un cycle TDD rapide.
 

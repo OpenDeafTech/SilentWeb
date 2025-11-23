@@ -7,6 +7,8 @@
     "clean": "rm -rf dist",
     "build": "NODE_ENV=production rollup -c",
     "dev": "rollup -c -w",
+    "build:firefox": "pnpm run clean && pnpm run build && pnpm run fx:build",
+    "build:chrome": "pnpm run clean && pnpm run build",
     "fx:run": "web-ext run --source-dir dist",
     "fx:build": "web-ext build --overwrite-dest --source-dir dist --artifacts-dir web-ext-artifacts",
     "fx:sign": "web-ext sign --source-dir dist --artifacts-dir web-ext-artifacts"
@@ -27,6 +29,7 @@
     "web-ext": "^8.3.0"
   },
   "dependencies": {
+    "opus-recorder": "^8.0.5",
     "tslib": "^2.8.1"
   }
 }

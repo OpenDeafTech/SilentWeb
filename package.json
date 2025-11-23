@@ -17,6 +17,7 @@
     "build:ts": "tsc -p tsconfig.json",
     "build": "pnpm run clean && pnpm run build:ts && pnpm run build:inject && pnpm run build:overlay:js && pnpm run build:overlay:css && pnpm run build:sw && pnpm run build:assets",
     "build:all": "pnpm run build",
+    "build:chrome": "pnpm run build",
     "release": "pnpm run build:all && pnpm run ci:test && pnpm exec web-ext build --source-dir dist --artifacts-dir web-ext-artifacts",
     "dev": "web-ext run --source-dir dist --firefox=firefox-developer-edition",
     "lint": "eslint src --ext .js,.ts",
@@ -39,7 +40,7 @@
     "serve:e2e": "vite --port 3000 --strictPort",
     "format": "prettier -w .",
     "prepublishOnly": "pnpm run build",
-    "prepare": "simple-git-hooks"
+    "prepare": "if command -v simple-git-hooks >/dev/null 2>&1; then simple-git-hooks; else echo \"simple-git-hooks skipped (not installed)\"; fi"
   },
   "keywords": [
     "firefox-extension",

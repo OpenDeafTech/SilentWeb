@@ -3,11 +3,18 @@
 Tous les changements notables de SilentWeb seront documentés ici.
 Ce fichier suit librement le format "Keep a Changelog" et s'appuie sur le versionnement sémantique.
 
+## [1.4.7] - 2025-12-13
+
+### Added
+
+- Le paquet `packages/extension` expose désormais `pnpm run build:chrome`, un alias dédié qui nettoie puis reconstruit le bundle Rollup sans lancer `web-ext`. Les pipelines Chrome/Chromium peuvent ainsi récupérer un dossier `dist/` prêt à être chargé, tandis que `pnpm run build:firefox` continue d’enchaîner la build et `fx:build` pour produire les artefacts signables côté Firefox.
+
 ## [1.4.6] - 2025-12-12
 
 ### Fixed
 
 - Le build copie désormais automatiquement `public/` (manifest, icônes) et les dépendances `opus-recorder` vers `dist/`, crée les entrées `icon-48.png`/`icon-128.png` attendues par le manifest et pointe ce dernier sur les fichiers minifiés réellement générés. Le paquet obtenu peut être chargé tel quel dans Google Chrome sans manipulations manuelles.
+- Le Rollup `packages/extension` retrouve un bundle complet : `overlay.min.css` est régénéré via `src/content/overlay/overlay.css` et `vendor/opus-recorder.min.js` est copié grâce à la dépendance déclarée localement.
 
 ## [1.4.5] - 2025-12-12
 
