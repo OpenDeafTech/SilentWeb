@@ -1,8 +1,44 @@
 {
-  "appName": { "message": "SilentWeb" },
-  "shortName": { "message": "SilentWeb" },
-  "appDescription": { "message": "Web yang dapat diakses untuk pengguna tuli dan gangguan pendengaran." },
-  "action_toggle": { "message": "Beralih overlay" },
-  "action_enable_captions": { "message": "Aktifkan teks" },
-  "action_disable_captions": { "message": "Nonaktifkan teks" }
+  "appName": {
+    "message": "SilentWeb"
+  },
+  "shortName": {
+    "message": "SilentWeb"
+  },
+  "appDescription": {
+    "message": "Web yang dapat diakses untuk pengguna tuli dan gangguan pendengaran."
+  },
+  "action_toggle": {
+    "message": "Beralih overlay"
+  },
+  "action_enable_captions": {
+    "message": "Aktifkan teks"
+  },
+  "action_disable_captions": {
+    "message": "Nonaktifkan teks"
+  },
+  "langEnglish": {
+    "message": "Inggris",
+    "description": "Label bahasa: Inggris"
+  },
+  "langFrench": {
+    "message": "Prancis",
+    "description": "Label bahasa: Prancis"
+  },
+  "langSpanish": {
+    "message": "Spanyol",
+    "description": "Label bahasa: Spanyol"
+  },
+  "langPortuguese": {
+    "message": "Portugis",
+    "description": "Label bahasa: Portugis"
+  },
+  "langGerman": {
+    "message": "Jerman",
+    "description": "Label bahasa: Jerman"
+  },
+  "langItalian": {
+    "message": "Italia",
+    "description": "Label bahasa: Italia"
+  }
 }

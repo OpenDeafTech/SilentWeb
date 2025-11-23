@@ -1,8 +1,50 @@
 {
-  "appName": { "message": "SilentWeb", "description": "Extension name" },
-  "shortName": { "message": "SilentWeb", "description": "Short name" },
-  "appDescription": { "message": "Accessible web for deaf and hard of hearing users.", "description": "Extension description" },
-  "action_toggle": { "message": "Toggle overlay", "description": "Command label" },
-  "action_enable_captions": { "message": "Enable captions", "description": "Command label" },
-  "action_disable_captions": { "message": "Disable captions", "description": "Command label" }
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "Accessible web for deaf and hard of hearing users.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "Toggle overlay",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "Enable captions",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "Disable captions",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "English",
+    "description": "Language label: English"
+  },
+  "langFrench": {
+    "message": "French",
+    "description": "Language label: French"
+  },
+  "langSpanish": {
+    "message": "Spanish",
+    "description": "Language label: Spanish"
+  },
+  "langPortuguese": {
+    "message": "Portuguese",
+    "description": "Language label: Portuguese"
+  },
+  "langGerman": {
+    "message": "German",
+    "description": "Language label: German"
+  },
+  "langItalian": {
+    "message": "Italian",
+    "description": "Language label: Italian"
+  }
 }

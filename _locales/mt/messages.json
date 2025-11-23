@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "Web aċċessibbli għal utenti neqsin mis-smigħ u li ma tantx.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "Uri jew aħbi l-bar overlay",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "Ippermetti sottotitli",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "Itfi s-sottotitli",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "Ingliż",
+    "description": "Tikketta tal-lingwa: Ingliż"
+  },
+  "langFrench": {
+    "message": "Franċiż",
+    "description": "Tikketta tal-lingwa: Franċiż"
+  },
+  "langSpanish": {
+    "message": "Spanjol",
+    "description": "Tikketta tal-lingwa: Spanjol"
+  },
+  "langPortuguese": {
+    "message": "Portugiż",
+    "description": "Tikketta tal-lingwa: Portugiż"
+  },
+  "langGerman": {
+    "message": "Ġermaniż",
+    "description": "Tikketta tal-lingwa: Ġermaniż"
+  },
+  "langItalian": {
+    "message": "Taljan",
+    "description": "Tikketta tal-lingwa: Taljan"
+  }
+}

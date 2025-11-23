@@ -1,8 +1,44 @@
 {
-  "appName": { "message": "SilentWeb" },
-  "shortName": { "message": "SilentWeb" },
-  "appDescription": { "message": "เว็บที่เข้าถึงได้สำหรับผู้บกพร่องทางการได้ยิน." },
-  "action_toggle": { "message": "สลับการแสดงผล" },
-  "action_enable_captions": { "message": "เปิดคำบรรยาย" },
-  "action_disable_captions": { "message": "ปิดคำบรรยาย" }
+  "appName": {
+    "message": "SilentWeb"
+  },
+  "shortName": {
+    "message": "SilentWeb"
+  },
+  "appDescription": {
+    "message": "เว็บที่เข้าถึงได้สำหรับผู้บกพร่องทางการได้ยิน."
+  },
+  "action_toggle": {
+    "message": "สลับการแสดงผล"
+  },
+  "action_enable_captions": {
+    "message": "เปิดคำบรรยาย"
+  },
+  "action_disable_captions": {
+    "message": "ปิดคำบรรยาย"
+  },
+  "langEnglish": {
+    "message": "อังกฤษ",
+    "description": "ป้ายชื่อภาษา: อังกฤษ"
+  },
+  "langFrench": {
+    "message": "ฝรั่งเศส",
+    "description": "ป้ายชื่อภาษา: ฝรั่งเศส"
+  },
+  "langSpanish": {
+    "message": "สเปน",
+    "description": "ป้ายชื่อภาษา: สเปน"
+  },
+  "langPortuguese": {
+    "message": "โปรตุเกส",
+    "description": "ป้ายชื่อภาษา: โปรตุเกส"
+  },
+  "langGerman": {
+    "message": "เยอรมัน",
+    "description": "ป้ายชื่อภาษา: เยอรมัน"
+  },
+  "langItalian": {
+    "message": "อิตาลี",
+    "description": "ป้ายชื่อภาษา: อิตาลี"
+  }
 }

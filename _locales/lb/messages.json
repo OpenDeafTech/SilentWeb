@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "Accessibelen Web fir douf a schwéierhéierend Benotzer.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "Iwwerlag wiesselen",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "Ënnertitelen aktivéieren",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "Ënnertitelen desaktivéieren",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "Englesch",
+    "description": "Sprooch Label: Englesch"
+  },
+  "langFrench": {
+    "message": "Franséisch",
+    "description": "Sprooch Label: Franséisch"
+  },
+  "langSpanish": {
+    "message": "Spuenesch",
+    "description": "Sprooch Label: Spuenesch"
+  },
+  "langPortuguese": {
+    "message": "Portugisesch",
+    "description": "Sprooch Label: Portugisesch"
+  },
+  "langGerman": {
+    "message": "Däitsch",
+    "description": "Sprooch Label: Däitsch"
+  },
+  "langItalian": {
+    "message": "Italienesch",
+    "description": "Sprooch Label: Italienesch"
+  }
+}

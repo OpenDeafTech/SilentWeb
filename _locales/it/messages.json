@@ -1,8 +1,50 @@
 {
-  "appName": { "message": "SilentWeb", "description": "Nome estensione" },
-  "shortName": { "message": "SilentWeb", "description": "Nome breve" },
-  "appDescription": { "message": "Web accessibile per persone sorde e con ipoacusia.", "description": "Descrizione" },
-  "action_toggle": { "message": "Mostra/nascondi overlay", "description": "Etichetta comando" },
-  "action_enable_captions": { "message": "Attiva sottotitoli", "description": "Etichetta comando" },
-  "action_disable_captions": { "message": "Disattiva sottotitoli", "description": "Etichetta comando" }
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Nome estensione"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Nome breve"
+  },
+  "appDescription": {
+    "message": "Web accessibile per persone sorde e con ipoacusia.",
+    "description": "Descrizione"
+  },
+  "action_toggle": {
+    "message": "Mostra/nascondi overlay",
+    "description": "Etichetta comando"
+  },
+  "action_enable_captions": {
+    "message": "Attiva sottotitoli",
+    "description": "Etichetta comando"
+  },
+  "action_disable_captions": {
+    "message": "Disattiva sottotitoli",
+    "description": "Etichetta comando"
+  },
+  "langEnglish": {
+    "message": "inglese",
+    "description": "Etichetta della lingua: inglese"
+  },
+  "langFrench": {
+    "message": "francese",
+    "description": "Etichetta della lingua: francese"
+  },
+  "langSpanish": {
+    "message": "spagnolo",
+    "description": "Etichetta della lingua: spagnolo"
+  },
+  "langPortuguese": {
+    "message": "portoghese",
+    "description": "Etichetta della lingua: portoghese"
+  },
+  "langGerman": {
+    "message": "tedesco",
+    "description": "Etichetta della lingua: tedesco"
+  },
+  "langItalian": {
+    "message": "italiano",
+    "description": "Etichetta della lingua: italiano"
+  }
 }

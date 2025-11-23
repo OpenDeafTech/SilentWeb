@@ -1,0 +1,3243 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`locale catalogs > matches snapshot for af 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Deaktiveer onderskrifte",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Aktiveer onderskrifte",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Wys of versteek oorlegbalk",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Toeganklike web vir dowe en hardhorende gebruikers.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Taal etiket: Engels",
+    "message": "Engels",
+  },
+  "langFrench": {
+    "description": "Taal etiket: Frans",
+    "message": "Frans",
+  },
+  "langGerman": {
+    "description": "Taal etiket: Duits",
+    "message": "Duits",
+  },
+  "langItalian": {
+    "description": "Taal etiket: Italiaans",
+    "message": "Italiaans",
+  },
+  "langPortuguese": {
+    "description": "Taal etiket: Portugees",
+    "message": "Portugees",
+  },
+  "langSpanish": {
+    "description": "Taal etiket: Spaans",
+    "message": "Spaans",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for am 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "ንዑስ ርዕሶችን ያሰናክሉ",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "ንዑስ ርዕሶችን ያንቁ",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "የተደራቢ አሞሌን አሳይ ወይም ደብቅ",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "መስማት ለተሳናቸው እና የመስማስ ተጠቃሚዎችን ለማግኘት ተደራሽ ድር.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "ቋንቋ መለያ: እንግሊዝኛ",
+    "message": "እንግሊዝኛ",
+  },
+  "langFrench": {
+    "description": "ቋንቋ መለያ: ፈረንሳይኛ",
+    "message": "ፈረንሳይኛ",
+  },
+  "langGerman": {
+    "description": "ቋንቋ መለያ: ጀርመንኛ",
+    "message": "ጀርመንኛ",
+  },
+  "langItalian": {
+    "description": "ቋንቋ መለያ: ጣሊያንኛ",
+    "message": "ጣሊያንኛ",
+  },
+  "langPortuguese": {
+    "description": "ቋንቋ መለያ: ፖርቹጋልኛ",
+    "message": "ፖርቹጋልኛ",
+  },
+  "langSpanish": {
+    "description": "ቋንቋ መለያ: ስፓኒሽ",
+    "message": "ስፓኒሽ",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for ar 1`] = `
+{
+  "action_disable_captions": {
+    "message": "إيقاف الترجمة",
+  },
+  "action_enable_captions": {
+    "message": "تفعيل الترجمة",
+  },
+  "action_toggle": {
+    "message": "تبديل التراكب",
+  },
+  "appDescription": {
+    "message": "شبكة متاحة للصم وضعاف السمع.",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "تسمية اللغة: الإنجليزية",
+    "message": "الإنجليزية",
+  },
+  "langFrench": {
+    "description": "تسمية اللغة: الفرنسية",
+    "message": "الفرنسية",
+  },
+  "langGerman": {
+    "description": "تسمية اللغة: الألمانية",
+    "message": "الألمانية",
+  },
+  "langItalian": {
+    "description": "تسمية اللغة: الإيطالية",
+    "message": "الإيطالية",
+  },
+  "langPortuguese": {
+    "description": "تسمية اللغة: البرتغالية",
+    "message": "البرتغالية",
+  },
+  "langSpanish": {
+    "description": "تسمية اللغة: الإسبانية",
+    "message": "الإسبانية",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for az 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Altyazıları deaktiv edin",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Altyazıları aktiv edin",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Üstünlük çubuğunu göstərmək və ya gizlətmək",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Kar və eşitmə istifadəçiləri üçün əlçatan veb.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Dil etiketi: ingilis",
+    "message": "ingilis",
+  },
+  "langFrench": {
+    "description": "Dil etiketi: fransız",
+    "message": "fransız",
+  },
+  "langGerman": {
+    "description": "Dil etiketi: alman",
+    "message": "alman",
+  },
+  "langItalian": {
+    "description": "Dil etiketi: italyan",
+    "message": "italyan",
+  },
+  "langPortuguese": {
+    "description": "Dil etiketi: portuqal",
+    "message": "portuqal",
+  },
+  "langSpanish": {
+    "description": "Dil etiketi: ispan",
+    "message": "ispan",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for be 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Выключыць субтытры",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Уключыць субтытры",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Пераключыць накладанне",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Даступны вэб для глухіх і слабачуючых карыстальнікаў.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Моўны цэтлік: англійская",
+    "message": "англійская",
+  },
+  "langFrench": {
+    "description": "Моўны цэтлік: французская",
+    "message": "французская",
+  },
+  "langGerman": {
+    "description": "Моўны цэтлік: нямецкая",
+    "message": "нямецкая",
+  },
+  "langItalian": {
+    "description": "Моўны цэтлік: італьянская",
+    "message": "італьянская",
+  },
+  "langPortuguese": {
+    "description": "Моўны цэтлік: партугальская",
+    "message": "партугальская",
+  },
+  "langSpanish": {
+    "description": "Моўны цэтлік: іспанская",
+    "message": "іспанская",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for bg 1`] = `
+{
+  "action_disable_captions": {
+    "message": "Изключи субтитри",
+  },
+  "action_enable_captions": {
+    "message": "Включи субтитри",
+  },
+  "action_toggle": {
+    "message": "Превключи слоя",
+  },
+  "appDescription": {
+    "message": "Достъпен уеб за глухи и хора с увреден слух.",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Езиков етикет: английски",
+    "message": "английски",
+  },
+  "langFrench": {
+    "description": "Езиков етикет: френски",
+    "message": "френски",
+  },
+  "langGerman": {
+    "description": "Езиков етикет: немски",
+    "message": "немски",
+  },
+  "langItalian": {
+    "description": "Езиков етикет: италиански",
+    "message": "италиански",
+  },
+  "langPortuguese": {
+    "description": "Езиков етикет: португалски",
+    "message": "португалски",
+  },
+  "langSpanish": {
+    "description": "Езиков етикет: испански",
+    "message": "испански",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for bn 1`] = `
+{
+  "action_disable_captions": {
+    "message": "کیپشن غیر فعال کریں",
+  },
+  "action_enable_captions": {
+    "message": "کیپشن فعال کریں",
+  },
+  "action_toggle": {
+    "message": "اوورلے ٹوگل کریں",
+  },
+  "appDescription": {
+    "message": "بہرے اور کم سننے والے صارفین کے لیے قابل رسائی ویب۔",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "ভাষার লেবেল: ইংরেজি",
+    "message": "ইংরেজি",
+  },
+  "langFrench": {
+    "description": "ভাষার লেবেল: ফরাসি",
+    "message": "ফরাসি",
+  },
+  "langGerman": {
+    "description": "ভাষার লেবেল: জার্মান",
+    "message": "জার্মান",
+  },
+  "langItalian": {
+    "description": "ভাষার লেবেল: ইতালিয়",
+    "message": "ইতালিয়",
+  },
+  "langPortuguese": {
+    "description": "ভাষার লেবেল: পর্তুগীজ",
+    "message": "পর্তুগীজ",
+  },
+  "langSpanish": {
+    "description": "ভাষার লেবেল: স্প্যানিশ",
+    "message": "স্প্যানিশ",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for bs 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Isključi titlove",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Uključi titlove",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Uključi/isključi sloj",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Pristupačan web za gluhe i nagluhe korisnike.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Oznaka jezika: engleski",
+    "message": "engleski",
+  },
+  "langFrench": {
+    "description": "Oznaka jezika: francuski",
+    "message": "francuski",
+  },
+  "langGerman": {
+    "description": "Oznaka jezika: njemački",
+    "message": "njemački",
+  },
+  "langItalian": {
+    "description": "Oznaka jezika: italijanski",
+    "message": "italijanski",
+  },
+  "langPortuguese": {
+    "description": "Oznaka jezika: portugalski",
+    "message": "portugalski",
+  },
+  "langSpanish": {
+    "description": "Oznaka jezika: španski",
+    "message": "španski",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for ca 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Desactiva els subtítols",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Activa els subtítols",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Mostra o amaga la barra de superposició",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Web accessible per a usuaris sords i amb discapacitat auditiva.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Etiqueta de la llengua: anglès",
+    "message": "anglès",
+  },
+  "langFrench": {
+    "description": "Etiqueta de la llengua: francès",
+    "message": "francès",
+  },
+  "langGerman": {
+    "description": "Etiqueta de la llengua: alemany",
+    "message": "alemany",
+  },
+  "langItalian": {
+    "description": "Etiqueta de la llengua: italià",
+    "message": "italià",
+  },
+  "langPortuguese": {
+    "description": "Etiqueta de la llengua: portuguès",
+    "message": "portuguès",
+  },
+  "langSpanish": {
+    "description": "Etiqueta de la llengua: espanyol",
+    "message": "espanyol",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for cs 1`] = `
+{
+  "action_disable_captions": {
+    "message": "Vypnout titulky",
+  },
+  "action_enable_captions": {
+    "message": "Zapnout titulky",
+  },
+  "action_toggle": {
+    "message": "Přepnout překrytí",
+  },
+  "appDescription": {
+    "message": "Přístupný web pro neslyšící a nedoslýchavé uživatele.",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Jazykový štítek: angličtina",
+    "message": "angličtina",
+  },
+  "langFrench": {
+    "description": "Jazykový štítek: francouzština",
+    "message": "francouzština",
+  },
+  "langGerman": {
+    "description": "Jazykový štítek: němčina",
+    "message": "němčina",
+  },
+  "langItalian": {
+    "description": "Jazykový štítek: italština",
+    "message": "italština",
+  },
+  "langPortuguese": {
+    "description": "Jazykový štítek: portugalština",
+    "message": "portugalština",
+  },
+  "langSpanish": {
+    "description": "Jazykový štítek: španělština",
+    "message": "španělština",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for da 1`] = `
+{
+  "action_disable_captions": {
+    "message": "Deaktivér undertekster",
+  },
+  "action_enable_captions": {
+    "message": "Aktivér undertekster",
+  },
+  "action_toggle": {
+    "message": "Skift overlay",
+  },
+  "appDescription": {
+    "message": "Tilgængeligt web for døve og hørehæmmede.",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Sprogmærke: engelsk",
+    "message": "engelsk",
+  },
+  "langFrench": {
+    "description": "Sprogmærke: fransk",
+    "message": "fransk",
+  },
+  "langGerman": {
+    "description": "Sprogmærke: tysk",
+    "message": "tysk",
+  },
+  "langItalian": {
+    "description": "Sprogmærke: italiensk",
+    "message": "italiensk",
+  },
+  "langPortuguese": {
+    "description": "Sprogmærke: portugisisk",
+    "message": "portugisisk",
+  },
+  "langSpanish": {
+    "description": "Sprogmærke: spansk",
+    "message": "spansk",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for de 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Befehl",
+    "message": "Untertitel deaktivieren",
+  },
+  "action_enable_captions": {
+    "description": "Befehl",
+    "message": "Untertitel aktivieren",
+  },
+  "action_toggle": {
+    "description": "Befehl",
+    "message": "Overlay ein/aus",
+  },
+  "appDescription": {
+    "description": "Beschreibung",
+    "message": "Barrierefreies Web für gehörlose und schwerhörige Nutzer.",
+  },
+  "appName": {
+    "description": "Erweiterungsname",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Sprachbezeichnung: Englisch",
+    "message": "Englisch",
+  },
+  "langFrench": {
+    "description": "Sprachbezeichnung: Französisch",
+    "message": "Französisch",
+  },
+  "langGerman": {
+    "description": "Sprachbezeichnung: Deutsch",
+    "message": "Deutsch",
+  },
+  "langItalian": {
+    "description": "Sprachbezeichnung: Italienisch",
+    "message": "Italienisch",
+  },
+  "langPortuguese": {
+    "description": "Sprachbezeichnung: Portugiesisch",
+    "message": "Portugiesisch",
+  },
+  "langSpanish": {
+    "description": "Sprachbezeichnung: Spanisch",
+    "message": "Spanisch",
+  },
+  "shortName": {
+    "description": "Kurzname",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for el 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Ετικέτα εντολής",
+    "message": "Απενεργοποίηση υποτίτλων",
+  },
+  "action_enable_captions": {
+    "description": "Ετικέτα εντολής",
+    "message": "Ενεργοποίηση υποτίτλων",
+  },
+  "action_toggle": {
+    "description": "Ετικέτα εντολής",
+    "message": "Εναλλαγή επικάλυψης",
+  },
+  "appDescription": {
+    "description": "Περιγραφή",
+    "message": "Προσβάσιμο διαδίκτυο για κωφούς και βαρήκοους χρήστες.",
+  },
+  "appName": {
+    "description": "Όνομα επέκτασης",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Ετικέτα γλώσσας: Αγγλικά",
+    "message": "Αγγλικά",
+  },
+  "langFrench": {
+    "description": "Ετικέτα γλώσσας: Γαλλικά",
+    "message": "Γαλλικά",
+  },
+  "langGerman": {
+    "description": "Ετικέτα γλώσσας: Γερμανικά",
+    "message": "Γερμανικά",
+  },
+  "langItalian": {
+    "description": "Ετικέτα γλώσσας: Ιταλικά",
+    "message": "Ιταλικά",
+  },
+  "langPortuguese": {
+    "description": "Ετικέτα γλώσσας: Πορτογαλικά",
+    "message": "Πορτογαλικά",
+  },
+  "langSpanish": {
+    "description": "Ετικέτα γλώσσας: Ισπανικά",
+    "message": "Ισπανικά",
+  },
+  "shortName": {
+    "description": "Σύντομο όνομα",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for en 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Disable captions",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Enable captions",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Toggle overlay",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Accessible web for deaf and hard of hearing users.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Language label: English",
+    "message": "English",
+  },
+  "langFrench": {
+    "description": "Language label: French",
+    "message": "French",
+  },
+  "langGerman": {
+    "description": "Language label: German",
+    "message": "German",
+  },
+  "langItalian": {
+    "description": "Language label: Italian",
+    "message": "Italian",
+  },
+  "langPortuguese": {
+    "description": "Language label: Portuguese",
+    "message": "Portuguese",
+  },
+  "langSpanish": {
+    "description": "Language label: Spanish",
+    "message": "Spanish",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for es 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Etiqueta de comando",
+    "message": "Desactivar subtítulos",
+  },
+  "action_enable_captions": {
+    "description": "Etiqueta de comando",
+    "message": "Activar subtítulos",
+  },
+  "action_toggle": {
+    "description": "Etiqueta de comando",
+    "message": "Alternar superposición",
+  },
+  "appDescription": {
+    "description": "Descripción",
+    "message": "Web accesible para personas sordas y con hipoacusia.",
+  },
+  "appName": {
+    "description": "Nombre de la extensión",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Etiqueta de idioma: inglés",
+    "message": "inglés",
+  },
+  "langFrench": {
+    "description": "Etiqueta de idioma: francés",
+    "message": "francés",
+  },
+  "langGerman": {
+    "description": "Etiqueta de idioma: alemán",
+    "message": "alemán",
+  },
+  "langItalian": {
+    "description": "Etiqueta de idioma: italiano",
+    "message": "italiano",
+  },
+  "langPortuguese": {
+    "description": "Etiqueta de idioma: portugués",
+    "message": "portugués",
+  },
+  "langSpanish": {
+    "description": "Etiqueta de idioma: español",
+    "message": "español",
+  },
+  "shortName": {
+    "description": "Nombre corto",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for et 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Keela subtiitrid",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Subtiitrite lubamine",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Ülekatteriba kuvamine või peitmine",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Juurdepääsetav veeb kurtidele ja vaegkuuljatele.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Keelemärgis: inglise",
+    "message": "inglise",
+  },
+  "langFrench": {
+    "description": "Keelemärgis: prantsuse",
+    "message": "prantsuse",
+  },
+  "langGerman": {
+    "description": "Keelemärgis: saksa",
+    "message": "saksa",
+  },
+  "langItalian": {
+    "description": "Keelemärgis: itaalia",
+    "message": "itaalia",
+  },
+  "langPortuguese": {
+    "description": "Keelemärgis: portugali",
+    "message": "portugali",
+  },
+  "langSpanish": {
+    "description": "Keelemärgis: hispaania",
+    "message": "hispaania",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for eu 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Desgaitu azpitituluak",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Gaitu azpitituluak",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Erakutsi edo ezkutatu gainjarri-barra",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Erabiltzaile gorrentzako eta entzumen ez dutenentzako web irisgarria.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Hizkuntza etiketa: ingelesa",
+    "message": "ingelesa",
+  },
+  "langFrench": {
+    "description": "Hizkuntza etiketa: frantsesa",
+    "message": "frantsesa",
+  },
+  "langGerman": {
+    "description": "Hizkuntza etiketa: alemana",
+    "message": "alemana",
+  },
+  "langItalian": {
+    "description": "Hizkuntza etiketa: italiera",
+    "message": "italiera",
+  },
+  "langPortuguese": {
+    "description": "Hizkuntza etiketa: portugesa",
+    "message": "portugesa",
+  },
+  "langSpanish": {
+    "description": "Hizkuntza etiketa: gaztelania",
+    "message": "gaztelania",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for fa 1`] = `
+{
+  "action_disable_captions": {
+    "message": "غیرفعال‌سازی زیرنویس",
+  },
+  "action_enable_captions": {
+    "message": "فعال‌سازی زیرنویس",
+  },
+  "action_toggle": {
+    "message": "تغییر نمایش لایه",
+  },
+  "appDescription": {
+    "message": "وب در دسترس برای ناشنوایان و کم‌شنوایان.",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "برچسب زبان: انگلیسی",
+    "message": "انگلیسی",
+  },
+  "langFrench": {
+    "description": "برچسب زبان: فرانسوی",
+    "message": "فرانسوی",
+  },
+  "langGerman": {
+    "description": "برچسب زبان: آلمانی",
+    "message": "آلمانی",
+  },
+  "langItalian": {
+    "description": "برچسب زبان: ایتالیایی",
+    "message": "ایتالیایی",
+  },
+  "langPortuguese": {
+    "description": "برچسب زبان: پرتغالی",
+    "message": "پرتغالی",
+  },
+  "langSpanish": {
+    "description": "برچسب زبان: اسپانیایی",
+    "message": "اسپانیایی",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for fi 1`] = `
+{
+  "action_disable_captions": {
+    "message": "Poista tekstitys käytöstä",
+  },
+  "action_enable_captions": {
+    "message": "Ota tekstitys käyttöön",
+  },
+  "action_toggle": {
+    "message": "Vaihda peite",
+  },
+  "appDescription": {
+    "message": "Saavutettava verkko kuuroille ja huonokuuloisille.",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Kielimerkki: englanti",
+    "message": "englanti",
+  },
+  "langFrench": {
+    "description": "Kielimerkki: ranska",
+    "message": "ranska",
+  },
+  "langGerman": {
+    "description": "Kielimerkki: saksa",
+    "message": "saksa",
+  },
+  "langItalian": {
+    "description": "Kielimerkki: italia",
+    "message": "italia",
+  },
+  "langPortuguese": {
+    "description": "Kielimerkki: portugali",
+    "message": "portugali",
+  },
+  "langSpanish": {
+    "description": "Kielimerkki: espanja",
+    "message": "espanja",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for fil 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Disable captions",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Enable captions",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Toggle overlay",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Accessible web for deaf and hard of hearing users.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Label ng wika: Ingles",
+    "message": "Ingles",
+  },
+  "langFrench": {
+    "description": "Label ng wika: French",
+    "message": "French",
+  },
+  "langGerman": {
+    "description": "Label ng wika: German",
+    "message": "German",
+  },
+  "langItalian": {
+    "description": "Label ng wika: Italian",
+    "message": "Italian",
+  },
+  "langPortuguese": {
+    "description": "Label ng wika: Portuguese",
+    "message": "Portuguese",
+  },
+  "langSpanish": {
+    "description": "Label ng wika: Spanish",
+    "message": "Spanish",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for fr 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Libellé de commande",
+    "message": "Désactiver les sous-titres",
+  },
+  "action_enable_captions": {
+    "description": "Libellé de commande",
+    "message": "Activer les sous-titres",
+  },
+  "action_toggle": {
+    "description": "Libellé de commande",
+    "message": "Afficher/masquer l’overlay",
+  },
+  "appDescription": {
+    "description": "Description",
+    "message": "Web accessible pour les personnes sourdes et malentendantes.",
+  },
+  "appName": {
+    "description": "Nom de l’extension",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Étiquette de langue: anglais",
+    "message": "anglais",
+  },
+  "langFrench": {
+    "description": "Étiquette de langue: français",
+    "message": "français",
+  },
+  "langGerman": {
+    "description": "Étiquette de langue: allemand",
+    "message": "allemand",
+  },
+  "langItalian": {
+    "description": "Étiquette de langue: italien",
+    "message": "italien",
+  },
+  "langPortuguese": {
+    "description": "Étiquette de langue: portugais",
+    "message": "portugais",
+  },
+  "langSpanish": {
+    "description": "Étiquette de langue: espagnol",
+    "message": "espagnol",
+  },
+  "shortName": {
+    "description": "Nom court",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for ga 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Díchumasaigh fotheidil",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Cumasaigh fotheidil",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Taispeáin nó folaigh barra forleagan",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Gréasán inrochtana d'úsáideoirí bodhra agus lagéisteachta.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Lipéad teanga: Béarla",
+    "message": "Béarla",
+  },
+  "langFrench": {
+    "description": "Lipéad teanga: Fraincis",
+    "message": "Fraincis",
+  },
+  "langGerman": {
+    "description": "Lipéad teanga: Gearmáinis",
+    "message": "Gearmáinis",
+  },
+  "langItalian": {
+    "description": "Lipéad teanga: Iodáilis",
+    "message": "Iodáilis",
+  },
+  "langPortuguese": {
+    "description": "Lipéad teanga: Portaingéilis",
+    "message": "Portaingéilis",
+  },
+  "langSpanish": {
+    "description": "Lipéad teanga: Spáinnis",
+    "message": "Spáinnis",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for gl 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Desactivar os subtítulos",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Activa os subtítulos",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Mostrar ou ocultar a barra de superposición",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Web accesible para usuarios xordos e con discapacidade auditiva.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Etiqueta lingüística: inglés",
+    "message": "inglés",
+  },
+  "langFrench": {
+    "description": "Etiqueta lingüística: francés",
+    "message": "francés",
+  },
+  "langGerman": {
+    "description": "Etiqueta lingüística: alemán",
+    "message": "alemán",
+  },
+  "langItalian": {
+    "description": "Etiqueta lingüística: italiano",
+    "message": "italiano",
+  },
+  "langPortuguese": {
+    "description": "Etiqueta lingüística: portugués",
+    "message": "portugués",
+  },
+  "langSpanish": {
+    "description": "Etiqueta lingüística: español",
+    "message": "español",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for he 1`] = `
+{
+  "action_disable_captions": {
+    "message": "בטל כתוביות",
+  },
+  "action_enable_captions": {
+    "message": "אפשר כתוביות",
+  },
+  "action_toggle": {
+    "message": "החלף שכבת־על",
+  },
+  "appDescription": {
+    "message": "אינטרנט נגיש לחירשים ולכבד שמיעה.",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "תווית שפה: אנגלית",
+    "message": "אנגלית",
+  },
+  "langFrench": {
+    "description": "תווית שפה: צרפתית",
+    "message": "צרפתית",
+  },
+  "langGerman": {
+    "description": "תווית שפה: גרמנית",
+    "message": "גרמנית",
+  },
+  "langItalian": {
+    "description": "תווית שפה: איטלקית",
+    "message": "איטלקית",
+  },
+  "langPortuguese": {
+    "description": "תווית שפה: פורטוגזית",
+    "message": "פורטוגזית",
+  },
+  "langSpanish": {
+    "description": "תווית שפה: ספרדית",
+    "message": "ספרדית",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for hi 1`] = `
+{
+  "action_disable_captions": {
+    "message": "उपशीर्षक अक्षम करें",
+  },
+  "action_enable_captions": {
+    "message": "उपशीर्षक सक्षम करें",
+  },
+  "action_toggle": {
+    "message": "ओवरले टॉगल करें",
+  },
+  "appDescription": {
+    "message": "बधिर और श्रवण बाधित उपयोगकर्ताओं के लिए सुलभ वेब।",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "भाषा लेबल: अंग्रेज़ी",
+    "message": "अंग्रेज़ी",
+  },
+  "langFrench": {
+    "description": "भाषा लेबल: फ़्रेंच",
+    "message": "फ़्रेंच",
+  },
+  "langGerman": {
+    "description": "भाषा लेबल: जर्मन",
+    "message": "जर्मन",
+  },
+  "langItalian": {
+    "description": "भाषा लेबल: इतालवी",
+    "message": "इतालवी",
+  },
+  "langPortuguese": {
+    "description": "भाषा लेबल: पुर्तगाली",
+    "message": "पुर्तगाली",
+  },
+  "langSpanish": {
+    "description": "भाषा लेबल: स्पेनिश",
+    "message": "स्पेनिश",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for hr 1`] = `
+{
+  "action_disable_captions": {
+    "message": "Isključi titlove",
+  },
+  "action_enable_captions": {
+    "message": "Uključi titlove",
+  },
+  "action_toggle": {
+    "message": "Uključi/isključi sloj",
+  },
+  "appDescription": {
+    "message": "Pristupačan web za gluhe i nagluhe korisnike.",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Oznaka jezika: engleski",
+    "message": "engleski",
+  },
+  "langFrench": {
+    "description": "Oznaka jezika: francuski",
+    "message": "francuski",
+  },
+  "langGerman": {
+    "description": "Oznaka jezika: njemački",
+    "message": "njemački",
+  },
+  "langItalian": {
+    "description": "Oznaka jezika: talijanski",
+    "message": "talijanski",
+  },
+  "langPortuguese": {
+    "description": "Oznaka jezika: portugalski",
+    "message": "portugalski",
+  },
+  "langSpanish": {
+    "description": "Oznaka jezika: španjolski",
+    "message": "španjolski",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for hu 1`] = `
+{
+  "action_disable_captions": {
+    "message": "Feliratok kikapcsolása",
+  },
+  "action_enable_captions": {
+    "message": "Feliratok bekapcsolása",
+  },
+  "action_toggle": {
+    "message": "Átfedés váltása",
+  },
+  "appDescription": {
+    "message": "Akadálymentes web a siket és nagyothalló felhasználóknak.",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Nyelvi címke: angol",
+    "message": "angol",
+  },
+  "langFrench": {
+    "description": "Nyelvi címke: francia",
+    "message": "francia",
+  },
+  "langGerman": {
+    "description": "Nyelvi címke: német",
+    "message": "német",
+  },
+  "langItalian": {
+    "description": "Nyelvi címke: olasz",
+    "message": "olasz",
+  },
+  "langPortuguese": {
+    "description": "Nyelvi címke: portugál",
+    "message": "portugál",
+  },
+  "langSpanish": {
+    "description": "Nyelvi címke: spanyol",
+    "message": "spanyol",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for hy 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Անջատել ենթագրերը",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Միացնել ենթագրերը",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Փոխարկել վերածածկը",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Մատչելի վեբ խուլ և լսողության խնդիր ունեցող օգտատերերի համար։",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Լեզվի պիտակ: անգլերեն",
+    "message": "անգլերեն",
+  },
+  "langFrench": {
+    "description": "Լեզվի պիտակ: ֆրանսերեն",
+    "message": "ֆրանսերեն",
+  },
+  "langGerman": {
+    "description": "Լեզվի պիտակ: գերմաներեն",
+    "message": "գերմաներեն",
+  },
+  "langItalian": {
+    "description": "Լեզվի պիտակ: իտալերեն",
+    "message": "իտալերեն",
+  },
+  "langPortuguese": {
+    "description": "Լեզվի պիտակ: պորտուգալերեն",
+    "message": "պորտուգալերեն",
+  },
+  "langSpanish": {
+    "description": "Լեզվի պիտակ: իսպաներեն",
+    "message": "իսպաներեն",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for id 1`] = `
+{
+  "action_disable_captions": {
+    "message": "Nonaktifkan teks",
+  },
+  "action_enable_captions": {
+    "message": "Aktifkan teks",
+  },
+  "action_toggle": {
+    "message": "Beralih overlay",
+  },
+  "appDescription": {
+    "message": "Web yang dapat diakses untuk pengguna tuli dan gangguan pendengaran.",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Label bahasa: Inggris",
+    "message": "Inggris",
+  },
+  "langFrench": {
+    "description": "Label bahasa: Prancis",
+    "message": "Prancis",
+  },
+  "langGerman": {
+    "description": "Label bahasa: Jerman",
+    "message": "Jerman",
+  },
+  "langItalian": {
+    "description": "Label bahasa: Italia",
+    "message": "Italia",
+  },
+  "langPortuguese": {
+    "description": "Label bahasa: Portugis",
+    "message": "Portugis",
+  },
+  "langSpanish": {
+    "description": "Label bahasa: Spanyol",
+    "message": "Spanyol",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for is 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Slökkva á texta",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Virkja texta",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Víxla yfirlagi",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Aðgengilegur vefur fyrir heyrnarlausa og heyrnarskerta notendur.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Tungumálamerki: enska",
+    "message": "enska",
+  },
+  "langFrench": {
+    "description": "Tungumálamerki: franska",
+    "message": "franska",
+  },
+  "langGerman": {
+    "description": "Tungumálamerki: þýska",
+    "message": "þýska",
+  },
+  "langItalian": {
+    "description": "Tungumálamerki: ítalska",
+    "message": "ítalska",
+  },
+  "langPortuguese": {
+    "description": "Tungumálamerki: portúgalska",
+    "message": "portúgalska",
+  },
+  "langSpanish": {
+    "description": "Tungumálamerki: spænska",
+    "message": "spænska",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for it 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Etichetta comando",
+    "message": "Disattiva sottotitoli",
+  },
+  "action_enable_captions": {
+    "description": "Etichetta comando",
+    "message": "Attiva sottotitoli",
+  },
+  "action_toggle": {
+    "description": "Etichetta comando",
+    "message": "Mostra/nascondi overlay",
+  },
+  "appDescription": {
+    "description": "Descrizione",
+    "message": "Web accessibile per persone sorde e con ipoacusia.",
+  },
+  "appName": {
+    "description": "Nome estensione",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Etichetta della lingua: inglese",
+    "message": "inglese",
+  },
+  "langFrench": {
+    "description": "Etichetta della lingua: francese",
+    "message": "francese",
+  },
+  "langGerman": {
+    "description": "Etichetta della lingua: tedesco",
+    "message": "tedesco",
+  },
+  "langItalian": {
+    "description": "Etichetta della lingua: italiano",
+    "message": "italiano",
+  },
+  "langPortuguese": {
+    "description": "Etichetta della lingua: portoghese",
+    "message": "portoghese",
+  },
+  "langSpanish": {
+    "description": "Etichetta della lingua: spagnolo",
+    "message": "spagnolo",
+  },
+  "shortName": {
+    "description": "Nome breve",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for ja 1`] = `
+{
+  "action_disable_captions": {
+    "message": "字幕を無効にする",
+  },
+  "action_enable_captions": {
+    "message": "字幕を有効にする",
+  },
+  "action_toggle": {
+    "message": "オーバーレイ切替",
+  },
+  "appDescription": {
+    "message": "聴覚障害者のためのアクセシブルなウェブ。",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "言語ラベル: 英語",
+    "message": "英語",
+  },
+  "langFrench": {
+    "description": "言語ラベル: フランス語",
+    "message": "フランス語",
+  },
+  "langGerman": {
+    "description": "言語ラベル: ドイツ語",
+    "message": "ドイツ語",
+  },
+  "langItalian": {
+    "description": "言語ラベル: イタリア語",
+    "message": "イタリア語",
+  },
+  "langPortuguese": {
+    "description": "言語ラベル: ポルトガル語",
+    "message": "ポルトガル語",
+  },
+  "langSpanish": {
+    "description": "言語ラベル: スペイン語",
+    "message": "スペイン語",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for jv 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Pateni teks",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Aktifaké teks",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Ganti overlay",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Web sing bisa diakses kanggo panganggo budheg lan kurang krungu.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Label basa: Inggris",
+    "message": "Inggris",
+  },
+  "langFrench": {
+    "description": "Label basa: Prancis",
+    "message": "Prancis",
+  },
+  "langGerman": {
+    "description": "Label basa: Jérman",
+    "message": "Jérman",
+  },
+  "langItalian": {
+    "description": "Label basa: Italia",
+    "message": "Italia",
+  },
+  "langPortuguese": {
+    "description": "Label basa: Portugis",
+    "message": "Portugis",
+  },
+  "langSpanish": {
+    "description": "Label basa: Spanyol",
+    "message": "Spanyol",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for ka 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "გამორთეთ სუბტიტრები",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "სუბტიტრების ჩართვა",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "გადაფარვის ზოლის ჩვენება ან დამალვა",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "ხელმისაწვდომი ინტერნეტი ყრუ და სმენადაქვეითებული მომხმარებლებისთვის.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "ენის ეტიკეტი: ინგლისური",
+    "message": "ინგლისური",
+  },
+  "langFrench": {
+    "description": "ენის ეტიკეტი: ფრანგული",
+    "message": "ფრანგული",
+  },
+  "langGerman": {
+    "description": "ენის ეტიკეტი: გერმანული",
+    "message": "გერმანული",
+  },
+  "langItalian": {
+    "description": "ენის ეტიკეტი: იტალიური",
+    "message": "იტალიური",
+  },
+  "langPortuguese": {
+    "description": "ენის ეტიკეტი: პორტუგალიური",
+    "message": "პორტუგალიური",
+  },
+  "langSpanish": {
+    "description": "ენის ეტიკეტი: ესპანური",
+    "message": "ესპანური",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for ko 1`] = `
+{
+  "action_disable_captions": {
+    "message": "자막 끄기",
+  },
+  "action_enable_captions": {
+    "message": "자막 켜기",
+  },
+  "action_toggle": {
+    "message": "오버레이 전환",
+  },
+  "appDescription": {
+    "message": "청각장애인과 난청인을 위한 접근 가능한 웹.",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "언어 라벨: 영어",
+    "message": "영어",
+  },
+  "langFrench": {
+    "description": "언어 라벨: 프랑스어",
+    "message": "프랑스어",
+  },
+  "langGerman": {
+    "description": "언어 라벨: 독일어",
+    "message": "독일어",
+  },
+  "langItalian": {
+    "description": "언어 라벨: 이탈리아어",
+    "message": "이탈리아어",
+  },
+  "langPortuguese": {
+    "description": "언어 라벨: 포르투갈어",
+    "message": "포르투갈어",
+  },
+  "langSpanish": {
+    "description": "언어 라벨: 스페인어",
+    "message": "스페인어",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for lb 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Ënnertitelen desaktivéieren",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Ënnertitelen aktivéieren",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Iwwerlag wiesselen",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Accessibelen Web fir douf a schwéierhéierend Benotzer.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Sprooch Label: Englesch",
+    "message": "Englesch",
+  },
+  "langFrench": {
+    "description": "Sprooch Label: Franséisch",
+    "message": "Franséisch",
+  },
+  "langGerman": {
+    "description": "Sprooch Label: Däitsch",
+    "message": "Däitsch",
+  },
+  "langItalian": {
+    "description": "Sprooch Label: Italienesch",
+    "message": "Italienesch",
+  },
+  "langPortuguese": {
+    "description": "Sprooch Label: Portugisesch",
+    "message": "Portugisesch",
+  },
+  "langSpanish": {
+    "description": "Sprooch Label: Spuenesch",
+    "message": "Spuenesch",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for lt 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Išjungti subtitrus",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Įgalinti subtitrus",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Rodyti arba slėpti perdangos juostą",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Prieinamas žiniatinklis kurtiesiems ir neprigirdintiems vartotojams.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Kalbos etiketė: anglų",
+    "message": "anglų",
+  },
+  "langFrench": {
+    "description": "Kalbos etiketė: prancūzų",
+    "message": "prancūzų",
+  },
+  "langGerman": {
+    "description": "Kalbos etiketė: vokiečių",
+    "message": "vokiečių",
+  },
+  "langItalian": {
+    "description": "Kalbos etiketė: italų",
+    "message": "italų",
+  },
+  "langPortuguese": {
+    "description": "Kalbos etiketė: portugalų",
+    "message": "portugalų",
+  },
+  "langSpanish": {
+    "description": "Kalbos etiketė: ispanų",
+    "message": "ispanų",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for lv 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Atspējot subtitrus",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Iespējot subtitrus",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Rādīt vai paslēpt pārklājuma joslu",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Pieejams tīmeklis nedzirdīgiem un vājdzirdīgiem lietotājiem.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Valodas etiķete: angļu",
+    "message": "angļu",
+  },
+  "langFrench": {
+    "description": "Valodas etiķete: franču",
+    "message": "franču",
+  },
+  "langGerman": {
+    "description": "Valodas etiķete: vācu",
+    "message": "vācu",
+  },
+  "langItalian": {
+    "description": "Valodas etiķete: itāļu",
+    "message": "itāļu",
+  },
+  "langPortuguese": {
+    "description": "Valodas etiķete: portugāļu",
+    "message": "portugāļu",
+  },
+  "langSpanish": {
+    "description": "Valodas etiķete: spāņu",
+    "message": "spāņu",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for mk 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Оневозможи преводи",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Овозможете преводи",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Прикажи или сокриј ја лентата за преклопување",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Пристапна веб за глуви и наглуви корисници.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Јазична ознака: англиски",
+    "message": "англиски",
+  },
+  "langFrench": {
+    "description": "Јазична ознака: француски",
+    "message": "француски",
+  },
+  "langGerman": {
+    "description": "Јазична ознака: германски",
+    "message": "германски",
+  },
+  "langItalian": {
+    "description": "Јазична ознака: италијански",
+    "message": "италијански",
+  },
+  "langPortuguese": {
+    "description": "Јазична ознака: португалски",
+    "message": "португалски",
+  },
+  "langSpanish": {
+    "description": "Јазична ознака: шпански",
+    "message": "шпански",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for mr 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "उपशीर्षके अक्षम करा",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "उपशीर्षके सक्षम करा",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "आच्छादन बार दर्शवा किंवा लपवा",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "कर्णबधिर आणि श्रवणक्षम वापरकर्त्यांसाठी प्रवेशयोग्य वेब.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "भाषा लेबल: इंग्रजी",
+    "message": "इंग्रजी",
+  },
+  "langFrench": {
+    "description": "भाषा लेबल: फ्रेंच",
+    "message": "फ्रेंच",
+  },
+  "langGerman": {
+    "description": "भाषा लेबल: जर्मन",
+    "message": "जर्मन",
+  },
+  "langItalian": {
+    "description": "भाषा लेबल: इटालियन",
+    "message": "इटालियन",
+  },
+  "langPortuguese": {
+    "description": "भाषा लेबल: पोर्तुगीज",
+    "message": "पोर्तुगीज",
+  },
+  "langSpanish": {
+    "description": "भाषा लेबल: स्पॅनिश",
+    "message": "स्पॅनिश",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for ms 1`] = `
+{
+  "action_disable_captions": {
+    "message": "Matikan kapsyen",
+  },
+  "action_enable_captions": {
+    "message": "Hidupkan kapsyen",
+  },
+  "action_toggle": {
+    "message": "Togol lapisan",
+  },
+  "appDescription": {
+    "message": "Web boleh diakses untuk pengguna pekak dan kurang pendengaran.",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Label bahasa: Inggeris",
+    "message": "Inggeris",
+  },
+  "langFrench": {
+    "description": "Label bahasa: Perancis",
+    "message": "Perancis",
+  },
+  "langGerman": {
+    "description": "Label bahasa: Jerman",
+    "message": "Jerman",
+  },
+  "langItalian": {
+    "description": "Label bahasa: Itali",
+    "message": "Itali",
+  },
+  "langPortuguese": {
+    "description": "Label bahasa: Portugis",
+    "message": "Portugis",
+  },
+  "langSpanish": {
+    "description": "Label bahasa: Sepanyol",
+    "message": "Sepanyol",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for mt 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Itfi s-sottotitli",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Ippermetti sottotitli",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Uri jew aħbi l-bar overlay",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Web aċċessibbli għal utenti neqsin mis-smigħ u li ma tantx.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Tikketta tal-lingwa: Ingliż",
+    "message": "Ingliż",
+  },
+  "langFrench": {
+    "description": "Tikketta tal-lingwa: Franċiż",
+    "message": "Franċiż",
+  },
+  "langGerman": {
+    "description": "Tikketta tal-lingwa: Ġermaniż",
+    "message": "Ġermaniż",
+  },
+  "langItalian": {
+    "description": "Tikketta tal-lingwa: Taljan",
+    "message": "Taljan",
+  },
+  "langPortuguese": {
+    "description": "Tikketta tal-lingwa: Portugiż",
+    "message": "Portugiż",
+  },
+  "langSpanish": {
+    "description": "Tikketta tal-lingwa: Spanjol",
+    "message": "Spanjol",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for ne 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "उपशीर्षकहरू असक्षम गर्नुहोस्",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "उपशीर्षकहरू सक्षम गर्नुहोस्",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "ओभरले बार देखाउनुहोस् वा लुकाउनुहोस्",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "बहिरा र सुन्न नसक्ने प्रयोगकर्ताहरूका लागि पहुँचयोग्य वेब।",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "भाषा लेबल: अङ्ग्रेजी",
+    "message": "अङ्ग्रेजी",
+  },
+  "langFrench": {
+    "description": "भाषा लेबल: फ्रान्सेली",
+    "message": "फ्रान्सेली",
+  },
+  "langGerman": {
+    "description": "भाषा लेबल: जर्मन",
+    "message": "जर्मन",
+  },
+  "langItalian": {
+    "description": "भाषा लेबल: इटालेली",
+    "message": "इटालेली",
+  },
+  "langPortuguese": {
+    "description": "भाषा लेबल: पोर्तुगी",
+    "message": "पोर्तुगी",
+  },
+  "langSpanish": {
+    "description": "भाषा लेबल: स्पेनी",
+    "message": "स्पेनी",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for nl 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Opdrachtlabel",
+    "message": "Ondertiteling uitschakelen",
+  },
+  "action_enable_captions": {
+    "description": "Opdrachtlabel",
+    "message": "Ondertiteling inschakelen",
+  },
+  "action_toggle": {
+    "description": "Opdrachtlabel",
+    "message": "Overlay tonen/verbergen",
+  },
+  "appDescription": {
+    "description": "Beschrijving",
+    "message": "Toegankelijke web voor doven en slechthorenden.",
+  },
+  "appName": {
+    "description": "Naam van de extensie",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Taallabel: Engels",
+    "message": "Engels",
+  },
+  "langFrench": {
+    "description": "Taallabel: Frans",
+    "message": "Frans",
+  },
+  "langGerman": {
+    "description": "Taallabel: Duits",
+    "message": "Duits",
+  },
+  "langItalian": {
+    "description": "Taallabel: Italiaans",
+    "message": "Italiaans",
+  },
+  "langPortuguese": {
+    "description": "Taallabel: Portugees",
+    "message": "Portugees",
+  },
+  "langSpanish": {
+    "description": "Taallabel: Spaans",
+    "message": "Spaans",
+  },
+  "shortName": {
+    "description": "Korte naam",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for no 1`] = `
+{
+  "action_disable_captions": {
+    "message": "Deaktiver undertekster",
+  },
+  "action_enable_captions": {
+    "message": "Aktiver undertekster",
+  },
+  "action_toggle": {
+    "message": "Bytt overlay",
+  },
+  "appDescription": {
+    "message": "Tilgjengelig web for døve og hørselshemmede.",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Språketikett: engelsk",
+    "message": "engelsk",
+  },
+  "langFrench": {
+    "description": "Språketikett: fransk",
+    "message": "fransk",
+  },
+  "langGerman": {
+    "description": "Språketikett: tysk",
+    "message": "tysk",
+  },
+  "langItalian": {
+    "description": "Språketikett: italiensk",
+    "message": "italiensk",
+  },
+  "langPortuguese": {
+    "description": "Språketikett: portugisisk",
+    "message": "portugisisk",
+  },
+  "langSpanish": {
+    "description": "Språketikett: spansk",
+    "message": "spansk",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for pa 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "ਸਬਟਾਈਟਲ ਬੰਦ ਕਰੋ",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "ਸਬਟਾਈਟਲ ਚਾਲੂ ਕਰੋ",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "ਓਵਰਲੇਅ ਟੌਗਲ ਕਰੋ",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "ਬਹਿਰੇ ਅਤੇ ਕੰਨਾਂ ਨਾਲ ਘੱਟ ਸੁਣਦੇ ਵਰਤੋਂਕਾਰਾਂ ਲਈ ਪਹੁੰਚਯੋਗ ਵੈੱਬ।",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "ਭਾਸ਼ਾ ਲੇਬਲ: ਅੰਗਰੇਜ਼ੀ",
+    "message": "ਅੰਗਰੇਜ਼ੀ",
+  },
+  "langFrench": {
+    "description": "ਭਾਸ਼ਾ ਲੇਬਲ: ਫਰਾਂਸੀਸੀ",
+    "message": "ਫਰਾਂਸੀਸੀ",
+  },
+  "langGerman": {
+    "description": "ਭਾਸ਼ਾ ਲੇਬਲ: ਜਰਮਨ",
+    "message": "ਜਰਮਨ",
+  },
+  "langItalian": {
+    "description": "ਭਾਸ਼ਾ ਲੇਬਲ: ਇਤਾਲਵੀ",
+    "message": "ਇਤਾਲਵੀ",
+  },
+  "langPortuguese": {
+    "description": "ਭਾਸ਼ਾ ਲੇਬਲ: ਪੁਰਤਗਾਲੀ",
+    "message": "ਪੁਰਤਗਾਲੀ",
+  },
+  "langSpanish": {
+    "description": "ਭਾਸ਼ਾ ਲੇਬਲ: ਸਪੇਨੀ",
+    "message": "ਸਪੇਨੀ",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for pl 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Etykieta polecenia",
+    "message": "Wyłącz napisy",
+  },
+  "action_enable_captions": {
+    "description": "Etykieta polecenia",
+    "message": "Włącz napisy",
+  },
+  "action_toggle": {
+    "description": "Etykieta polecenia",
+    "message": "Pokaż/ukryj nakładkę",
+  },
+  "appDescription": {
+    "description": "Opis",
+    "message": "Dostępna sieć dla osób głuchych i niedosłyszących.",
+  },
+  "appName": {
+    "description": "Nazwa rozszerzenia",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Etykieta języka: angielski",
+    "message": "angielski",
+  },
+  "langFrench": {
+    "description": "Etykieta języka: francuski",
+    "message": "francuski",
+  },
+  "langGerman": {
+    "description": "Etykieta języka: niemiecki",
+    "message": "niemiecki",
+  },
+  "langItalian": {
+    "description": "Etykieta języka: włoski",
+    "message": "włoski",
+  },
+  "langPortuguese": {
+    "description": "Etykieta języka: portugalski",
+    "message": "portugalski",
+  },
+  "langSpanish": {
+    "description": "Etykieta języka: hiszpański",
+    "message": "hiszpański",
+  },
+  "shortName": {
+    "description": "Krótka nazwa",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for pt 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Rótulo do comando",
+    "message": "Desativar legendas",
+  },
+  "action_enable_captions": {
+    "description": "Rótulo do comando",
+    "message": "Ativar legendas",
+  },
+  "action_toggle": {
+    "description": "Rótulo do comando",
+    "message": "Alternar sobreposição",
+  },
+  "appDescription": {
+    "description": "Descrição",
+    "message": "Web acessível para pessoas surdas e com deficiência auditiva.",
+  },
+  "appName": {
+    "description": "Nome da extensão",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Etiqueta de idioma: inglês",
+    "message": "inglês",
+  },
+  "langFrench": {
+    "description": "Etiqueta de idioma: francês",
+    "message": "francês",
+  },
+  "langGerman": {
+    "description": "Etiqueta de idioma: alemão",
+    "message": "alemão",
+  },
+  "langItalian": {
+    "description": "Etiqueta de idioma: italiano",
+    "message": "italiano",
+  },
+  "langPortuguese": {
+    "description": "Etiqueta de idioma: português",
+    "message": "português",
+  },
+  "langSpanish": {
+    "description": "Etiqueta de idioma: espanhol",
+    "message": "espanhol",
+  },
+  "shortName": {
+    "description": "Nome curto",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for ro 1`] = `
+{
+  "action_disable_captions": {
+    "message": "Dezactivează subtitrările",
+  },
+  "action_enable_captions": {
+    "message": "Activează subtitrările",
+  },
+  "action_toggle": {
+    "message": "Comută suprapunerea",
+  },
+  "appDescription": {
+    "message": "Web accesibil pentru persoanele surde și cu deficiențe de auz.",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Etichetă de limbă: engleză",
+    "message": "engleză",
+  },
+  "langFrench": {
+    "description": "Etichetă de limbă: franceză",
+    "message": "franceză",
+  },
+  "langGerman": {
+    "description": "Etichetă de limbă: germană",
+    "message": "germană",
+  },
+  "langItalian": {
+    "description": "Etichetă de limbă: italiană",
+    "message": "italiană",
+  },
+  "langPortuguese": {
+    "description": "Etichetă de limbă: portugheză",
+    "message": "portugheză",
+  },
+  "langSpanish": {
+    "description": "Etichetă de limbă: spaniolă",
+    "message": "spaniolă",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for ru 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Надпись команды",
+    "message": "Выключить субтитры",
+  },
+  "action_enable_captions": {
+    "description": "Надпись команды",
+    "message": "Включить субтитры",
+  },
+  "action_toggle": {
+    "description": "Надпись команды",
+    "message": "Показать/скрыть оверлей",
+  },
+  "appDescription": {
+    "description": "Описание",
+    "message": "Доступная сеть для глухих и слабослышащих пользователей.",
+  },
+  "appName": {
+    "description": "Название расширения",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Языковая метка: английский",
+    "message": "английский",
+  },
+  "langFrench": {
+    "description": "Языковая метка: французский",
+    "message": "французский",
+  },
+  "langGerman": {
+    "description": "Языковая метка: немецкий",
+    "message": "немецкий",
+  },
+  "langItalian": {
+    "description": "Языковая метка: итальянский",
+    "message": "итальянский",
+  },
+  "langPortuguese": {
+    "description": "Языковая метка: португальский",
+    "message": "португальский",
+  },
+  "langSpanish": {
+    "description": "Языковая метка: испанский",
+    "message": "испанский",
+  },
+  "shortName": {
+    "description": "Короткое имя",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for sk 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Zakázať titulky",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Povoliť titulky",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Zobraziť alebo skryť panel prekrytia",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Prístupný web pre nepočujúcich a nedoslýchavých používateľov.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Označenie jazyka: angličtina",
+    "message": "angličtina",
+  },
+  "langFrench": {
+    "description": "Označenie jazyka: francúzština",
+    "message": "francúzština",
+  },
+  "langGerman": {
+    "description": "Označenie jazyka: nemčina",
+    "message": "nemčina",
+  },
+  "langItalian": {
+    "description": "Označenie jazyka: taliančina",
+    "message": "taliančina",
+  },
+  "langPortuguese": {
+    "description": "Označenie jazyka: portugalčina",
+    "message": "portugalčina",
+  },
+  "langSpanish": {
+    "description": "Označenie jazyka: španielčina",
+    "message": "španielčina",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for sl 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Onemogoči podnapise",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Omogoči podnapise",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Pokaži ali skrij prekrivno vrstico",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Dostopen splet za gluhe in naglušne uporabnike.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Jezikovna oznaka: angleščina",
+    "message": "angleščina",
+  },
+  "langFrench": {
+    "description": "Jezikovna oznaka: francoščina",
+    "message": "francoščina",
+  },
+  "langGerman": {
+    "description": "Jezikovna oznaka: nemščina",
+    "message": "nemščina",
+  },
+  "langItalian": {
+    "description": "Jezikovna oznaka: italijanščina",
+    "message": "italijanščina",
+  },
+  "langPortuguese": {
+    "description": "Jezikovna oznaka: portugalščina",
+    "message": "portugalščina",
+  },
+  "langSpanish": {
+    "description": "Jezikovna oznaka: španščina",
+    "message": "španščina",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for sq 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Çaktivizo titrat",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Aktivo titrat",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Ndërro mbivendosjen",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Ueb i aksesueshëm për përdoruesit e shurdhër dhe me dëgjim të dobët.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Etiketa gjuhësore: anglisht",
+    "message": "anglisht",
+  },
+  "langFrench": {
+    "description": "Etiketa gjuhësore: frëngjisht",
+    "message": "frëngjisht",
+  },
+  "langGerman": {
+    "description": "Etiketa gjuhësore: gjermanisht",
+    "message": "gjermanisht",
+  },
+  "langItalian": {
+    "description": "Etiketa gjuhësore: italisht",
+    "message": "italisht",
+  },
+  "langPortuguese": {
+    "description": "Etiketa gjuhësore: portugalisht",
+    "message": "portugalisht",
+  },
+  "langSpanish": {
+    "description": "Etiketa gjuhësore: spanjisht",
+    "message": "spanjisht",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for sr 1`] = `
+{
+  "action_disable_captions": {
+    "message": "Искључи титлове",
+  },
+  "action_enable_captions": {
+    "message": "Укључи титлове",
+  },
+  "action_toggle": {
+    "message": "Пребаци преклапање",
+  },
+  "appDescription": {
+    "message": "Доступан веб за глуве и наглуве особе.",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Ознака језика: енглески",
+    "message": "енглески",
+  },
+  "langFrench": {
+    "description": "Ознака језика: француски",
+    "message": "француски",
+  },
+  "langGerman": {
+    "description": "Ознака језика: немачки",
+    "message": "немачки",
+  },
+  "langItalian": {
+    "description": "Ознака језика: италијански",
+    "message": "италијански",
+  },
+  "langPortuguese": {
+    "description": "Ознака језика: португалски",
+    "message": "португалски",
+  },
+  "langSpanish": {
+    "description": "Ознака језика: шпански",
+    "message": "шпански",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for sv 1`] = `
+{
+  "action_disable_captions": {
+    "message": "Inaktivera undertexter",
+  },
+  "action_enable_captions": {
+    "message": "Aktivera undertexter",
+  },
+  "action_toggle": {
+    "message": "Växla overlay",
+  },
+  "appDescription": {
+    "message": "Tillgängligt webben för döva och hörselskadade.",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Språketikett: engelska",
+    "message": "engelska",
+  },
+  "langFrench": {
+    "description": "Språketikett: franska",
+    "message": "franska",
+  },
+  "langGerman": {
+    "description": "Språketikett: tyska",
+    "message": "tyska",
+  },
+  "langItalian": {
+    "description": "Språketikett: italienska",
+    "message": "italienska",
+  },
+  "langPortuguese": {
+    "description": "Språketikett: portugisiska",
+    "message": "portugisiska",
+  },
+  "langSpanish": {
+    "description": "Språketikett: spanska",
+    "message": "spanska",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for sw 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Zima manukuu",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Washa manukuu",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Badilisha safu ya kuonyesha",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Wavuti inayoweza kufikiwa kwa watumiaji viziwi na wenye uziwi.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Lebo ya lugha: Kiingereza",
+    "message": "Kiingereza",
+  },
+  "langFrench": {
+    "description": "Lebo ya lugha: Kifaransa",
+    "message": "Kifaransa",
+  },
+  "langGerman": {
+    "description": "Lebo ya lugha: Kijerumani",
+    "message": "Kijerumani",
+  },
+  "langItalian": {
+    "description": "Lebo ya lugha: Kiitaliano",
+    "message": "Kiitaliano",
+  },
+  "langPortuguese": {
+    "description": "Lebo ya lugha: Kireno",
+    "message": "Kireno",
+  },
+  "langSpanish": {
+    "description": "Lebo ya lugha: Kihispania",
+    "message": "Kihispania",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for ta 1`] = `
+{
+  "action_disable_captions": {
+    "message": "சப்டைட்டில்கள் அணை",
+  },
+  "action_enable_captions": {
+    "message": "சப்டைட்டில்கள் இயக்கு",
+  },
+  "action_toggle": {
+    "message": "ஒவர்லே மாற்று",
+  },
+  "appDescription": {
+    "message": "கேளாதவர்களுக்கும் கேட்கும் குறைபாடுடையவர்களுக்கும் அணுகக்கூடிய வலை.",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "மொழி முத்திரை: ஆங்கிலம்",
+    "message": "ஆங்கிலம்",
+  },
+  "langFrench": {
+    "description": "மொழி முத்திரை: பிரெஞ்சு",
+    "message": "பிரெஞ்சு",
+  },
+  "langGerman": {
+    "description": "மொழி முத்திரை: ஜெர்மன்",
+    "message": "ஜெர்மன்",
+  },
+  "langItalian": {
+    "description": "மொழி முத்திரை: இத்தாலியன்",
+    "message": "இத்தாலியன்",
+  },
+  "langPortuguese": {
+    "description": "மொழி முத்திரை: போர்ச்சுகீஸ்",
+    "message": "போர்ச்சுகீஸ்",
+  },
+  "langSpanish": {
+    "description": "மொழி முத்திரை: ஸ்பானிஷ்",
+    "message": "ஸ்பானிஷ்",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for te 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "సబ్‌టైటిల్స్ ఆఫ్ చేయి",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "సబ్‌టైటిల్స్ ఆన్ చేయి",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "ఓవర్లే మార్చు",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "చెవిటి మరియు వినికిడి లోపం ఉన్న వినియోగదారుల కోసం అందుబాటులో ఉండే వెబ్.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "భాషా లేబుల్: ఇంగ్లీష్",
+    "message": "ఇంగ్లీష్",
+  },
+  "langFrench": {
+    "description": "భాషా లేబుల్: ఫ్రెంచ్",
+    "message": "ఫ్రెంచ్",
+  },
+  "langGerman": {
+    "description": "భాషా లేబుల్: జర్మన్",
+    "message": "జర్మన్",
+  },
+  "langItalian": {
+    "description": "భాషా లేబుల్: ఇటాలియన్",
+    "message": "ఇటాలియన్",
+  },
+  "langPortuguese": {
+    "description": "భాషా లేబుల్: పోర్చుగీస్",
+    "message": "పోర్చుగీస్",
+  },
+  "langSpanish": {
+    "description": "భాషా లేబుల్: స్పానిష్",
+    "message": "స్పానిష్",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for th 1`] = `
+{
+  "action_disable_captions": {
+    "message": "ปิดคำบรรยาย",
+  },
+  "action_enable_captions": {
+    "message": "เปิดคำบรรยาย",
+  },
+  "action_toggle": {
+    "message": "สลับการแสดงผล",
+  },
+  "appDescription": {
+    "message": "เว็บที่เข้าถึงได้สำหรับผู้บกพร่องทางการได้ยิน.",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "ป้ายชื่อภาษา: อังกฤษ",
+    "message": "อังกฤษ",
+  },
+  "langFrench": {
+    "description": "ป้ายชื่อภาษา: ฝรั่งเศส",
+    "message": "ฝรั่งเศส",
+  },
+  "langGerman": {
+    "description": "ป้ายชื่อภาษา: เยอรมัน",
+    "message": "เยอรมัน",
+  },
+  "langItalian": {
+    "description": "ป้ายชื่อภาษา: อิตาลี",
+    "message": "อิตาลี",
+  },
+  "langPortuguese": {
+    "description": "ป้ายชื่อภาษา: โปรตุเกส",
+    "message": "โปรตุเกส",
+  },
+  "langSpanish": {
+    "description": "ป้ายชื่อภาษา: สเปน",
+    "message": "สเปน",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for tr 1`] = `
+{
+  "action_disable_captions": {
+    "message": "Altyazıları kapat",
+  },
+  "action_enable_captions": {
+    "message": "Altyazıları aç",
+  },
+  "action_toggle": {
+    "message": "Yer paylaşımını aç/kapat",
+  },
+  "appDescription": {
+    "message": "Sağır ve işitme engelli kullanıcılar için erişilebilir web.",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Dil etiketi: İngilizce",
+    "message": "İngilizce",
+  },
+  "langFrench": {
+    "description": "Dil etiketi: Fransızca",
+    "message": "Fransızca",
+  },
+  "langGerman": {
+    "description": "Dil etiketi: Almanca",
+    "message": "Almanca",
+  },
+  "langItalian": {
+    "description": "Dil etiketi: İtalyanca",
+    "message": "İtalyanca",
+  },
+  "langPortuguese": {
+    "description": "Dil etiketi: Portekizce",
+    "message": "Portekizce",
+  },
+  "langSpanish": {
+    "description": "Dil etiketi: İspanyolca",
+    "message": "İspanyolca",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for uk 1`] = `
+{
+  "action_disable_captions": {
+    "message": "Вимкнути субтитри",
+  },
+  "action_enable_captions": {
+    "message": "Увімкнути субтитри",
+  },
+  "action_toggle": {
+    "message": "Перемкнути накладку",
+  },
+  "appDescription": {
+    "message": "Доступна мережа для глухих та людей з порушеннями слуху.",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Мовна мітка: англійська",
+    "message": "англійська",
+  },
+  "langFrench": {
+    "description": "Мовна мітка: французька",
+    "message": "французька",
+  },
+  "langGerman": {
+    "description": "Мовна мітка: німецька",
+    "message": "німецька",
+  },
+  "langItalian": {
+    "description": "Мовна мітка: італійська",
+    "message": "італійська",
+  },
+  "langPortuguese": {
+    "description": "Мовна мітка: португальська",
+    "message": "португальська",
+  },
+  "langSpanish": {
+    "description": "Мовна мітка: іспанська",
+    "message": "іспанська",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for ur 1`] = `
+{
+  "action_disable_captions": {
+    "description": "Command label",
+    "message": "Disable captions",
+  },
+  "action_enable_captions": {
+    "description": "Command label",
+    "message": "Enable captions",
+  },
+  "action_toggle": {
+    "description": "Command label",
+    "message": "Toggle overlay",
+  },
+  "appDescription": {
+    "description": "Extension description",
+    "message": "Accessible web for deaf and hard of hearing users.",
+  },
+  "appName": {
+    "description": "Extension name",
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "زبان کا لیبل: انگریزی",
+    "message": "انگریزی",
+  },
+  "langFrench": {
+    "description": "زبان کا لیبل: فرانسیسی",
+    "message": "فرانسیسی",
+  },
+  "langGerman": {
+    "description": "زبان کا لیبل: جرمن",
+    "message": "جرمن",
+  },
+  "langItalian": {
+    "description": "زبان کا لیبل: اطالوی",
+    "message": "اطالوی",
+  },
+  "langPortuguese": {
+    "description": "زبان کا لیبل: پُرتگالی",
+    "message": "پُرتگالی",
+  },
+  "langSpanish": {
+    "description": "زبان کا لیبل: ہسپانوی",
+    "message": "ہسپانوی",
+  },
+  "shortName": {
+    "description": "Short name",
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for vi 1`] = `
+{
+  "action_disable_captions": {
+    "message": "Tắt phụ đề",
+  },
+  "action_enable_captions": {
+    "message": "Bật phụ đề",
+  },
+  "action_toggle": {
+    "message": "Bật/tắt lớp phủ",
+  },
+  "appDescription": {
+    "message": "Trang web dễ tiếp cận cho người khiếm thính.",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "Nhãn ngôn ngữ: Tiếng Anh",
+    "message": "Tiếng Anh",
+  },
+  "langFrench": {
+    "description": "Nhãn ngôn ngữ: Tiếng Pháp",
+    "message": "Tiếng Pháp",
+  },
+  "langGerman": {
+    "description": "Nhãn ngôn ngữ: Tiếng Đức",
+    "message": "Tiếng Đức",
+  },
+  "langItalian": {
+    "description": "Nhãn ngôn ngữ: Tiếng Italy",
+    "message": "Tiếng Italy",
+  },
+  "langPortuguese": {
+    "description": "Nhãn ngôn ngữ: Tiếng Bồ Đào Nha",
+    "message": "Tiếng Bồ Đào Nha",
+  },
+  "langSpanish": {
+    "description": "Nhãn ngôn ngữ: Tiếng Tây Ban Nha",
+    "message": "Tiếng Tây Ban Nha",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;
+
+exports[`locale catalogs > matches snapshot for zh 1`] = `
+{
+  "action_disable_captions": {
+    "message": "禁用字幕",
+  },
+  "action_enable_captions": {
+    "message": "启用字幕",
+  },
+  "action_toggle": {
+    "message": "切换覆盖层",
+  },
+  "appDescription": {
+    "message": "为聋人和听障人士提供的无障碍网络。",
+  },
+  "appName": {
+    "message": "SilentWeb",
+  },
+  "langEnglish": {
+    "description": "语言标签: 英语",
+    "message": "英语",
+  },
+  "langFrench": {
+    "description": "语言标签: 法语",
+    "message": "法语",
+  },
+  "langGerman": {
+    "description": "语言标签: 德语",
+    "message": "德语",
+  },
+  "langItalian": {
+    "description": "语言标签: 意大利语",
+    "message": "意大利语",
+  },
+  "langPortuguese": {
+    "description": "语言标签: 葡萄牙语",
+    "message": "葡萄牙语",
+  },
+  "langSpanish": {
+    "description": "语言标签: 西班牙语",
+    "message": "西班牙语",
+  },
+  "shortName": {
+    "message": "SilentWeb",
+  },
+}
+`;

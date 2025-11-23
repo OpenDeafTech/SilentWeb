@@ -1,8 +1,44 @@
 {
-  "appName": { "message": "SilentWeb" },
-  "shortName": { "message": "SilentWeb" },
-  "appDescription": { "message": "Tillgängligt webben för döva och hörselskadade." },
-  "action_toggle": { "message": "Växla overlay" },
-  "action_enable_captions": { "message": "Aktivera undertexter" },
-  "action_disable_captions": { "message": "Inaktivera undertexter" }
+  "appName": {
+    "message": "SilentWeb"
+  },
+  "shortName": {
+    "message": "SilentWeb"
+  },
+  "appDescription": {
+    "message": "Tillgängligt webben för döva och hörselskadade."
+  },
+  "action_toggle": {
+    "message": "Växla overlay"
+  },
+  "action_enable_captions": {
+    "message": "Aktivera undertexter"
+  },
+  "action_disable_captions": {
+    "message": "Inaktivera undertexter"
+  },
+  "langEnglish": {
+    "message": "engelska",
+    "description": "Språketikett: engelska"
+  },
+  "langFrench": {
+    "message": "franska",
+    "description": "Språketikett: franska"
+  },
+  "langSpanish": {
+    "message": "spanska",
+    "description": "Språketikett: spanska"
+  },
+  "langPortuguese": {
+    "message": "portugisiska",
+    "description": "Språketikett: portugisiska"
+  },
+  "langGerman": {
+    "message": "tyska",
+    "description": "Språketikett: tyska"
+  },
+  "langItalian": {
+    "message": "italienska",
+    "description": "Språketikett: italienska"
+  }
 }

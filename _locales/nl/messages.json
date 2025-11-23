@@ -1,8 +1,50 @@
 {
-  "appName": { "message": "SilentWeb", "description": "Naam van de extensie" },
-  "shortName": { "message": "SilentWeb", "description": "Korte naam" },
-  "appDescription": { "message": "Toegankelijke web voor doven en slechthorenden.", "description": "Beschrijving" },
-  "action_toggle": { "message": "Overlay tonen/verbergen", "description": "Opdrachtlabel" },
-  "action_enable_captions": { "message": "Ondertiteling inschakelen", "description": "Opdrachtlabel" },
-  "action_disable_captions": { "message": "Ondertiteling uitschakelen", "description": "Opdrachtlabel" }
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Naam van de extensie"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Korte naam"
+  },
+  "appDescription": {
+    "message": "Toegankelijke web voor doven en slechthorenden.",
+    "description": "Beschrijving"
+  },
+  "action_toggle": {
+    "message": "Overlay tonen/verbergen",
+    "description": "Opdrachtlabel"
+  },
+  "action_enable_captions": {
+    "message": "Ondertiteling inschakelen",
+    "description": "Opdrachtlabel"
+  },
+  "action_disable_captions": {
+    "message": "Ondertiteling uitschakelen",
+    "description": "Opdrachtlabel"
+  },
+  "langEnglish": {
+    "message": "Engels",
+    "description": "Taallabel: Engels"
+  },
+  "langFrench": {
+    "message": "Frans",
+    "description": "Taallabel: Frans"
+  },
+  "langSpanish": {
+    "message": "Spaans",
+    "description": "Taallabel: Spaans"
+  },
+  "langPortuguese": {
+    "message": "Portugees",
+    "description": "Taallabel: Portugees"
+  },
+  "langGerman": {
+    "message": "Duits",
+    "description": "Taallabel: Duits"
+  },
+  "langItalian": {
+    "message": "Italiaans",
+    "description": "Taallabel: Italiaans"
+  }
 }

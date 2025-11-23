@@ -1,8 +1,44 @@
 {
-  "appName": { "message": "SilentWeb" },
-  "shortName": { "message": "SilentWeb" },
-  "appDescription": { "message": "Web accesibil pentru persoanele surde și cu deficiențe de auz." },
-  "action_toggle": { "message": "Comută suprapunerea" },
-  "action_enable_captions": { "message": "Activează subtitrările" },
-  "action_disable_captions": { "message": "Dezactivează subtitrările" }
+  "appName": {
+    "message": "SilentWeb"
+  },
+  "shortName": {
+    "message": "SilentWeb"
+  },
+  "appDescription": {
+    "message": "Web accesibil pentru persoanele surde și cu deficiențe de auz."
+  },
+  "action_toggle": {
+    "message": "Comută suprapunerea"
+  },
+  "action_enable_captions": {
+    "message": "Activează subtitrările"
+  },
+  "action_disable_captions": {
+    "message": "Dezactivează subtitrările"
+  },
+  "langEnglish": {
+    "message": "engleză",
+    "description": "Etichetă de limbă: engleză"
+  },
+  "langFrench": {
+    "message": "franceză",
+    "description": "Etichetă de limbă: franceză"
+  },
+  "langSpanish": {
+    "message": "spaniolă",
+    "description": "Etichetă de limbă: spaniolă"
+  },
+  "langPortuguese": {
+    "message": "portugheză",
+    "description": "Etichetă de limbă: portugheză"
+  },
+  "langGerman": {
+    "message": "germană",
+    "description": "Etichetă de limbă: germană"
+  },
+  "langItalian": {
+    "message": "italiană",
+    "description": "Etichetă de limbă: italiană"
+  }
 }

@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "Gréasán inrochtana d'úsáideoirí bodhra agus lagéisteachta.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "Taispeáin nó folaigh barra forleagan",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "Cumasaigh fotheidil",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "Díchumasaigh fotheidil",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "Béarla",
+    "description": "Lipéad teanga: Béarla"
+  },
+  "langFrench": {
+    "message": "Fraincis",
+    "description": "Lipéad teanga: Fraincis"
+  },
+  "langSpanish": {
+    "message": "Spáinnis",
+    "description": "Lipéad teanga: Spáinnis"
+  },
+  "langPortuguese": {
+    "message": "Portaingéilis",
+    "description": "Lipéad teanga: Portaingéilis"
+  },
+  "langGerman": {
+    "message": "Gearmáinis",
+    "description": "Lipéad teanga: Gearmáinis"
+  },
+  "langItalian": {
+    "message": "Iodáilis",
+    "description": "Lipéad teanga: Iodáilis"
+  }
+}

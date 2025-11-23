@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "Toeganklike web vir dowe en hardhorende gebruikers.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "Wys of versteek oorlegbalk",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "Aktiveer onderskrifte",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "Deaktiveer onderskrifte",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "Engels",
+    "description": "Taal etiket: Engels"
+  },
+  "langFrench": {
+    "message": "Frans",
+    "description": "Taal etiket: Frans"
+  },
+  "langSpanish": {
+    "message": "Spaans",
+    "description": "Taal etiket: Spaans"
+  },
+  "langPortuguese": {
+    "message": "Portugees",
+    "description": "Taal etiket: Portugees"
+  },
+  "langGerman": {
+    "message": "Duits",
+    "description": "Taal etiket: Duits"
+  },
+  "langItalian": {
+    "message": "Italiaans",
+    "description": "Taal etiket: Italiaans"
+  }
+}

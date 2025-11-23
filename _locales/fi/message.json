@@ -1,8 +1,44 @@
 {
-  "appName": { "message": "SilentWeb" },
-  "shortName": { "message": "SilentWeb" },
-  "appDescription": { "message": "Saavutettava verkko kuuroille ja huonokuuloisille." },
-  "action_toggle": { "message": "Vaihda peite" },
-  "action_enable_captions": { "message": "Ota tekstitys käyttöön" },
-  "action_disable_captions": { "message": "Poista tekstitys käytöstä" }
+  "appName": {
+    "message": "SilentWeb"
+  },
+  "shortName": {
+    "message": "SilentWeb"
+  },
+  "appDescription": {
+    "message": "Saavutettava verkko kuuroille ja huonokuuloisille."
+  },
+  "action_toggle": {
+    "message": "Vaihda peite"
+  },
+  "action_enable_captions": {
+    "message": "Ota tekstitys käyttöön"
+  },
+  "action_disable_captions": {
+    "message": "Poista tekstitys käytöstä"
+  },
+  "langEnglish": {
+    "message": "englanti",
+    "description": "Kielimerkki: englanti"
+  },
+  "langFrench": {
+    "message": "ranska",
+    "description": "Kielimerkki: ranska"
+  },
+  "langSpanish": {
+    "message": "espanja",
+    "description": "Kielimerkki: espanja"
+  },
+  "langPortuguese": {
+    "message": "portugali",
+    "description": "Kielimerkki: portugali"
+  },
+  "langGerman": {
+    "message": "saksa",
+    "description": "Kielimerkki: saksa"
+  },
+  "langItalian": {
+    "message": "italia",
+    "description": "Kielimerkki: italia"
+  }
 }

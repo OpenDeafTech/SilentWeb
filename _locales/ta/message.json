@@ -1,8 +1,44 @@
 {
-  "appName": { "message": "SilentWeb" },
-  "shortName": { "message": "SilentWeb" },
-  "appDescription": { "message": "கேளாதவர்களுக்கும் கேட்கும் குறைபாடுடையவர்களுக்கும் அணுகக்கூடிய வலை." },
-  "action_toggle": { "message": "ஒவர்லே மாற்று" },
-  "action_enable_captions": { "message": "சப்டைட்டில்கள் இயக்கு" },
-  "action_disable_captions": { "message": "சப்டைட்டில்கள் அணை" }
+  "appName": {
+    "message": "SilentWeb"
+  },
+  "shortName": {
+    "message": "SilentWeb"
+  },
+  "appDescription": {
+    "message": "கேளாதவர்களுக்கும் கேட்கும் குறைபாடுடையவர்களுக்கும் அணுகக்கூடிய வலை."
+  },
+  "action_toggle": {
+    "message": "ஒவர்லே மாற்று"
+  },
+  "action_enable_captions": {
+    "message": "சப்டைட்டில்கள் இயக்கு"
+  },
+  "action_disable_captions": {
+    "message": "சப்டைட்டில்கள் அணை"
+  },
+  "langEnglish": {
+    "message": "ஆங்கிலம்",
+    "description": "மொழி முத்திரை: ஆங்கிலம்"
+  },
+  "langFrench": {
+    "message": "பிரெஞ்சு",
+    "description": "மொழி முத்திரை: பிரெஞ்சு"
+  },
+  "langSpanish": {
+    "message": "ஸ்பானிஷ்",
+    "description": "மொழி முத்திரை: ஸ்பானிஷ்"
+  },
+  "langPortuguese": {
+    "message": "போர்ச்சுகீஸ்",
+    "description": "மொழி முத்திரை: போர்ச்சுகீஸ்"
+  },
+  "langGerman": {
+    "message": "ஜெர்மன்",
+    "description": "மொழி முத்திரை: ஜெர்மன்"
+  },
+  "langItalian": {
+    "message": "இத்தாலியன்",
+    "description": "மொழி முத்திரை: இத்தாலியன்"
+  }
 }

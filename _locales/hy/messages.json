@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "Մատչելի վեբ խուլ և լսողության խնդիր ունեցող օգտատերերի համար։",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "Փոխարկել վերածածկը",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "Միացնել ենթագրերը",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "Անջատել ենթագրերը",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "անգլերեն",
+    "description": "Լեզվի պիտակ: անգլերեն"
+  },
+  "langFrench": {
+    "message": "ֆրանսերեն",
+    "description": "Լեզվի պիտակ: ֆրանսերեն"
+  },
+  "langSpanish": {
+    "message": "իսպաներեն",
+    "description": "Լեզվի պիտակ: իսպաներեն"
+  },
+  "langPortuguese": {
+    "message": "պորտուգալերեն",
+    "description": "Լեզվի պիտակ: պորտուգալերեն"
+  },
+  "langGerman": {
+    "message": "գերմաներեն",
+    "description": "Լեզվի պիտակ: գերմաներեն"
+  },
+  "langItalian": {
+    "message": "իտալերեն",
+    "description": "Լեզվի պիտակ: իտալերեն"
+  }
+}

@@ -1,8 +1,44 @@
 {
-  "appName": { "message": "SilentWeb" },
-  "shortName": { "message": "SilentWeb" },
-  "appDescription": { "message": "为聋人和听障人士提供的无障碍网络。" },
-  "action_toggle": { "message": "切换覆盖层" },
-  "action_enable_captions": { "message": "启用字幕" },
-  "action_disable_captions": { "message": "禁用字幕" }
+  "appName": {
+    "message": "SilentWeb"
+  },
+  "shortName": {
+    "message": "SilentWeb"
+  },
+  "appDescription": {
+    "message": "为聋人和听障人士提供的无障碍网络。"
+  },
+  "action_toggle": {
+    "message": "切换覆盖层"
+  },
+  "action_enable_captions": {
+    "message": "启用字幕"
+  },
+  "action_disable_captions": {
+    "message": "禁用字幕"
+  },
+  "langEnglish": {
+    "message": "英语",
+    "description": "语言标签: 英语"
+  },
+  "langFrench": {
+    "message": "法语",
+    "description": "语言标签: 法语"
+  },
+  "langSpanish": {
+    "message": "西班牙语",
+    "description": "语言标签: 西班牙语"
+  },
+  "langPortuguese": {
+    "message": "葡萄牙语",
+    "description": "语言标签: 葡萄牙语"
+  },
+  "langGerman": {
+    "message": "德语",
+    "description": "语言标签: 德语"
+  },
+  "langItalian": {
+    "message": "意大利语",
+    "description": "语言标签: 意大利语"
+  }
 }

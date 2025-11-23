@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "Web accessible per a usuaris sords i amb discapacitat auditiva.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "Mostra o amaga la barra de superposició",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "Activa els subtítols",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "Desactiva els subtítols",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "anglès",
+    "description": "Etiqueta de la llengua: anglès"
+  },
+  "langFrench": {
+    "message": "francès",
+    "description": "Etiqueta de la llengua: francès"
+  },
+  "langSpanish": {
+    "message": "espanyol",
+    "description": "Etiqueta de la llengua: espanyol"
+  },
+  "langPortuguese": {
+    "message": "portuguès",
+    "description": "Etiqueta de la llengua: portuguès"
+  },
+  "langGerman": {
+    "message": "alemany",
+    "description": "Etiqueta de la llengua: alemany"
+  },
+  "langItalian": {
+    "message": "italià",
+    "description": "Etiqueta de la llengua: italià"
+  }
+}

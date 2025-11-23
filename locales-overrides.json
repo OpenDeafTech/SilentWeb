@@ -1,0 +1,10 @@
+{
+  "labelPhrases": {
+    "default": "Language label"
+  },
+  "languages": {
+    "example": {
+      "langEnglish": "Example override"
+    }
+  }
+}

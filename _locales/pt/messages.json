@@ -1,8 +1,50 @@
 {
-  "appName": { "message": "SilentWeb", "description": "Nome da extensão" },
-  "shortName": { "message": "SilentWeb", "description": "Nome curto" },
-  "appDescription": { "message": "Web acessível para pessoas surdas e com deficiência auditiva.", "description": "Descrição" },
-  "action_toggle": { "message": "Alternar sobreposição", "description": "Rótulo do comando" },
-  "action_enable_captions": { "message": "Ativar legendas", "description": "Rótulo do comando" },
-  "action_disable_captions": { "message": "Desativar legendas", "description": "Rótulo do comando" }
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Nome da extensão"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Nome curto"
+  },
+  "appDescription": {
+    "message": "Web acessível para pessoas surdas e com deficiência auditiva.",
+    "description": "Descrição"
+  },
+  "action_toggle": {
+    "message": "Alternar sobreposição",
+    "description": "Rótulo do comando"
+  },
+  "action_enable_captions": {
+    "message": "Ativar legendas",
+    "description": "Rótulo do comando"
+  },
+  "action_disable_captions": {
+    "message": "Desativar legendas",
+    "description": "Rótulo do comando"
+  },
+  "langEnglish": {
+    "message": "inglês",
+    "description": "Etiqueta de idioma: inglês"
+  },
+  "langFrench": {
+    "message": "francês",
+    "description": "Etiqueta de idioma: francês"
+  },
+  "langSpanish": {
+    "message": "espanhol",
+    "description": "Etiqueta de idioma: espanhol"
+  },
+  "langPortuguese": {
+    "message": "português",
+    "description": "Etiqueta de idioma: português"
+  },
+  "langGerman": {
+    "message": "alemão",
+    "description": "Etiqueta de idioma: alemão"
+  },
+  "langItalian": {
+    "message": "italiano",
+    "description": "Etiqueta de idioma: italiano"
+  }
 }

@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "Ueb i aksesueshëm për përdoruesit e shurdhër dhe me dëgjim të dobët.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "Ndërro mbivendosjen",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "Aktivo titrat",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "Çaktivizo titrat",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "anglisht",
+    "description": "Etiketa gjuhësore: anglisht"
+  },
+  "langFrench": {
+    "message": "frëngjisht",
+    "description": "Etiketa gjuhësore: frëngjisht"
+  },
+  "langSpanish": {
+    "message": "spanjisht",
+    "description": "Etiketa gjuhësore: spanjisht"
+  },
+  "langPortuguese": {
+    "message": "portugalisht",
+    "description": "Etiketa gjuhësore: portugalisht"
+  },
+  "langGerman": {
+    "message": "gjermanisht",
+    "description": "Etiketa gjuhësore: gjermanisht"
+  },
+  "langItalian": {
+    "message": "italisht",
+    "description": "Etiketa gjuhësore: italisht"
+  }
+}

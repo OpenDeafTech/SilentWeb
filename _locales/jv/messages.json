@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "Web sing bisa diakses kanggo panganggo budheg lan kurang krungu.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "Ganti overlay",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "Aktifaké teks",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "Pateni teks",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "Inggris",
+    "description": "Label basa: Inggris"
+  },
+  "langFrench": {
+    "message": "Prancis",
+    "description": "Label basa: Prancis"
+  },
+  "langSpanish": {
+    "message": "Spanyol",
+    "description": "Label basa: Spanyol"
+  },
+  "langPortuguese": {
+    "message": "Portugis",
+    "description": "Label basa: Portugis"
+  },
+  "langGerman": {
+    "message": "Jérman",
+    "description": "Label basa: Jérman"
+  },
+  "langItalian": {
+    "message": "Italia",
+    "description": "Label basa: Italia"
+  }
+}

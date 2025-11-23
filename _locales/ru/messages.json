@@ -1,8 +1,50 @@
 {
-  "appName": { "message": "SilentWeb", "description": "Название расширения" },
-  "shortName": { "message": "SilentWeb", "description": "Короткое имя" },
-  "appDescription": { "message": "Доступная сеть для глухих и слабослышащих пользователей.", "description": "Описание" },
-  "action_toggle": { "message": "Показать/скрыть оверлей", "description": "Надпись команды" },
-  "action_enable_captions": { "message": "Включить субтитры", "description": "Надпись команды" },
-  "action_disable_captions": { "message": "Выключить субтитры", "description": "Надпись команды" }
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Название расширения"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Короткое имя"
+  },
+  "appDescription": {
+    "message": "Доступная сеть для глухих и слабослышащих пользователей.",
+    "description": "Описание"
+  },
+  "action_toggle": {
+    "message": "Показать/скрыть оверлей",
+    "description": "Надпись команды"
+  },
+  "action_enable_captions": {
+    "message": "Включить субтитры",
+    "description": "Надпись команды"
+  },
+  "action_disable_captions": {
+    "message": "Выключить субтитры",
+    "description": "Надпись команды"
+  },
+  "langEnglish": {
+    "message": "английский",
+    "description": "Языковая метка: английский"
+  },
+  "langFrench": {
+    "message": "французский",
+    "description": "Языковая метка: французский"
+  },
+  "langSpanish": {
+    "message": "испанский",
+    "description": "Языковая метка: испанский"
+  },
+  "langPortuguese": {
+    "message": "португальский",
+    "description": "Языковая метка: португальский"
+  },
+  "langGerman": {
+    "message": "немецкий",
+    "description": "Языковая метка: немецкий"
+  },
+  "langItalian": {
+    "message": "итальянский",
+    "description": "Языковая метка: итальянский"
+  }
 }

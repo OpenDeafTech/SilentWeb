@@ -1,8 +1,44 @@
 {
-  "appName": { "message": "SilentWeb" },
-  "shortName": { "message": "SilentWeb" },
-  "appDescription": { "message": "Доступна мережа для глухих та людей з порушеннями слуху." },
-  "action_toggle": { "message": "Перемкнути накладку" },
-  "action_enable_captions": { "message": "Увімкнути субтитри" },
-  "action_disable_captions": { "message": "Вимкнути субтитри" }
+  "appName": {
+    "message": "SilentWeb"
+  },
+  "shortName": {
+    "message": "SilentWeb"
+  },
+  "appDescription": {
+    "message": "Доступна мережа для глухих та людей з порушеннями слуху."
+  },
+  "action_toggle": {
+    "message": "Перемкнути накладку"
+  },
+  "action_enable_captions": {
+    "message": "Увімкнути субтитри"
+  },
+  "action_disable_captions": {
+    "message": "Вимкнути субтитри"
+  },
+  "langEnglish": {
+    "message": "англійська",
+    "description": "Мовна мітка: англійська"
+  },
+  "langFrench": {
+    "message": "французька",
+    "description": "Мовна мітка: французька"
+  },
+  "langSpanish": {
+    "message": "іспанська",
+    "description": "Мовна мітка: іспанська"
+  },
+  "langPortuguese": {
+    "message": "португальська",
+    "description": "Мовна мітка: португальська"
+  },
+  "langGerman": {
+    "message": "німецька",
+    "description": "Мовна мітка: німецька"
+  },
+  "langItalian": {
+    "message": "італійська",
+    "description": "Мовна мітка: італійська"
+  }
 }

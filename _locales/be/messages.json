@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "Даступны вэб для глухіх і слабачуючых карыстальнікаў.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "Пераключыць накладанне",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "Уключыць субтытры",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "Выключыць субтытры",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "англійская",
+    "description": "Моўны цэтлік: англійская"
+  },
+  "langFrench": {
+    "message": "французская",
+    "description": "Моўны цэтлік: французская"
+  },
+  "langSpanish": {
+    "message": "іспанская",
+    "description": "Моўны цэтлік: іспанская"
+  },
+  "langPortuguese": {
+    "message": "партугальская",
+    "description": "Моўны цэтлік: партугальская"
+  },
+  "langGerman": {
+    "message": "нямецкая",
+    "description": "Моўны цэтлік: нямецкая"
+  },
+  "langItalian": {
+    "message": "італьянская",
+    "description": "Моўны цэтлік: італьянская"
+  }
+}

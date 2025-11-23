@@ -1,8 +1,44 @@
 {
-  "appName": { "message": "SilentWeb" },
-  "shortName": { "message": "SilentWeb" },
-  "appDescription": { "message": "Akadálymentes web a siket és nagyothalló felhasználóknak." },
-  "action_toggle": { "message": "Átfedés váltása" },
-  "action_enable_captions": { "message": "Feliratok bekapcsolása" },
-  "action_disable_captions": { "message": "Feliratok kikapcsolása" }
+  "appName": {
+    "message": "SilentWeb"
+  },
+  "shortName": {
+    "message": "SilentWeb"
+  },
+  "appDescription": {
+    "message": "Akadálymentes web a siket és nagyothalló felhasználóknak."
+  },
+  "action_toggle": {
+    "message": "Átfedés váltása"
+  },
+  "action_enable_captions": {
+    "message": "Feliratok bekapcsolása"
+  },
+  "action_disable_captions": {
+    "message": "Feliratok kikapcsolása"
+  },
+  "langEnglish": {
+    "message": "angol",
+    "description": "Nyelvi címke: angol"
+  },
+  "langFrench": {
+    "message": "francia",
+    "description": "Nyelvi címke: francia"
+  },
+  "langSpanish": {
+    "message": "spanyol",
+    "description": "Nyelvi címke: spanyol"
+  },
+  "langPortuguese": {
+    "message": "portugál",
+    "description": "Nyelvi címke: portugál"
+  },
+  "langGerman": {
+    "message": "német",
+    "description": "Nyelvi címke: német"
+  },
+  "langItalian": {
+    "message": "olasz",
+    "description": "Nyelvi címke: olasz"
+  }
 }

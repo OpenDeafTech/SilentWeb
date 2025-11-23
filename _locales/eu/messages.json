@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "Erabiltzaile gorrentzako eta entzumen ez dutenentzako web irisgarria.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "Erakutsi edo ezkutatu gainjarri-barra",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "Gaitu azpitituluak",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "Desgaitu azpitituluak",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "ingelesa",
+    "description": "Hizkuntza etiketa: ingelesa"
+  },
+  "langFrench": {
+    "message": "frantsesa",
+    "description": "Hizkuntza etiketa: frantsesa"
+  },
+  "langSpanish": {
+    "message": "gaztelania",
+    "description": "Hizkuntza etiketa: gaztelania"
+  },
+  "langPortuguese": {
+    "message": "portugesa",
+    "description": "Hizkuntza etiketa: portugesa"
+  },
+  "langGerman": {
+    "message": "alemana",
+    "description": "Hizkuntza etiketa: alemana"
+  },
+  "langItalian": {
+    "message": "italiera",
+    "description": "Hizkuntza etiketa: italiera"
+  }
+}

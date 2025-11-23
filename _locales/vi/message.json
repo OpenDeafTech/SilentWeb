@@ -1,8 +1,44 @@
 {
-  "appName": { "message": "SilentWeb" },
-  "shortName": { "message": "SilentWeb" },
-  "appDescription": { "message": "Trang web dễ tiếp cận cho người khiếm thính." },
-  "action_toggle": { "message": "Bật/tắt lớp phủ" },
-  "action_enable_captions": { "message": "Bật phụ đề" },
-  "action_disable_captions": { "message": "Tắt phụ đề" }
+  "appName": {
+    "message": "SilentWeb"
+  },
+  "shortName": {
+    "message": "SilentWeb"
+  },
+  "appDescription": {
+    "message": "Trang web dễ tiếp cận cho người khiếm thính."
+  },
+  "action_toggle": {
+    "message": "Bật/tắt lớp phủ"
+  },
+  "action_enable_captions": {
+    "message": "Bật phụ đề"
+  },
+  "action_disable_captions": {
+    "message": "Tắt phụ đề"
+  },
+  "langEnglish": {
+    "message": "Tiếng Anh",
+    "description": "Nhãn ngôn ngữ: Tiếng Anh"
+  },
+  "langFrench": {
+    "message": "Tiếng Pháp",
+    "description": "Nhãn ngôn ngữ: Tiếng Pháp"
+  },
+  "langSpanish": {
+    "message": "Tiếng Tây Ban Nha",
+    "description": "Nhãn ngôn ngữ: Tiếng Tây Ban Nha"
+  },
+  "langPortuguese": {
+    "message": "Tiếng Bồ Đào Nha",
+    "description": "Nhãn ngôn ngữ: Tiếng Bồ Đào Nha"
+  },
+  "langGerman": {
+    "message": "Tiếng Đức",
+    "description": "Nhãn ngôn ngữ: Tiếng Đức"
+  },
+  "langItalian": {
+    "message": "Tiếng Italy",
+    "description": "Nhãn ngôn ngữ: Tiếng Italy"
+  }
 }

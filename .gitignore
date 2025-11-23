@@ -49,4 +49,4 @@ temp/
 .cache/
 node_modules/
 .pnpm-store/
-node_modules/
+translations/pipeline/*.pending.csv

@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "Accessible web for deaf and hard of hearing users.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "Toggle overlay",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "Enable captions",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "Disable captions",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "Ingles",
+    "description": "Label ng wika: Ingles"
+  },
+  "langFrench": {
+    "message": "French",
+    "description": "Label ng wika: French"
+  },
+  "langSpanish": {
+    "message": "Spanish",
+    "description": "Label ng wika: Spanish"
+  },
+  "langPortuguese": {
+    "message": "Portuguese",
+    "description": "Label ng wika: Portuguese"
+  },
+  "langGerman": {
+    "message": "German",
+    "description": "Label ng wika: German"
+  },
+  "langItalian": {
+    "message": "Italian",
+    "description": "Label ng wika: Italian"
+  }
+}

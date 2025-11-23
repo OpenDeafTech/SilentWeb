@@ -1,8 +1,44 @@
 {
-  "appName": { "message": "SilentWeb" },
-  "shortName": { "message": "SilentWeb" },
-  "appDescription": { "message": "Přístupný web pro neslyšící a nedoslýchavé uživatele." },
-  "action_toggle": { "message": "Přepnout překrytí" },
-  "action_enable_captions": { "message": "Zapnout titulky" },
-  "action_disable_captions": { "message": "Vypnout titulky" }
+  "appName": {
+    "message": "SilentWeb"
+  },
+  "shortName": {
+    "message": "SilentWeb"
+  },
+  "appDescription": {
+    "message": "Přístupný web pro neslyšící a nedoslýchavé uživatele."
+  },
+  "action_toggle": {
+    "message": "Přepnout překrytí"
+  },
+  "action_enable_captions": {
+    "message": "Zapnout titulky"
+  },
+  "action_disable_captions": {
+    "message": "Vypnout titulky"
+  },
+  "langEnglish": {
+    "message": "angličtina",
+    "description": "Jazykový štítek: angličtina"
+  },
+  "langFrench": {
+    "message": "francouzština",
+    "description": "Jazykový štítek: francouzština"
+  },
+  "langSpanish": {
+    "message": "španělština",
+    "description": "Jazykový štítek: španělština"
+  },
+  "langPortuguese": {
+    "message": "portugalština",
+    "description": "Jazykový štítek: portugalština"
+  },
+  "langGerman": {
+    "message": "němčina",
+    "description": "Jazykový štítek: němčina"
+  },
+  "langItalian": {
+    "message": "italština",
+    "description": "Jazykový štítek: italština"
+  }
 }

@@ -35,11 +35,17 @@ jobs:
       - name: Install deps
         run: pnpm install --frozen-lockfile
 
+      - name: Dependency audit
+        run: pnpm run audit:prod
+
       - name: Typecheck
         run: pnpm typecheck
 
       - name: Lint
         run: pnpm lint
+
+      - name: Locale validation & unit tests
+        run: pnpm run ci:test
 
       - name: Test
         run: pnpm -r test --if-present
@@ -65,3 +71,33 @@ jobs:
           path: packages/extension/web-ext-artifacts
           if-no-files-found: ignore
           retention-days: 7
+
+  e2e:
+    needs: build-test
+    runs-on: ubuntu-latest
+    env:
+      NODE_ENV: test
+      RUN_E2E: 'true'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Install deps
+        run: pnpm install --frozen-lockfile
+
+      - name: Install Playwright browsers
+        run: pnpm exec playwright install --with-deps chromium firefox
+
+      - name: Run Playwright E2E matrix
+        run: pnpm run test:e2e

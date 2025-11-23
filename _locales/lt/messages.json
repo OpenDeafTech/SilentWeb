@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "Prieinamas žiniatinklis kurtiesiems ir neprigirdintiems vartotojams.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "Rodyti arba slėpti perdangos juostą",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "Įgalinti subtitrus",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "Išjungti subtitrus",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "anglų",
+    "description": "Kalbos etiketė: anglų"
+  },
+  "langFrench": {
+    "message": "prancūzų",
+    "description": "Kalbos etiketė: prancūzų"
+  },
+  "langSpanish": {
+    "message": "ispanų",
+    "description": "Kalbos etiketė: ispanų"
+  },
+  "langPortuguese": {
+    "message": "portugalų",
+    "description": "Kalbos etiketė: portugalų"
+  },
+  "langGerman": {
+    "message": "vokiečių",
+    "description": "Kalbos etiketė: vokiečių"
+  },
+  "langItalian": {
+    "message": "italų",
+    "description": "Kalbos etiketė: italų"
+  }
+}

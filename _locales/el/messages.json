@@ -1,8 +1,50 @@
 {
-  "appName": { "message": "SilentWeb", "description": "Όνομα επέκτασης" },
-  "shortName": { "message": "SilentWeb", "description": "Σύντομο όνομα" },
-  "appDescription": { "message": "Προσβάσιμο διαδίκτυο για κωφούς και βαρήκοους χρήστες.", "description": "Περιγραφή" },
-  "action_toggle": { "message": "Εναλλαγή επικάλυψης", "description": "Ετικέτα εντολής" },
-  "action_enable_captions": { "message": "Ενεργοποίηση υποτίτλων", "description": "Ετικέτα εντολής" },
-  "action_disable_captions": { "message": "Απενεργοποίηση υποτίτλων", "description": "Ετικέτα εντολής" }
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Όνομα επέκτασης"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Σύντομο όνομα"
+  },
+  "appDescription": {
+    "message": "Προσβάσιμο διαδίκτυο για κωφούς και βαρήκοους χρήστες.",
+    "description": "Περιγραφή"
+  },
+  "action_toggle": {
+    "message": "Εναλλαγή επικάλυψης",
+    "description": "Ετικέτα εντολής"
+  },
+  "action_enable_captions": {
+    "message": "Ενεργοποίηση υποτίτλων",
+    "description": "Ετικέτα εντολής"
+  },
+  "action_disable_captions": {
+    "message": "Απενεργοποίηση υποτίτλων",
+    "description": "Ετικέτα εντολής"
+  },
+  "langEnglish": {
+    "message": "Αγγλικά",
+    "description": "Ετικέτα γλώσσας: Αγγλικά"
+  },
+  "langFrench": {
+    "message": "Γαλλικά",
+    "description": "Ετικέτα γλώσσας: Γαλλικά"
+  },
+  "langSpanish": {
+    "message": "Ισπανικά",
+    "description": "Ετικέτα γλώσσας: Ισπανικά"
+  },
+  "langPortuguese": {
+    "message": "Πορτογαλικά",
+    "description": "Ετικέτα γλώσσας: Πορτογαλικά"
+  },
+  "langGerman": {
+    "message": "Γερμανικά",
+    "description": "Ετικέτα γλώσσας: Γερμανικά"
+  },
+  "langItalian": {
+    "message": "Ιταλικά",
+    "description": "Ετικέτα γλώσσας: Ιταλικά"
+  }
 }

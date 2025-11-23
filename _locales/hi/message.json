@@ -1,8 +1,44 @@
 {
-  "appName": { "message": "SilentWeb" },
-  "shortName": { "message": "SilentWeb" },
-  "appDescription": { "message": "बधिर और श्रवण बाधित उपयोगकर्ताओं के लिए सुलभ वेब।" },
-  "action_toggle": { "message": "ओवरले टॉगल करें" },
-  "action_enable_captions": { "message": "उपशीर्षक सक्षम करें" },
-  "action_disable_captions": { "message": "उपशीर्षक अक्षम करें" }
+  "appName": {
+    "message": "SilentWeb"
+  },
+  "shortName": {
+    "message": "SilentWeb"
+  },
+  "appDescription": {
+    "message": "बधिर और श्रवण बाधित उपयोगकर्ताओं के लिए सुलभ वेब।"
+  },
+  "action_toggle": {
+    "message": "ओवरले टॉगल करें"
+  },
+  "action_enable_captions": {
+    "message": "उपशीर्षक सक्षम करें"
+  },
+  "action_disable_captions": {
+    "message": "उपशीर्षक अक्षम करें"
+  },
+  "langEnglish": {
+    "message": "अंग्रेज़ी",
+    "description": "भाषा लेबल: अंग्रेज़ी"
+  },
+  "langFrench": {
+    "message": "फ़्रेंच",
+    "description": "भाषा लेबल: फ़्रेंच"
+  },
+  "langSpanish": {
+    "message": "स्पेनिश",
+    "description": "भाषा लेबल: स्पेनिश"
+  },
+  "langPortuguese": {
+    "message": "पुर्तगाली",
+    "description": "भाषा लेबल: पुर्तगाली"
+  },
+  "langGerman": {
+    "message": "जर्मन",
+    "description": "भाषा लेबल: जर्मन"
+  },
+  "langItalian": {
+    "message": "इतालवी",
+    "description": "भाषा लेबल: इतालवी"
+  }
 }

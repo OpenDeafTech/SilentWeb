@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "Juurdepääsetav veeb kurtidele ja vaegkuuljatele.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "Ülekatteriba kuvamine või peitmine",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "Subtiitrite lubamine",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "Keela subtiitrid",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "inglise",
+    "description": "Keelemärgis: inglise"
+  },
+  "langFrench": {
+    "message": "prantsuse",
+    "description": "Keelemärgis: prantsuse"
+  },
+  "langSpanish": {
+    "message": "hispaania",
+    "description": "Keelemärgis: hispaania"
+  },
+  "langPortuguese": {
+    "message": "portugali",
+    "description": "Keelemärgis: portugali"
+  },
+  "langGerman": {
+    "message": "saksa",
+    "description": "Keelemärgis: saksa"
+  },
+  "langItalian": {
+    "message": "itaalia",
+    "description": "Keelemärgis: itaalia"
+  }
+}

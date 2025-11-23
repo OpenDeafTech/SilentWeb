@@ -1,8 +1,44 @@
 {
-  "appName": { "message": "SilentWeb" },
-  "shortName": { "message": "SilentWeb" },
-  "appDescription": { "message": "Sağır ve işitme engelli kullanıcılar için erişilebilir web." },
-  "action_toggle": { "message": "Yer paylaşımını aç/kapat" },
-  "action_enable_captions": { "message": "Altyazıları aç" },
-  "action_disable_captions": { "message": "Altyazıları kapat" }
+  "appName": {
+    "message": "SilentWeb"
+  },
+  "shortName": {
+    "message": "SilentWeb"
+  },
+  "appDescription": {
+    "message": "Sağır ve işitme engelli kullanıcılar için erişilebilir web."
+  },
+  "action_toggle": {
+    "message": "Yer paylaşımını aç/kapat"
+  },
+  "action_enable_captions": {
+    "message": "Altyazıları aç"
+  },
+  "action_disable_captions": {
+    "message": "Altyazıları kapat"
+  },
+  "langEnglish": {
+    "message": "İngilizce",
+    "description": "Dil etiketi: İngilizce"
+  },
+  "langFrench": {
+    "message": "Fransızca",
+    "description": "Dil etiketi: Fransızca"
+  },
+  "langSpanish": {
+    "message": "İspanyolca",
+    "description": "Dil etiketi: İspanyolca"
+  },
+  "langPortuguese": {
+    "message": "Portekizce",
+    "description": "Dil etiketi: Portekizce"
+  },
+  "langGerman": {
+    "message": "Almanca",
+    "description": "Dil etiketi: Almanca"
+  },
+  "langItalian": {
+    "message": "İtalyanca",
+    "description": "Dil etiketi: İtalyanca"
+  }
 }

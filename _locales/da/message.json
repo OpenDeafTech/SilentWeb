@@ -1,8 +1,44 @@
 {
-  "appName": { "message": "SilentWeb" },
-  "shortName": { "message": "SilentWeb" },
-  "appDescription": { "message": "Tilgængeligt web for døve og hørehæmmede." },
-  "action_toggle": { "message": "Skift overlay" },
-  "action_enable_captions": { "message": "Aktivér undertekster" },
-  "action_disable_captions": { "message": "Deaktivér undertekster" }
+  "appName": {
+    "message": "SilentWeb"
+  },
+  "shortName": {
+    "message": "SilentWeb"
+  },
+  "appDescription": {
+    "message": "Tilgængeligt web for døve og hørehæmmede."
+  },
+  "action_toggle": {
+    "message": "Skift overlay"
+  },
+  "action_enable_captions": {
+    "message": "Aktivér undertekster"
+  },
+  "action_disable_captions": {
+    "message": "Deaktivér undertekster"
+  },
+  "langEnglish": {
+    "message": "engelsk",
+    "description": "Sprogmærke: engelsk"
+  },
+  "langFrench": {
+    "message": "fransk",
+    "description": "Sprogmærke: fransk"
+  },
+  "langSpanish": {
+    "message": "spansk",
+    "description": "Sprogmærke: spansk"
+  },
+  "langPortuguese": {
+    "message": "portugisisk",
+    "description": "Sprogmærke: portugisisk"
+  },
+  "langGerman": {
+    "message": "tysk",
+    "description": "Sprogmærke: tysk"
+  },
+  "langItalian": {
+    "message": "italiensk",
+    "description": "Sprogmærke: italiensk"
+  }
 }

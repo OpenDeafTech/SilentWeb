@@ -1,8 +1,44 @@
 {
-  "appName": { "message": "SilentWeb" },
-  "shortName": { "message": "SilentWeb" },
-  "appDescription": { "message": "شبكة متاحة للصم وضعاف السمع." },
-  "action_toggle": { "message": "تبديل التراكب" },
-  "action_enable_captions": { "message": "تفعيل الترجمة" },
-  "action_disable_captions": { "message": "إيقاف الترجمة" }
+  "appName": {
+    "message": "SilentWeb"
+  },
+  "shortName": {
+    "message": "SilentWeb"
+  },
+  "appDescription": {
+    "message": "شبكة متاحة للصم وضعاف السمع."
+  },
+  "action_toggle": {
+    "message": "تبديل التراكب"
+  },
+  "action_enable_captions": {
+    "message": "تفعيل الترجمة"
+  },
+  "action_disable_captions": {
+    "message": "إيقاف الترجمة"
+  },
+  "langEnglish": {
+    "message": "الإنجليزية",
+    "description": "تسمية اللغة: الإنجليزية"
+  },
+  "langFrench": {
+    "message": "الفرنسية",
+    "description": "تسمية اللغة: الفرنسية"
+  },
+  "langSpanish": {
+    "message": "الإسبانية",
+    "description": "تسمية اللغة: الإسبانية"
+  },
+  "langPortuguese": {
+    "message": "البرتغالية",
+    "description": "تسمية اللغة: البرتغالية"
+  },
+  "langGerman": {
+    "message": "الألمانية",
+    "description": "تسمية اللغة: الألمانية"
+  },
+  "langItalian": {
+    "message": "الإيطالية",
+    "description": "تسمية اللغة: الإيطالية"
+  }
 }

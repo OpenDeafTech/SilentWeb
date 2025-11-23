@@ -1,7 +1,7 @@
 // packages/core/src/index.ts
 // SilentWeb Core — base commune : types, utils, audio, texte, async, events
 
-export const CORE_VERSION = "1.0.0";
+export const CORE_VERSION = "1.1.1";
 
 /* -------------------------------------------------------------------------- */
 /* Types globaux                                                              */
@@ -29,11 +29,24 @@ export interface AudioFrame {
 /* Utilitaires string/texte                                                    */
 /* -------------------------------------------------------------------------- */
 export function normalizeText(input: string): string {
-  return input
-    .trim()
-    .replace(/\s+/g, " ")
-    .replace(/[“”«»]/g, '"')
-    .replace(/[’]/g, "'");
+  if (!input) return "";
+
+  let normalized = input;
+  // Replace common Unicode whitespaces with ASCII spaces
+  normalized = normalized.replace(
+    /[\u00A0\u1680\u180E\u2000-\u200A\u202F\u205F\u3000]/g,
+    " "
+  );
+  // Normalize smart double quotes / guillemets
+  normalized = normalized
+    .replace(/[«»]/g, '"')
+    .replace(/[\u201C\u201D\u201E\u201F\u2033\u2036]/g, '"');
+  // Normalize smart single quotes / primes
+  normalized = normalized.replace(/[\u2018\u2019\u201A\u201B\u2032\u2035]/g, "'");
+  // Condense and trim
+  normalized = normalized.replace(/\s+/g, " ").trim();
+
+  return normalized;
 }
 
 export function capitalize(input: string): string {

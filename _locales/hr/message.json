@@ -1,8 +1,44 @@
 {
-  "appName": { "message": "SilentWeb" },
-  "shortName": { "message": "SilentWeb" },
-  "appDescription": { "message": "Pristupačan web za gluhe i nagluhe korisnike." },
-  "action_toggle": { "message": "Uključi/isključi sloj" },
-  "action_enable_captions": { "message": "Uključi titlove" },
-  "action_disable_captions": { "message": "Isključi titlove" }
+  "appName": {
+    "message": "SilentWeb"
+  },
+  "shortName": {
+    "message": "SilentWeb"
+  },
+  "appDescription": {
+    "message": "Pristupačan web za gluhe i nagluhe korisnike."
+  },
+  "action_toggle": {
+    "message": "Uključi/isključi sloj"
+  },
+  "action_enable_captions": {
+    "message": "Uključi titlove"
+  },
+  "action_disable_captions": {
+    "message": "Isključi titlove"
+  },
+  "langEnglish": {
+    "message": "engleski",
+    "description": "Oznaka jezika: engleski"
+  },
+  "langFrench": {
+    "message": "francuski",
+    "description": "Oznaka jezika: francuski"
+  },
+  "langSpanish": {
+    "message": "španjolski",
+    "description": "Oznaka jezika: španjolski"
+  },
+  "langPortuguese": {
+    "message": "portugalski",
+    "description": "Oznaka jezika: portugalski"
+  },
+  "langGerman": {
+    "message": "njemački",
+    "description": "Oznaka jezika: njemački"
+  },
+  "langItalian": {
+    "message": "talijanski",
+    "description": "Oznaka jezika: talijanski"
+  }
 }

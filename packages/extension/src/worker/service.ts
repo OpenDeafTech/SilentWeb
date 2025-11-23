@@ -1,5 +1,6 @@
 import browser from "webextension-polyfill";
 import { logInfo, logError } from "../utils/logger";
+import { startTelemetryTimer } from "../utils/telemetry";
 
 interface SilentWebMessage { type: string; [k: string]: unknown }
 type MessageSender = { tab?: { id?: number }; frameId?: number; url?: string; id?: string };
@@ -14,8 +15,17 @@ export function initWorker(): void {
         switch (msg.type) {
           case "ping":
             return { type: "pong" };
-          case "transcribe":
-            return { ok: true, text: "(stub) transcription en cours" };
+          case "transcribe": {
+            const stop = startTelemetryTimer("caption.duration");
+            try {
+              const result = { ok: true, text: "(stub) transcription en cours" };
+              stop({ status: "ok" });
+              return result;
+            } catch (error) {
+              stop({ status: "error" });
+              throw error;
+            }
+          }
           default:
             return { ok: false, error: "unknown-message-type" };
         }

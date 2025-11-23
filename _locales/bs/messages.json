@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "Pristupačan web za gluhe i nagluhe korisnike.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "Uključi/isključi sloj",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "Uključi titlove",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "Isključi titlove",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "engleski",
+    "description": "Oznaka jezika: engleski"
+  },
+  "langFrench": {
+    "message": "francuski",
+    "description": "Oznaka jezika: francuski"
+  },
+  "langSpanish": {
+    "message": "španski",
+    "description": "Oznaka jezika: španski"
+  },
+  "langPortuguese": {
+    "message": "portugalski",
+    "description": "Oznaka jezika: portugalski"
+  },
+  "langGerman": {
+    "message": "njemački",
+    "description": "Oznaka jezika: njemački"
+  },
+  "langItalian": {
+    "message": "italijanski",
+    "description": "Oznaka jezika: italijanski"
+  }
+}

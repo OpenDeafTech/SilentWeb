@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "Kar və eşitmə istifadəçiləri üçün əlçatan veb.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "Üstünlük çubuğunu göstərmək və ya gizlətmək",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "Altyazıları aktiv edin",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "Altyazıları deaktiv edin",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "ingilis",
+    "description": "Dil etiketi: ingilis"
+  },
+  "langFrench": {
+    "message": "fransız",
+    "description": "Dil etiketi: fransız"
+  },
+  "langSpanish": {
+    "message": "ispan",
+    "description": "Dil etiketi: ispan"
+  },
+  "langPortuguese": {
+    "message": "portuqal",
+    "description": "Dil etiketi: portuqal"
+  },
+  "langGerman": {
+    "message": "alman",
+    "description": "Dil etiketi: alman"
+  },
+  "langItalian": {
+    "message": "italyan",
+    "description": "Dil etiketi: italyan"
+  }
+}

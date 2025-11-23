@@ -1,8 +1,44 @@
 {
-  "appName": { "message": "SilentWeb" },
-  "shortName": { "message": "SilentWeb" },
-  "appDescription": { "message": "وب در دسترس برای ناشنوایان و کم‌شنوایان." },
-  "action_toggle": { "message": "تغییر نمایش لایه" },
-  "action_enable_captions": { "message": "فعال‌سازی زیرنویس" },
-  "action_disable_captions": { "message": "غیرفعال‌سازی زیرنویس" }
+  "appName": {
+    "message": "SilentWeb"
+  },
+  "shortName": {
+    "message": "SilentWeb"
+  },
+  "appDescription": {
+    "message": "وب در دسترس برای ناشنوایان و کم‌شنوایان."
+  },
+  "action_toggle": {
+    "message": "تغییر نمایش لایه"
+  },
+  "action_enable_captions": {
+    "message": "فعال‌سازی زیرنویس"
+  },
+  "action_disable_captions": {
+    "message": "غیرفعال‌سازی زیرنویس"
+  },
+  "langEnglish": {
+    "message": "انگلیسی",
+    "description": "برچسب زبان: انگلیسی"
+  },
+  "langFrench": {
+    "message": "فرانسوی",
+    "description": "برچسب زبان: فرانسوی"
+  },
+  "langSpanish": {
+    "message": "اسپانیایی",
+    "description": "برچسب زبان: اسپانیایی"
+  },
+  "langPortuguese": {
+    "message": "پرتغالی",
+    "description": "برچسب زبان: پرتغالی"
+  },
+  "langGerman": {
+    "message": "آلمانی",
+    "description": "برچسب زبان: آلمانی"
+  },
+  "langItalian": {
+    "message": "ایتالیایی",
+    "description": "برچسب زبان: ایتالیایی"
+  }
 }

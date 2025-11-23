@@ -1,0 +1,26 @@
+{
+  "referenceLocale": "en",
+  "defaultReviewer": "review@silentweb.app",
+  "locales": {
+    "en": {
+      "reviewer": "SilentWeb Core Team",
+      "notes": "Source of truth"
+    },
+    "fr": {
+      "reviewer": "Camille Dupont",
+      "notes": "Ton informel + inclusif"
+    },
+    "es": {
+      "reviewer": "Luis García"
+    },
+    "de": {
+      "reviewer": "Mara Vogel"
+    },
+    "pt": {
+      "reviewer": "Patrícia Rocha"
+    },
+    "it": {
+      "reviewer": "Giulia Ricci"
+    }
+  }
+}

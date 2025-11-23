@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "Aðgengilegur vefur fyrir heyrnarlausa og heyrnarskerta notendur.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "Víxla yfirlagi",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "Virkja texta",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "Slökkva á texta",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "enska",
+    "description": "Tungumálamerki: enska"
+  },
+  "langFrench": {
+    "message": "franska",
+    "description": "Tungumálamerki: franska"
+  },
+  "langSpanish": {
+    "message": "spænska",
+    "description": "Tungumálamerki: spænska"
+  },
+  "langPortuguese": {
+    "message": "portúgalska",
+    "description": "Tungumálamerki: portúgalska"
+  },
+  "langGerman": {
+    "message": "þýska",
+    "description": "Tungumálamerki: þýska"
+  },
+  "langItalian": {
+    "message": "ítalska",
+    "description": "Tungumálamerki: ítalska"
+  }
+}

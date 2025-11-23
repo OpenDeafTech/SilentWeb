@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "Pieejams tīmeklis nedzirdīgiem un vājdzirdīgiem lietotājiem.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "Rādīt vai paslēpt pārklājuma joslu",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "Iespējot subtitrus",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "Atspējot subtitrus",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "angļu",
+    "description": "Valodas etiķete: angļu"
+  },
+  "langFrench": {
+    "message": "franču",
+    "description": "Valodas etiķete: franču"
+  },
+  "langSpanish": {
+    "message": "spāņu",
+    "description": "Valodas etiķete: spāņu"
+  },
+  "langPortuguese": {
+    "message": "portugāļu",
+    "description": "Valodas etiķete: portugāļu"
+  },
+  "langGerman": {
+    "message": "vācu",
+    "description": "Valodas etiķete: vācu"
+  },
+  "langItalian": {
+    "message": "itāļu",
+    "description": "Valodas etiķete: itāļu"
+  }
+}

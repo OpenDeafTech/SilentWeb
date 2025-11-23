@@ -1,8 +1,44 @@
 {
-  "appName": { "message": "SilentWeb" },
-  "shortName": { "message": "SilentWeb" },
-  "appDescription": { "message": "بہرے اور کم سننے والے صارفین کے لیے قابل رسائی ویب۔" },
-  "action_toggle": { "message": "اوورلے ٹوگل کریں" },
-  "action_enable_captions": { "message": "کیپشن فعال کریں" },
-  "action_disable_captions": { "message": "کیپشن غیر فعال کریں" }
+  "appName": {
+    "message": "SilentWeb"
+  },
+  "shortName": {
+    "message": "SilentWeb"
+  },
+  "appDescription": {
+    "message": "بہرے اور کم سننے والے صارفین کے لیے قابل رسائی ویب۔"
+  },
+  "action_toggle": {
+    "message": "اوورلے ٹوگل کریں"
+  },
+  "action_enable_captions": {
+    "message": "کیپشن فعال کریں"
+  },
+  "action_disable_captions": {
+    "message": "کیپشن غیر فعال کریں"
+  },
+  "langEnglish": {
+    "message": "ইংরেজি",
+    "description": "ভাষার লেবেল: ইংরেজি"
+  },
+  "langFrench": {
+    "message": "ফরাসি",
+    "description": "ভাষার লেবেল: ফরাসি"
+  },
+  "langSpanish": {
+    "message": "স্প্যানিশ",
+    "description": "ভাষার লেবেল: স্প্যানিশ"
+  },
+  "langPortuguese": {
+    "message": "পর্তুগীজ",
+    "description": "ভাষার লেবেল: পর্তুগীজ"
+  },
+  "langGerman": {
+    "message": "জার্মান",
+    "description": "ভাষার লেবেল: জার্মান"
+  },
+  "langItalian": {
+    "message": "ইতালিয়",
+    "description": "ভাষার লেবেল: ইতালিয়"
+  }
 }

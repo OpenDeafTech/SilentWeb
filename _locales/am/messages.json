@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "መስማት ለተሳናቸው እና የመስማስ ተጠቃሚዎችን ለማግኘት ተደራሽ ድር.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "የተደራቢ አሞሌን አሳይ ወይም ደብቅ",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "ንዑስ ርዕሶችን ያንቁ",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "ንዑስ ርዕሶችን ያሰናክሉ",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "እንግሊዝኛ",
+    "description": "ቋንቋ መለያ: እንግሊዝኛ"
+  },
+  "langFrench": {
+    "message": "ፈረንሳይኛ",
+    "description": "ቋንቋ መለያ: ፈረንሳይኛ"
+  },
+  "langSpanish": {
+    "message": "ስፓኒሽ",
+    "description": "ቋንቋ መለያ: ስፓኒሽ"
+  },
+  "langPortuguese": {
+    "message": "ፖርቹጋልኛ",
+    "description": "ቋንቋ መለያ: ፖርቹጋልኛ"
+  },
+  "langGerman": {
+    "message": "ጀርመንኛ",
+    "description": "ቋንቋ መለያ: ጀርመንኛ"
+  },
+  "langItalian": {
+    "message": "ጣሊያንኛ",
+    "description": "ቋንቋ መለያ: ጣሊያንኛ"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "ხელმისაწვდომი ინტერნეტი ყრუ და სმენადაქვეითებული მომხმარებლებისთვის.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "გადაფარვის ზოლის ჩვენება ან დამალვა",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "სუბტიტრების ჩართვა",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "გამორთეთ სუბტიტრები",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "ინგლისური",
+    "description": "ენის ეტიკეტი: ინგლისური"
+  },
+  "langFrench": {
+    "message": "ფრანგული",
+    "description": "ენის ეტიკეტი: ფრანგული"
+  },
+  "langSpanish": {
+    "message": "ესპანური",
+    "description": "ენის ეტიკეტი: ესპანური"
+  },
+  "langPortuguese": {
+    "message": "პორტუგალიური",
+    "description": "ენის ეტიკეტი: პორტუგალიური"
+  },
+  "langGerman": {
+    "message": "გერმანული",
+    "description": "ენის ეტიკეტი: გერმანული"
+  },
+  "langItalian": {
+    "message": "იტალიური",
+    "description": "ენის ეტიკეტი: იტალიური"
+  }
+}

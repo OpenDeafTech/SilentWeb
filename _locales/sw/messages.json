@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "Wavuti inayoweza kufikiwa kwa watumiaji viziwi na wenye uziwi.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "Badilisha safu ya kuonyesha",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "Washa manukuu",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "Zima manukuu",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "Kiingereza",
+    "description": "Lebo ya lugha: Kiingereza"
+  },
+  "langFrench": {
+    "message": "Kifaransa",
+    "description": "Lebo ya lugha: Kifaransa"
+  },
+  "langSpanish": {
+    "message": "Kihispania",
+    "description": "Lebo ya lugha: Kihispania"
+  },
+  "langPortuguese": {
+    "message": "Kireno",
+    "description": "Lebo ya lugha: Kireno"
+  },
+  "langGerman": {
+    "message": "Kijerumani",
+    "description": "Lebo ya lugha: Kijerumani"
+  },
+  "langItalian": {
+    "message": "Kiitaliano",
+    "description": "Lebo ya lugha: Kiitaliano"
+  }
+}

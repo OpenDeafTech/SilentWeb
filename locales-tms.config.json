@@ -1,0 +1,20 @@
+{
+  "defaultProvider": "lokalise",
+  "providers": {
+    "lokalise": {
+      "label": "Lokalise",
+      "pullCommand": "pnpm exec lokalise2 file download --token \"$LOKALISE_TOKEN\" --project-id \"$LOKALISE_PROJECT\" --format json --original-filenames true --unzip-to _locales",
+      "notes": "Requires lokalise2 CLI + read-only API token"
+    },
+    "crowdin": {
+      "label": "Crowdin",
+      "pullCommand": "pnpm exec crowdin download --config crowdin.yml",
+      "notes": "relies on a read-only PAT"
+    },
+    "smartling": {
+      "label": "Smartling",
+      "pullCommand": "pnpm exec smartling files download --config smartling.yml",
+      "notes": "set SMARTLING_USER_IDENTIFIER + SMARTLING_USER_SECRET env vars"
+    }
+  }
+}

@@ -1,8 +1,50 @@
 {
-  "appName": { "message": "SilentWeb", "description": "Erweiterungsname" },
-  "shortName": { "message": "SilentWeb", "description": "Kurzname" },
-  "appDescription": { "message": "Barrierefreies Web für gehörlose und schwerhörige Nutzer.", "description": "Beschreibung" },
-  "action_toggle": { "message": "Overlay ein/aus", "description": "Befehl" },
-  "action_enable_captions": { "message": "Untertitel aktivieren", "description": "Befehl" },
-  "action_disable_captions": { "message": "Untertitel deaktivieren", "description": "Befehl" }
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Erweiterungsname"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Kurzname"
+  },
+  "appDescription": {
+    "message": "Barrierefreies Web für gehörlose und schwerhörige Nutzer.",
+    "description": "Beschreibung"
+  },
+  "action_toggle": {
+    "message": "Overlay ein/aus",
+    "description": "Befehl"
+  },
+  "action_enable_captions": {
+    "message": "Untertitel aktivieren",
+    "description": "Befehl"
+  },
+  "action_disable_captions": {
+    "message": "Untertitel deaktivieren",
+    "description": "Befehl"
+  },
+  "langEnglish": {
+    "message": "Englisch",
+    "description": "Sprachbezeichnung: Englisch"
+  },
+  "langFrench": {
+    "message": "Französisch",
+    "description": "Sprachbezeichnung: Französisch"
+  },
+  "langSpanish": {
+    "message": "Spanisch",
+    "description": "Sprachbezeichnung: Spanisch"
+  },
+  "langPortuguese": {
+    "message": "Portugiesisch",
+    "description": "Sprachbezeichnung: Portugiesisch"
+  },
+  "langGerman": {
+    "message": "Deutsch",
+    "description": "Sprachbezeichnung: Deutsch"
+  },
+  "langItalian": {
+    "message": "Italienisch",
+    "description": "Sprachbezeichnung: Italienisch"
+  }
 }

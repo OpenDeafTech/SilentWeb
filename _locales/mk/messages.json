@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "Пристапна веб за глуви и наглуви корисници.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "Прикажи или сокриј ја лентата за преклопување",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "Овозможете преводи",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "Оневозможи преводи",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "англиски",
+    "description": "Јазична ознака: англиски"
+  },
+  "langFrench": {
+    "message": "француски",
+    "description": "Јазична ознака: француски"
+  },
+  "langSpanish": {
+    "message": "шпански",
+    "description": "Јазична ознака: шпански"
+  },
+  "langPortuguese": {
+    "message": "португалски",
+    "description": "Јазична ознака: португалски"
+  },
+  "langGerman": {
+    "message": "германски",
+    "description": "Јазична ознака: германски"
+  },
+  "langItalian": {
+    "message": "италијански",
+    "description": "Јазична ознака: италијански"
+  }
+}

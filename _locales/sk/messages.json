@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "Prístupný web pre nepočujúcich a nedoslýchavých používateľov.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "Zobraziť alebo skryť panel prekrytia",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "Povoliť titulky",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "Zakázať titulky",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "angličtina",
+    "description": "Označenie jazyka: angličtina"
+  },
+  "langFrench": {
+    "message": "francúzština",
+    "description": "Označenie jazyka: francúzština"
+  },
+  "langSpanish": {
+    "message": "španielčina",
+    "description": "Označenie jazyka: španielčina"
+  },
+  "langPortuguese": {
+    "message": "portugalčina",
+    "description": "Označenie jazyka: portugalčina"
+  },
+  "langGerman": {
+    "message": "nemčina",
+    "description": "Označenie jazyka: nemčina"
+  },
+  "langItalian": {
+    "message": "taliančina",
+    "description": "Označenie jazyka: taliančina"
+  }
+}

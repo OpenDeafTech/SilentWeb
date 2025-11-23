@@ -1,8 +1,44 @@
 {
-  "appName": { "message": "SilentWeb" },
-  "shortName": { "message": "SilentWeb" },
-  "appDescription": { "message": "Достъпен уеб за глухи и хора с увреден слух." },
-  "action_toggle": { "message": "Превключи слоя" },
-  "action_enable_captions": { "message": "Включи субтитри" },
-  "action_disable_captions": { "message": "Изключи субтитри" }
+  "appName": {
+    "message": "SilentWeb"
+  },
+  "shortName": {
+    "message": "SilentWeb"
+  },
+  "appDescription": {
+    "message": "Достъпен уеб за глухи и хора с увреден слух."
+  },
+  "action_toggle": {
+    "message": "Превключи слоя"
+  },
+  "action_enable_captions": {
+    "message": "Включи субтитри"
+  },
+  "action_disable_captions": {
+    "message": "Изключи субтитри"
+  },
+  "langEnglish": {
+    "message": "английски",
+    "description": "Езиков етикет: английски"
+  },
+  "langFrench": {
+    "message": "френски",
+    "description": "Езиков етикет: френски"
+  },
+  "langSpanish": {
+    "message": "испански",
+    "description": "Езиков етикет: испански"
+  },
+  "langPortuguese": {
+    "message": "португалски",
+    "description": "Езиков етикет: португалски"
+  },
+  "langGerman": {
+    "message": "немски",
+    "description": "Езиков етикет: немски"
+  },
+  "langItalian": {
+    "message": "италиански",
+    "description": "Езиков етикет: италиански"
+  }
 }

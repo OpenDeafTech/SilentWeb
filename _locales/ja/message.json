@@ -1,8 +1,44 @@
 {
-  "appName": { "message": "SilentWeb" },
-  "shortName": { "message": "SilentWeb" },
-  "appDescription": { "message": "聴覚障害者のためのアクセシブルなウェブ。" },
-  "action_toggle": { "message": "オーバーレイ切替" },
-  "action_enable_captions": { "message": "字幕を有効にする" },
-  "action_disable_captions": { "message": "字幕を無効にする" }
+  "appName": {
+    "message": "SilentWeb"
+  },
+  "shortName": {
+    "message": "SilentWeb"
+  },
+  "appDescription": {
+    "message": "聴覚障害者のためのアクセシブルなウェブ。"
+  },
+  "action_toggle": {
+    "message": "オーバーレイ切替"
+  },
+  "action_enable_captions": {
+    "message": "字幕を有効にする"
+  },
+  "action_disable_captions": {
+    "message": "字幕を無効にする"
+  },
+  "langEnglish": {
+    "message": "英語",
+    "description": "言語ラベル: 英語"
+  },
+  "langFrench": {
+    "message": "フランス語",
+    "description": "言語ラベル: フランス語"
+  },
+  "langSpanish": {
+    "message": "スペイン語",
+    "description": "言語ラベル: スペイン語"
+  },
+  "langPortuguese": {
+    "message": "ポルトガル語",
+    "description": "言語ラベル: ポルトガル語"
+  },
+  "langGerman": {
+    "message": "ドイツ語",
+    "description": "言語ラベル: ドイツ語"
+  },
+  "langItalian": {
+    "message": "イタリア語",
+    "description": "言語ラベル: イタリア語"
+  }
 }

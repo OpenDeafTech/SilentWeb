@@ -21,6 +21,7 @@ import fs from "fs/promises";
 import path from "path";
 
 const isProd = process.env.NODE_ENV === "production";
+const telemetryFlag = process.env.ENABLE_TELEMETRY ?? "false";
 
 /* Map entry -> output path */
 function entryPath(name, { min = false } = {}) {
@@ -106,6 +107,7 @@ const baseConfig = {
     replace({
       preventAssignment: true,
       "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV ?? "development"),
+      __ENABLE_TELEMETRY__: JSON.stringify(telemetryFlag),
     }),
     typescript({ tsconfig: "./tsconfig.json" }),
     css({ output: "styles.css" }),
@@ -143,6 +145,7 @@ const minConfig = {
     replace({
       preventAssignment: true,
       "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV ?? "production"),
+      __ENABLE_TELEMETRY__: JSON.stringify(telemetryFlag),
     }),
     typescript({ tsconfig: "./tsconfig.json" }),
     terser(),

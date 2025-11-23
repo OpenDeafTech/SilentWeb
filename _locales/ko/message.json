@@ -1,8 +1,44 @@
 {
-  "appName": { "message": "SilentWeb" },
-  "shortName": { "message": "SilentWeb" },
-  "appDescription": { "message": "청각장애인과 난청인을 위한 접근 가능한 웹." },
-  "action_toggle": { "message": "오버레이 전환" },
-  "action_enable_captions": { "message": "자막 켜기" },
-  "action_disable_captions": { "message": "자막 끄기" }
+  "appName": {
+    "message": "SilentWeb"
+  },
+  "shortName": {
+    "message": "SilentWeb"
+  },
+  "appDescription": {
+    "message": "청각장애인과 난청인을 위한 접근 가능한 웹."
+  },
+  "action_toggle": {
+    "message": "오버레이 전환"
+  },
+  "action_enable_captions": {
+    "message": "자막 켜기"
+  },
+  "action_disable_captions": {
+    "message": "자막 끄기"
+  },
+  "langEnglish": {
+    "message": "영어",
+    "description": "언어 라벨: 영어"
+  },
+  "langFrench": {
+    "message": "프랑스어",
+    "description": "언어 라벨: 프랑스어"
+  },
+  "langSpanish": {
+    "message": "스페인어",
+    "description": "언어 라벨: 스페인어"
+  },
+  "langPortuguese": {
+    "message": "포르투갈어",
+    "description": "언어 라벨: 포르투갈어"
+  },
+  "langGerman": {
+    "message": "독일어",
+    "description": "언어 라벨: 독일어"
+  },
+  "langItalian": {
+    "message": "이탈리아어",
+    "description": "언어 라벨: 이탈리아어"
+  }
 }

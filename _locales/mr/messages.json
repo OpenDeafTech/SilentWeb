@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "कर्णबधिर आणि श्रवणक्षम वापरकर्त्यांसाठी प्रवेशयोग्य वेब.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "आच्छादन बार दर्शवा किंवा लपवा",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "उपशीर्षके सक्षम करा",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "उपशीर्षके अक्षम करा",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "इंग्रजी",
+    "description": "भाषा लेबल: इंग्रजी"
+  },
+  "langFrench": {
+    "message": "फ्रेंच",
+    "description": "भाषा लेबल: फ्रेंच"
+  },
+  "langSpanish": {
+    "message": "स्पॅनिश",
+    "description": "भाषा लेबल: स्पॅनिश"
+  },
+  "langPortuguese": {
+    "message": "पोर्तुगीज",
+    "description": "भाषा लेबल: पोर्तुगीज"
+  },
+  "langGerman": {
+    "message": "जर्मन",
+    "description": "भाषा लेबल: जर्मन"
+  },
+  "langItalian": {
+    "message": "इटालियन",
+    "description": "भाषा लेबल: इटालियन"
+  }
+}

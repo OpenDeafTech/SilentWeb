@@ -1,0 +1,50 @@
+{
+  "appName": {
+    "message": "SilentWeb",
+    "description": "Extension name"
+  },
+  "shortName": {
+    "message": "SilentWeb",
+    "description": "Short name"
+  },
+  "appDescription": {
+    "message": "చెవిటి మరియు వినికిడి లోపం ఉన్న వినియోగదారుల కోసం అందుబాటులో ఉండే వెబ్.",
+    "description": "Extension description"
+  },
+  "action_toggle": {
+    "message": "ఓవర్లే మార్చు",
+    "description": "Command label"
+  },
+  "action_enable_captions": {
+    "message": "సబ్‌టైటిల్స్ ఆన్ చేయి",
+    "description": "Command label"
+  },
+  "action_disable_captions": {
+    "message": "సబ్‌టైటిల్స్ ఆఫ్ చేయి",
+    "description": "Command label"
+  },
+  "langEnglish": {
+    "message": "ఇంగ్లీష్",
+    "description": "భాషా లేబుల్: ఇంగ్లీష్"
+  },
+  "langFrench": {
+    "message": "ఫ్రెంచ్",
+    "description": "భాషా లేబుల్: ఫ్రెంచ్"
+  },
+  "langSpanish": {
+    "message": "స్పానిష్",
+    "description": "భాషా లేబుల్: స్పానిష్"
+  },
+  "langPortuguese": {
+    "message": "పోర్చుగీస్",
+    "description": "భాషా లేబుల్: పోర్చుగీస్"
+  },
+  "langGerman": {
+    "message": "జర్మన్",
+    "description": "భాషా లేబుల్: జర్మన్"
+  },
+  "langItalian": {
+    "message": "ఇటాలియన్",
+    "description": "భాషా లేబుల్: ఇటాలియన్"
+  }
+}
