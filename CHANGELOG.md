@@ -3,12 +3,21 @@
 Tous les changements notables de SilentWeb seront documentés ici.
 Ce fichier suit librement le format "Keep a Changelog" et s'appuie sur le versionnement sémantique.
 
-## [Unreleased]
-
-## [1.4.5] - 2025-12-12
+## [1.4.6] - 2025-12-12
 
 ### Fixed
 
+- Le build copie désormais automatiquement `public/` (manifest, icônes) et les dépendances `opus-recorder` vers `dist/`, crée les entrées `icon-48.png`/`icon-128.png` attendues par le manifest et pointe ce dernier sur les fichiers minifiés réellement générés. Le paquet obtenu peut être chargé tel quel dans Google Chrome sans manipulations manuelles.
+
+## [1.4.5] - 2025-12-12
+
+### Added
+
+- Compatibilité 100 % Google Chrome : l’extension est désormais buildée/testée sur Chromium (Playwright) et peut être empaquetée pour le Chrome Web Store sans modification supplémentaire.
+
+### Fixed
+
+- Les workflows GitHub (`ci.yml`, `perf.yml`, `release.yml`) passent désormais `package_json_path: package.json` à `pnpm/action-setup@v4` pour que l’action récupère automatiquement la version définie dans `packageManager` sans divergence.
 - Les workflows GitHub (`ci.yml`, `perf.yml`, `release.yml`) ne forcent plus `pnpm@9` côté action `pnpm/action-setup@v4`, ce qui supprime l’erreur “Multiple versions of pnpm specified” apparue lors de l’installation (le runner lit désormais uniquement `packageManager: pnpm@9.12.0`).
 - Le pipeline de release retrouve un comportement déterministe : l’auto-installer pnpm n’est plus redéclenché avec une version incohérente, ce qui évite les échecs précoces et garantit l’exécution de `pnpm install --frozen-lockfile`.
 

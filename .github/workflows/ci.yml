@@ -23,6 +23,8 @@ jobs:
 
       - name: Setup PNPM
         uses: pnpm/action-setup@v4
+        with:
+          package_json_path: package.json
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -82,6 +84,8 @@ jobs:
 
       - name: Setup PNPM
         uses: pnpm/action-setup@v4
+        with:
+          package_json_path: package.json
 
       - name: Setup Node
         uses: actions/setup-node@v4
