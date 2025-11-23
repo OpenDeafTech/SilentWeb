@@ -1,6 +1,6 @@
 # Modèles de revue sécurité
 
-Ces exemples servent de référence rapide pendant les revues afin de comparer les changements proposés à une configuration 1.1.1 considérée comme sûre.
+Ces exemples servent de référence rapide pendant les revues afin de comparer les changements proposés à une configuration 1.4.2 considérée comme sûre.
 
 ## Exemple de diff `manifest.json`
 

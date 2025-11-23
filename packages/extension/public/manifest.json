@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "SilentWeb",
-  "version": "1.0.0",
+  "version": "1.4.2",
   "action": { "default_title": "SilentWeb" },
   "background": { "scripts": ["js/background.js"] },
   "content_scripts": [

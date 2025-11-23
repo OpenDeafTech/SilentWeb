@@ -6,10 +6,25 @@ Bienvenue sur la documentation officielle du projet SilentWeb. Cette section est
 SilentWeb est une extension Firefox open-source qui génère des sous-titres enrichis, des transcriptions locales et des alertes visuelles afin de faciliter la navigation des personnes sourdes ou malentendantes. L’intégralité du traitement est réalisée en local pour respecter la vie privée.
 
 ## Navigation
-- [Guide très simple (1.1.1)](guide-simple.md)
-- [Prise en main](getting-started.md)
-- [Architecture et composants](architecture.md)
-- [Contribution](contributing.md)
+- **Guides essentiels**
+  - [Guide très simple (1.4.2)](guide-simple.md) — installation manuelle pas-à-pas et premiers tests.
+  - [Prise en main](getting-started.md) — configuration PNPM, scripts et commandes quotidiennes.
+  - [Contribution](contributing.md) — conventions, checklists QA et attentes pour les PR.
+
+- **Référence & architecture**
+  - [Architecture & composants](architecture.md) — panorama du monorepo, flux messaging et bus.
+  - [Arborescence commentée](/arborescence.md) — aperçu rapide des dossiers clés.
+  - [Playbook sécurité](security-templates.md) — manifest, CSP et bonnes pratiques pour reviewer.
+
+- **Localisation & contenus**
+  - [Playbook traduction](translation-playbook.md) — pipeline CSV, prompts LLM et QA linguistique.
+  - [Guide simple des traductions](guide-simple.md) — rappeler les étapes manuelles.
+  - Scripts `locales:*` (`scripts/locales-pipeline.mjs`, `scripts/locales-sync.mjs`, etc.) — décrits dans `translation-playbook.md`.
+
+- **Qualité, publication & outils**
+  - [Release pipeline](/.github/workflows/release.yml) — étapes de build/signature.
+  - Guide E2E (`tests/e2e/**`, [playwright.config.ts](/playwright.config.ts)) — Playwright, fixtures média et astuce `serve:e2e`.
+  - [Web-ext config](/web-ext.config.js) — options de lancement Firefox/Chromium.
 
 ## Fonctionnalités principales
 - Transcription en temps réel (audio + OCR selon le contexte de la page)

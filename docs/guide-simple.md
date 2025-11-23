@@ -1,4 +1,4 @@
-# SilentWeb 1.1.1 — Guide très simple
+# SilentWeb 1.4.2 — Guide très simple
 
 Ce document explique SilentWeb avec des mots du quotidien. Il peut être lu par toute personne, même sans connaissance informatique. Prenez le temps de suivre chaque étape tranquillement.
 
@@ -11,10 +11,10 @@ Ce document explique SilentWeb avec des mots du quotidien. Il peut être lu par 
 ## 2. Ce qu’il faut avant de commencer
 1. Un ordinateur avec Firefox (version récente).
 2. Une connexion Internet pour télécharger l’extension.
-3. Le fichier "SilentWeb 1.1.1" disponible sur la page « Releases » de GitHub ou fourni par votre association.
+3. Le fichier "SilentWeb 1.4.2" disponible sur la page « Releases » de GitHub ou fourni par votre association.
 
 ## 3. Installer pas à pas
-1. Téléchargez l’archive `silentweb-1.1.1.zip` depuis la page de publication.
+1. Téléchargez l’archive `silentweb-1.4.2.zip` depuis la page de publication.
 2. Dézippez le fichier si nécessaire : vous obtenez un dossier `SilentWeb`.
 3. Ouvrez Firefox et tapez `about:debugging#/runtime/this-firefox` dans la barre d’adresse.
 4. Cliquez sur **« Charger un module complémentaire temporaire »** puis choisissez le fichier `manifest.json` à l’intérieur du dossier `SilentWeb`.
@@ -42,7 +42,7 @@ Vous pouvez continuer à naviguer normalement. SilentWeb ne modifie pas vos mots
 - Pour demander de l’aide humaine, ouvrez l’onglet « Issues » sur GitHub et décrivez la situation avec vos mots.
 
 ## 7. Rappel pour tous
-- SilentWeb 1.1.1 est un premier pas. Les futures versions seront encore plus simples.
+- SilentWeb 1.4.2 est un premier pas. Les futures versions seront encore plus simples.
 - Vous pouvez partager ce guide avec toute personne ayant besoin de sous-titres rapides.
 - Merci de soutenir ce projet libre pensé pour tous les âges.
 

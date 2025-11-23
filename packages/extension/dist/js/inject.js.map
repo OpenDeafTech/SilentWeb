@@ -1,1 +1,0 @@
-{"version":3,"file":"inject.js","sources":["../../src/content/inject.ts"],"sourcesContent":["import { logInfo } from \"./utils/logger\";\nlogInfo(\"inject loaded\");\n"],"names":["logInfo"],"mappings":"yCACAA,EAAQ"}

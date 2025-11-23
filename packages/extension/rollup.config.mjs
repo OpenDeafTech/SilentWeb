@@ -13,7 +13,7 @@ import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import replace from "@rollup/plugin-replace";
 import typescript from "@rollup/plugin-typescript";
-import { terser } from "rollup-plugin-terser";
+import terser from "@rollup/plugin-terser";
 import copy from "rollup-plugin-copy";
 import css from "rollup-plugin-css-only";
 import cssnano from "cssnano";
@@ -22,6 +22,17 @@ import path from "path";
 
 const isProd = process.env.NODE_ENV === "production";
 const telemetryFlag = process.env.ENABLE_TELEMETRY ?? "false";
+
+function createTsPlugin() {
+  return typescript({
+    tsconfig: "./tsconfig.json",
+    compilerOptions: {
+      sourceMap: !isProd,
+      declaration: false,
+      declarationMap: false,
+    },
+  });
+}
 
 /* Map entry -> output path */
 function entryPath(name, { min = false } = {}) {
@@ -109,7 +120,7 @@ const baseConfig = {
       "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV ?? "development"),
       __ENABLE_TELEMETRY__: JSON.stringify(telemetryFlag),
     }),
-    typescript({ tsconfig: "./tsconfig.json" }),
+    createTsPlugin(),
     css({ output: "styles.css" }),
     minifyCssCopy({ src: "dist/styles.css", dest: "dist/styles.min.css" }),
     buildOverlayMinCss({
@@ -147,7 +158,7 @@ const minConfig = {
       "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV ?? "production"),
       __ENABLE_TELEMETRY__: JSON.stringify(telemetryFlag),
     }),
-    typescript({ tsconfig: "./tsconfig.json" }),
+    createTsPlugin(),
     terser(),
   ],
   treeshake: true,

@@ -1,6 +1,6 @@
 # Modèles de revue sécurité
 
-Ces exemples servent de référence rapide pendant les revues afin de comparer les changements proposés à une configuration 1.1.1 considérée comme sûre.
+Ces exemples servent de référence rapide pendant les revues afin de comparer les changements proposés à une configuration 1.4.2 considérée comme sûre.
 
 ## Exemple de diff `manifest.json`
 
@@ -38,6 +38,7 @@ Ajoutez ou validez cette section dans `manifest.json` (Manifest V3) :
 Pour les scripts injectés côté page, appliquez la même politique via les en-têtes HTTP si vous servez vos propres pages (ex. tests, démos). Aucune ressource distante (`https://cdn.example.com`) ne doit être ajoutée sans justification.
 
 ## Points à vérifier
+
 - Les permissions supprimées restent supprimées après rebase.
 - Les nouvelles permissions ou origines sont listées dans la PR.
 - Le CSP ne contient pas de `unsafe-eval` ou `data:` non nécessaires.

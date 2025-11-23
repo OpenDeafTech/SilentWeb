@@ -1,7 +1,7 @@
 // packages/core/src/index.ts
 // SilentWeb Core — base commune : types, utils, audio, texte, async, events
 
-export const CORE_VERSION = "1.1.1";
+export const CORE_VERSION = "1.4.2";
 
 /* -------------------------------------------------------------------------- */
 /* Types globaux                                                              */
@@ -33,10 +33,7 @@ export function normalizeText(input: string): string {
 
   let normalized = input;
   // Replace common Unicode whitespaces with ASCII spaces
-  normalized = normalized.replace(
-    /[\u00A0\u1680\u180E\u2000-\u200A\u202F\u205F\u3000]/g,
-    " "
-  );
+  normalized = normalized.replace(/[\u00A0\u1680\u180E\u2000-\u200A\u202F\u205F\u3000]/g, " ");
   // Normalize smart double quotes / guillemets
   normalized = normalized
     .replace(/[«»]/g, '"')
@@ -54,7 +51,10 @@ export function capitalize(input: string): string {
 }
 
 export function splitSentences(text: string): string[] {
-  return text.split(/(?<=[.?!])\s+/).map((s) => s.trim()).filter(Boolean);
+  return text
+    .split(/(?<=[.?!])\s+/)
+    .map((s) => s.trim())
+    .filter(Boolean);
 }
 
 /* -------------------------------------------------------------------------- */
@@ -151,10 +151,7 @@ export function normalizePCM(input: Float32Array): Float32Array {
   return out;
 }
 
-export function downsamplePCM(
-  frame: AudioFrame,
-  targetRate: number
-): AudioFrame {
+export function downsamplePCM(frame: AudioFrame, targetRate: number): AudioFrame {
   const ratio = frame.sampleRate / targetRate;
   if (ratio <= 1) return frame;
   const newLength = Math.floor(frame.pcm.length / ratio);

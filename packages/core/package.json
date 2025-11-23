@@ -1,6 +1,6 @@
 {
   "name": "@silentweb/core",
-  "version": "1.1.1",
+  "version": "1.4.2",
   "description": "SilentWeb Core library — types, utils, audio helpers, text processing, async tools.",
   "type": "module",
   "private": true,
@@ -14,8 +14,16 @@
     "test:watch": "vitest",
     "lint": "eslint src --ext .ts"
   },
-  "files": ["dist"],
-  "keywords": ["silentweb","core","utils","typescript","webextension"],
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "silentweb",
+    "core",
+    "utils",
+    "typescript",
+    "webextension"
+  ],
   "author": "SilentWeb Contributors",
   "license": "MIT",
   "devDependencies": {

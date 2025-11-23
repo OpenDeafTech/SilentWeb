@@ -1,1 +1,0 @@
-{"version":3,"file":"sw.js","sources":["../../src/worker/sw.ts"],"sourcesContent":["self.addEventListener(\"install\", () => { console.debug(\"[SilentWeb] service worker installed\"); });\n"],"names":["self","addEventListener","console","debug"],"mappings":"AAAAA,KAAKC,iBAAiB,UAAW,KAAQC,QAAQC,MAAM"}
