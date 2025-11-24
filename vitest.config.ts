@@ -4,6 +4,7 @@ import { defineConfig, configDefaults } from "vitest/config";
 export default defineConfig({
   test: {
     environment: "jsdom",
+    environmentMatchGlobs: [["tests/unit/locales.snap.spec.*", "node"]],
     setupFiles: ["tests/setup.js"],
     globals: true,
     exclude: [...configDefaults.exclude, "tests/e2e/**", "tests/perf/**"],
