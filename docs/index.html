@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SilentWeb — Documentation</title>
+    <style>
+      :root {
+        --bg: #0c1424;
+        --panel: #0f1d33;
+        --card: #152743;
+        --accent: #4fe3c1;
+        --accent-2: #7fb4ff;
+        --text: #e9f1ff;
+        --muted: #b6c6e0;
+        --border: rgba(255, 255, 255, 0.08);
+        --shadow: 0 20px 80px rgba(0, 0, 0, 0.35);
+        --radius: 16px;
+        --font-sans: "Manrope", "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+        --max-w: 1080px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: var(--font-sans);
+        background: radial-gradient(1200px at 20% 20%, rgba(79, 227, 193, 0.08), transparent),
+          radial-gradient(1400px at 80% 30%, rgba(127, 180, 255, 0.06), transparent), var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+
+      header {
+        padding: 48px 28px 32px;
+        border-bottom: 1px solid var(--border);
+        background: linear-gradient(135deg, rgba(79, 227, 193, 0.08), rgba(127, 180, 255, 0.05));
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        backdrop-filter: blur(8px);
+      }
+
+      .hero {
+        max-width: var(--max-w);
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .title {
+        font-size: clamp(28px, 4vw, 38px);
+        margin: 0;
+        letter-spacing: -0.02em;
+      }
+
+      .subtitle {
+        margin: 0;
+        color: var(--muted);
+        font-size: 17px;
+      }
+
+      nav {
+        margin-top: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+
+      .pill {
+        padding: 10px 14px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        color: var(--text);
+        font-weight: 600;
+        letter-spacing: 0.01em;
+        transition: border-color 150ms ease, transform 150ms ease;
+      }
+      .pill:hover {
+        border-color: rgba(79, 227, 193, 0.7);
+        transform: translateY(-1px);
+        text-decoration: none;
+      }
+
+      main {
+        max-width: var(--max-w);
+        padding: 36px 28px 64px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+      }
+
+      section {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 24px;
+        box-shadow: var(--shadow);
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        font-size: 22px;
+        letter-spacing: -0.01em;
+      }
+
+      h3 {
+        margin: 18px 0 10px;
+        font-size: 18px;
+      }
+
+      p {
+        margin: 0 0 12px;
+        color: var(--muted);
+      }
+
+      ul {
+        margin: 0 0 12px 18px;
+        padding: 0;
+        color: var(--muted);
+      }
+      li + li {
+        margin-top: 6px;
+      }
+
+      code {
+        background: rgba(255, 255, 255, 0.07);
+        padding: 2px 6px;
+        border-radius: 6px;
+        font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+        color: var(--text);
+      }
+
+      pre {
+        background: var(--card);
+        border-radius: 12px;
+        padding: 12px 14px;
+        overflow: auto;
+        border: 1px solid var(--border);
+      }
+
+      .grid {
+        display: grid;
+        gap: 12px;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      }
+
+      .card {
+        padding: 16px;
+        border-radius: 12px;
+        border: 1px solid var(--border);
+        background: var(--card);
+        transition: border-color 150ms ease, transform 150ms ease;
+      }
+
+      .card:hover {
+        border-color: rgba(127, 180, 255, 0.7);
+        transform: translateY(-2px);
+      }
+
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 6px 10px;
+        background: rgba(79, 227, 193, 0.12);
+        color: var(--text);
+        border: 1px solid rgba(79, 227, 193, 0.35);
+        border-radius: 999px;
+        font-size: 13px;
+        font-weight: 600;
+      }
+
+      .faq dt {
+        font-weight: 700;
+        margin-bottom: 4px;
+      }
+      .faq dd {
+        margin: 0 0 12px 0;
+        color: var(--muted);
+      }
+
+      footer {
+        max-width: var(--max-w);
+        margin: 0 auto 32px;
+        padding: 0 28px;
+        color: var(--muted);
+      }
+
+      @media (max-width: 600px) {
+        header {
+          padding: 32px 20px 24px;
+        }
+        main {
+          padding: 24px 20px 48px;
+        }
+        nav {
+          gap: 8px;
+        }
+        .pill {
+          padding: 9px 12px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="hero">
+        <div class="badge">SilentWeb • Docs</div>
+        <h1 class="title">Documentation centrale</h1>
+        <p class="subtitle">
+          Installation, usage, contribution, traduction et sécurité — tout au même endroit pour l’extension
+          SilentWeb.
+        </p>
+        <nav aria-label="Navigation rapide">
+          <a class="pill" href="#installer">Installer</a>
+          <a class="pill" href="#utiliser">Utiliser</a>
+          <a class="pill" href="#tutoriel">Tutoriel</a>
+          <a class="pill" href="#reglages">Réglages</a>
+          <a class="pill" href="#raccourcis">Raccourcis</a>
+          <a class="pill" href="#features">Fonctionnalités</a>
+          <a class="pill" href="#privee">Vie privée</a>
+          <a class="pill" href="#contribuer">Contribuer</a>
+          <a class="pill" href="#traduire">Traduire</a>
+          <a class="pill" href="#architecture">Architecture</a>
+          <a class="pill" href="#securite">Sécurité</a>
+          <a class="pill" href="#support">Support</a>
+          <a class="pill" href="#ressources">Ressources</a>
+          <a class="pill" href="#faq">FAQ</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="apercu">
+        <h2>Aperçu rapide</h2>
+        <p>
+          SilentWeb est une extension Firefox/Chrome open-source qui affiche des sous-titres enrichis, génère des
+          transcriptions locales et déclenche des alertes visuelles. Tout le traitement reste sur votre machine pour
+          préserver la vie privée et fonctionner hors ligne.
+        </p>
+        <div class="grid" aria-label="Liens clés">
+          <a class="card" href="https://github.com/OpenDeafTech/SilentWeb" target="_blank" rel="noreferrer">
+            <strong>Dépôt GitHub</strong><br />
+            Code source, issues et releases.
+          </a>
+          <a class="card" href="https://github.com/OpenDeafTech/SilentWeb/releases" target="_blank" rel="noreferrer">
+            <strong>Releases</strong><br />
+            Paquets zip prêts à charger.
+          </a>
+          <a class="card" href="roadmap">
+            <strong>Roadmap & Vision</strong><br />
+            Priorités, jalons et ambitions.
+          </a>
+          <a class="card" href="locales-status">
+            <strong>Locales</strong><br />
+            Statut des traductions et priorités.
+          </a>
+          <a class="card" href="../LICENSE">
+            <strong>Licence MIT</strong><br />
+            Conditions d’utilisation du projet.
+          </a>
+        </div>
+      </section>
+
+      <section id="installer">
+        <h2>Installer SilentWeb</h2>
+        <h3>Prérequis</h3>
+        <ul>
+          <li>Firefox 109+ ou Chrome 114+ pour charger l’extension.</li>
+          <li>Pour construire depuis la source : Node.js ≥ 20 et pnpm ≥ 9.</li>
+        </ul>
+
+        <h3>Depuis une release (utilisateur)</h3>
+        <ol>
+          <li>Téléchargez <code>silentweb-*.zip</code> depuis la page Releases.</li>
+          <li>Décompressez le fichier pour obtenir le dossier <code>SilentWeb</code>.</li>
+          <li>
+            Firefox : <code>about:debugging#/runtime/this-firefox</code> → <strong>Charger un module complémentaire
+            temporaire</strong> → sélectionnez <code>manifest.json</code>.<br />
+            Chrome/Edge : <code>chrome://extensions</code> → activer le mode développeur → <strong>Charger l’extension
+            non empaquetée</strong> → dossier <code>SilentWeb</code>.
+          </li>
+        </ol>
+
+        <h3>Depuis la source (contribution)</h3>
+        <pre><code>git clone https://github.com/OpenDeafTech/SilentWeb.git
+cd SilentWeb
+pnpm install
+pnpm run build</code></pre>
+        <p>Le dossier <code>dist/</code> contient le bundle MV3 à charger via <code>about:debugging</code> ou <code>chrome://extensions</code>.</p>
+      </section>
+
+      <section id="utiliser">
+        <h2>Utiliser en 30 secondes</h2>
+        <ol>
+          <li>Ouvrez une page avec audio/vidéo ou visioconférence.</li>
+          <li>Cliquez sur l’icône SilentWeb pour afficher l’overlay.</li>
+          <li>Appuyez sur <strong>Activer les sous-titres</strong> pour lancer la transcription en direct.</li>
+          <li>Masquez/affichez l’overlay avec <strong>Toggle overlay</strong>.</li>
+          <li>Si rien ne s’affiche, vérifiez le volume du site ou l’onglet actif.</li>
+        </ol>
+      </section>
+
+      <section id="tutoriel">
+        <h2>Tutoriel complet (10 minutes)</h2>
+        <h3>1. Préparer l’ordi (1 min)</h3>
+        <ul>
+          <li>Installez ou mettez à jour Firefox (109+) ou Chrome (114+).</li>
+          <li>Option développeur activée sur la page des extensions.</li>
+        </ul>
+
+        <h3>2. Installer l’extension (3 min)</h3>
+        <ol>
+          <li>Téléchargez <code>silentweb-*.zip</code> sur la page Releases et décompressez.</li>
+          <li>Firefox : <code>about:debugging#/runtime/this-firefox</code> → <strong>Charger un module complémentaire temporaire</strong> → choisir <code>manifest.json</code>.</li>
+          <li>Chrome/Edge : <code>chrome://extensions</code> → mode développeur → <strong>Charger l’extension non empaquetée</strong> → dossier <code>SilentWeb</code>.</li>
+        </ol>
+
+        <h3>3. Première utilisation (2 min)</h3>
+        <ol>
+          <li>Ouvrez YouTube, un stream ou une visio.</li>
+          <li>Cliquez sur l’icône SilentWeb pour faire apparaître la barre sombre en haut.</li>
+          <li>Cliquez sur <strong>Activer les sous-titres</strong> et lisez le texte qui s’affiche en temps réel.</li>
+        </ol>
+
+        <h3>4. Ajuster l’affichage (2 min)</h3>
+        <ul>
+          <li>Dans les options, choisissez le thème, la taille et la couleur des sous-titres.</li>
+          <li>Utilisez <strong>Toggle overlay</strong> pour masquer la barre sans couper la capture.</li>
+          <li>Définissez un raccourci clavier si vous changez souvent d’onglet.</li>
+        </ul>
+
+        <h3>5. Activer les alertes (1 min)</h3>
+        <ul>
+          <li>Ajoutez des mots-clés (ex. « alarme », « meeting »). SilentWeb affichera une alerte visuelle quand ils sont détectés.</li>
+          <li>Réglez le niveau de volume déclencheur si vous surveillez des notifications sonores.</li>
+        </ul>
+
+        <h3>6. Dépanner vite (1 min)</h3>
+        <ul>
+          <li>Rien ne s’affiche ? Vérifiez que l’onglet joue de l’audio et que le son n’est pas coupé.</li>
+          <li>Overlay bloqué ? Rechargez la page (<code>Ctrl/Cmd + R</code>).</li>
+          <li>Encore un souci ? Ouvrez une <a href="https://github.com/OpenDeafTech/SilentWeb/issues" target="_blank" rel="noreferrer">issue</a> avec la page concernée et les étapes.</li>
+        </ul>
+      </section>
+
+      <section id="features">
+        <h2>Fonctionnalités principales</h2>
+        <ul>
+          <li>Transcription locale en temps réel (audio + OCR selon le contexte).</li>
+          <li>Sous-titres enrichis : thèmes, tailles et couleurs configurables.</li>
+          <li>Alertes visuelles déclenchées par mots-clés, volume ou événements réseau.</li>
+          <li>Panneau d’options pour profils, langues, raccourcis et apparence.</li>
+          <li>Localisation multi-langues via <code>_locales/</code> et scripts d’automatisation.</li>
+        </ul>
+      </section>
+
+      <section id="reglages">
+        <h2>Régler l’overlay et les sous-titres</h2>
+        <div class="grid">
+          <div class="card">
+            <strong>Affichage</strong>
+            <ul>
+              <li>Choisissez thème clair/sombre, couleur du texte et arrière-plan.</li>
+              <li>Ajustez la taille des sous-titres et l’espacement entre les lignes.</li>
+              <li>Positionnez l’overlay en haut ou en bas et réglez son opacité.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <strong>Comportement</strong>
+            <ul>
+              <li>Activer ou non l’auto-démarrage des sous-titres sur chaque nouvel onglet.</li>
+              <li>Limiter la longueur des sous-titres ou le débit pour préserver la lisibilité.</li>
+              <li>Nettoyer ponctuation et espaces via la normalisation intégrée.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <strong>Audio & OCR</strong>
+            <ul>
+              <li>Choisir la langue par défaut pour la transcription.</li>
+              <li>Désactiver l’OCR si vous ne l’utilisez pas pour économiser des ressources.</li>
+              <li>Adapter la sensibilité de détection de voix ou de sons forts.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="raccourcis">
+        <h2>Raccourcis et commandes rapides</h2>
+        <ul>
+          <li>Définissez un raccourci clavier pour afficher/masquer l’overlay (ex. <code>Ctrl/Cmd + Maj + S</code>).</li>
+          <li>Créez un second raccourci pour lancer ou arrêter la transcription en un geste.</li>
+          <li>Depuis la barre d’options, le bouton « Reset » vide l’écran et réinitialise l’overlay.</li>
+          <li>Les paramètres et raccourcis sont stockés localement et persistent après redémarrage.</li>
+        </ul>
+      </section>
+
+      <section id="privee">
+        <h2>Vie privée et performances</h2>
+        <ul>
+          <li>Traitement local uniquement : SilentWeb ne transmet pas l’audio ni les transcriptions vers un serveur.</li>
+          <li>Permissions limitées : accès aux onglets où l’extension est active et aux APIs requises par le manifest MV3.</li>
+          <li>Performances : transcription temps réel. Fermez les onglets très lourds si vous observez un ralentissement.</li>
+          <li>Optimisation : désactivez l’OCR et réduisez la fréquence d’échantillonnage dans les options pour les machines modestes.</li>
+          <li>Cache local : réglages et profils sont stockés dans le navigateur et peuvent être réinitialisés depuis la page d’options.</li>
+        </ul>
+      </section>
+
+      <section id="contribuer">
+        <h2>Contribuer et tester</h2>
+        <p>Commencez par lire le guide <a href="contributing">Contributing</a> pour le style, la revue et le flux de travail.</p>
+        <div class="grid" aria-label="Commandes utiles">
+          <div class="card">
+            <strong>Qualité locale</strong>
+            <ul>
+              <li><code>pnpm run lint</code></li>
+              <li><code>pnpm test</code> (Vitest)</li>
+              <li><code>pnpm run test:e2e</code> (Playwright)</li>
+            </ul>
+          </div>
+          <div class="card">
+            <strong>Locales</strong>
+            <ul>
+              <li><code>pnpm run validate:locales</code></li>
+              <li><code>pnpm run locales:pipeline</code> → CSV à traduire</li>
+              <li><code>pnpm run locales:update</code></li>
+            </ul>
+          </div>
+          <div class="card">
+            <strong>Packaging</strong>
+            <ul>
+              <li><code>pnpm run release</code> pour build + QA + artefact web-ext</li>
+              <li>Sortie dans <code>web-ext-artifacts/</code></li>
+            </ul>
+          </div>
+        </div>
+        <p>
+          Signalez les bugs via une <a href="https://github.com/OpenDeafTech/SilentWeb/issues" target="_blank" rel="noreferrer">issue GitHub</a>
+          avec étapes de reproduction et logs.
+        </p>
+      </section>
+
+      <section id="traduire">
+        <h2>Traduire</h2>
+        <ul>
+          <li>Consultez le <a href="translation-playbook">Translation Playbook</a> pour le ton et les tests.</li>
+          <li>Priorisez les langues via le <a href="locales-status">Tableau des locales</a>.</li>
+          <li>Pipeline : <code>pnpm run locales:pipeline</code> → traduire le CSV → <code>pnpm run locales:lint</code> → <code>pnpm run locales:update</code>.</li>
+        </ul>
+      </section>
+
+      <section id="architecture">
+        <h2>Architecture et design</h2>
+        <div class="grid">
+          <a class="card" href="architecture">
+            <strong>Architecture</strong><br />
+            Modules, flux de données et choix techniques.
+          </a>
+          <a class="card" href="arborescence">
+            <strong>Arborescence</strong><br />
+            Organisation du dépôt et repères clés.
+          </a>
+          <a class="card" href="design-ui">
+            <strong>Design UI</strong><br />
+            Intentions d’interface et règles d’accessibilité.
+          </a>
+        </div>
+      </section>
+
+      <section id="securite">
+        <h2>Sécurité et qualité</h2>
+        <ul>
+          <li>Pratiques et modèles dans <a href="security-templates">security-templates.md</a>.</li>
+          <li>Tests automatisés : Vitest (unité), Playwright (E2E), audits locaux via <code>pnpm audit --prod</code>.</li>
+          <li>CI locale : <code>pnpm run ci:test</code> pour lancer validations locales + couverture.</li>
+        </ul>
+      </section>
+
+      <section id="support">
+        <h2>Support et diagnostic</h2>
+        <ul>
+          <li>Décrivez la page visitée, le navigateur, la version SilentWeb et les étapes exactes de reproduction.</li>
+          <li>Capturez la console (F12 → Console) et joignez les messages d’erreur.</li>
+          <li>Testez dans une fenêtre privée pour écarter les conflits d’autres extensions.</li>
+          <li>En cas de crash du service worker, désactiver/réactiver l’extension ou recharger l’onglet suffit souvent.</li>
+          <li>Ouvrez une <a href="https://github.com/OpenDeafTech/SilentWeb/issues" target="_blank" rel="noreferrer">issue GitHub</a> ou commentez une PR pour discuter d’un correctif.</li>
+        </ul>
+      </section>
+
+      <section id="ressources">
+        <h2>Ressources annexes</h2>
+        <ul>
+          <li>Guides : <a href="guide-simple">Guide très simple</a> (pas-à-pas non technique) et <a href="getting-started">Getting started</a> (profil dev).</li>
+          <li>Organisation : <a href="roadmap">Roadmap</a> et <a href="vision">Vision</a>.</li>
+          <li>Licence : SilentWeb est distribué sous licence <a href="../LICENSE">MIT</a>.</li>
+        </ul>
+      </section>
+
+      <section id="faq">
+        <h2>Questions fréquentes</h2>
+        <dl class="faq">
+          <dt>Puis-je utiliser SilentWeb sur d’autres navigateurs ?</dt>
+          <dd>Oui. Support officiel Firefox (109+) et Chrome (114+) avec le même bundle MV3 (<code>dist/</code>).</dd>
+          <dt>Les données audio quittent-elles mon ordinateur ?</dt>
+          <dd>Non. Le traitement est exécuté côté client. SilentWeb ne transmet pas d’audio ou de transcription à un serveur tiers.</dd>
+          <dt>Comment signaler un bug ?</dt>
+          <dd>Ouvrez une issue GitHub avec les étapes de reproduction, les logs de la console et votre version du navigateur.</dd>
+          <dt>Pourquoi la transcription est lente ?</dt>
+          <dd>Fermez les onglets gourmands, réduisez la fréquence d’échantillonnage audio, désactivez l’OCR, puis relancez l’overlay.</dd>
+          <dt>Les sous-titres se chevauchent avec la vidéo.</dt>
+          <dd>Déplacez l’overlay (haut/bas) et ajustez l’opacité dans les réglages d’affichage.</dd>
+          <dt>Mes raccourcis ne fonctionnent pas.</dt>
+          <dd>Vérifiez qu’aucune autre extension n’utilise les mêmes touches et reconfigurez-les dans la page d’options.</dd>
+          <dt>Où sont stockées mes données ?</dt>
+          <dd>Les préférences et profils restent dans le stockage local du navigateur. Aucune donnée n’est envoyée en ligne.</dd>
+        </dl>
+      </section>
+    </main>
+
+    <footer>
+      Fait avec soin pour la communauté SilentWeb. 
+  </body>
+</html>
