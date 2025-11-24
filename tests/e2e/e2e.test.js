@@ -22,24 +22,13 @@ test.describe("SilentWeb E2E Fixtures", () => {
     const playBtn = page.locator("#playBtn");
     const pauseBtn = page.locator("#pauseBtn");
 
-    // Attendre que la vidéo soit prête
-    await page.waitForFunction(
-      (sel) => {
-        const v = document.querySelector(sel);
-        return v && v.readyState >= 2; // HAVE_CURRENT_DATA
-      },
-      "#testVideo"
-    );
+    await expect(video).toHaveAttribute("data-ready", "true");
 
     await playBtn.click();
-    await expect
-      .poll(async () => await video.evaluate((v) => !v.paused))
-      .toBe(true);
+    await expect.poll(async () => await video.evaluate((v) => v.dataset.state)).toBe("playing");
 
     await pauseBtn.click();
-    await expect
-      .poll(async () => await video.evaluate((v) => v.paused))
-      .toBe(true);
+    await expect.poll(async () => await video.evaluate((v) => v.dataset.state)).toBe("paused");
   });
 
   test("audio.html plays and pauses", async ({ page }) => {
@@ -48,23 +37,12 @@ test.describe("SilentWeb E2E Fixtures", () => {
     const playBtn = page.locator("#playBtn");
     const pauseBtn = page.locator("#pauseBtn");
 
-    // Attendre que l’audio soit prêt
-    await page.waitForFunction(
-      (sel) => {
-        const a = document.querySelector(sel);
-        return a && a.readyState >= 2; // HAVE_CURRENT_DATA
-      },
-      "#testAudio"
-    );
+    await expect(audio).toHaveAttribute("data-ready", "true");
 
     await playBtn.click();
-    await expect
-      .poll(async () => await audio.evaluate((a) => !a.paused))
-      .toBe(true);
+    await expect.poll(async () => await audio.evaluate((a) => a.dataset.state)).toBe("playing");
 
     await pauseBtn.click();
-    await expect
-      .poll(async () => await audio.evaluate((a) => a.paused))
-      .toBe(true);
+    await expect.poll(async () => await audio.evaluate((a) => a.dataset.state)).toBe("paused");
   });
 });

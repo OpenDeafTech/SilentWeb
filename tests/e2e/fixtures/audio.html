@@ -1,16 +1,33 @@
 <!-- tests/e2e/fixtures/audio.html -->
-<!doctype html><html><head><meta charset="utf-8"><title>audio</title></head>
-<body>
-  <audio id="testAudio"></audio>
-  <button id="playBtn">Play</button>
-  <button id="pauseBtn">Pause</button>
-  <script>
-    const a = document.getElementById('testAudio');
-    // Shim audio
-    a.paused = true;
-    a.play = () => { a.paused = false; return Promise.resolve(); };
-    a.pause = () => { a.paused = true; };
-    document.getElementById('playBtn').onclick = () => a.play();
-    document.getElementById('pauseBtn').onclick = () => a.pause();
-  </script>
-</body></html>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>audio</title>
+  </head>
+  <body>
+    <audio id="testAudio"></audio>
+    <button id="playBtn">Play</button>
+    <button id="pauseBtn">Pause</button>
+    <script>
+      const audio = document.getElementById("testAudio");
+      const setState = (state) => {
+        audio.dataset.state = state;
+      };
+
+      // Shim audio playback so we don't depend on real media assets.
+      audio.dataset.ready = "true";
+      setState("paused");
+      audio.play = () => {
+        setState("playing");
+        return Promise.resolve();
+      };
+      audio.pause = () => {
+        setState("paused");
+      };
+
+      document.getElementById("playBtn").onclick = () => audio.play();
+      document.getElementById("pauseBtn").onclick = () => audio.pause();
+    </script>
+  </body>
+</html>
