@@ -1,17 +1,17 @@
 /* ============================================================================
-   tests/e2e/ensure-dist.ts
+   tests/e2e/ensure-dist.cts
    Build dist/ if manifest.json is missing before Playwright starts its server.
    ============================================================================ */
 
-import { execSync } from "node:child_process";
-import { existsSync } from "node:fs";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
+const { execSync } = require("node:child_process");
+const { existsSync } = require("node:fs");
+const path = require("node:path");
 
-const repoRoot = path.resolve(fileURLToPath(new URL("../../", import.meta.url)));
+// Resolve the repository root from the e2e folder.
+const repoRoot = path.resolve(__dirname, "..", "..");
 const manifestPath = path.join(repoRoot, "dist", "manifest.json");
 
-export function ensureDistBuild() {
+function ensureDistBuild() {
   if (existsSync(manifestPath)) {
     return;
   }
@@ -24,3 +24,5 @@ export function ensureDistBuild() {
     throw error;
   }
 }
+
+module.exports = { ensureDistBuild };
