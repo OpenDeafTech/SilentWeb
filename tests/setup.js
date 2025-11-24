@@ -39,5 +39,7 @@ globalThis.fetch = vi.fn(
 // Reset avant chaque test
 beforeEach(() => {
   vi.clearAllMocks();
-  document.body.innerHTML = "";
+  if (typeof document !== "undefined") {
+    document.body.innerHTML = "";
+  }
 });
