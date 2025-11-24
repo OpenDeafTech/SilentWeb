@@ -1,0 +1,11 @@
+// vitest.config.ts
+import { defineConfig, configDefaults } from "vitest/config";
+
+export default defineConfig({
+  test: {
+    environment: "jsdom",
+    setupFiles: ["tests/setup.js"],
+    globals: true,
+    exclude: [...configDefaults.exclude, "tests/e2e/**", "tests/perf/**"],
+  },
+});

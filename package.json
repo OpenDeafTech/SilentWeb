@@ -24,7 +24,7 @@
     "lint:fix": "eslint src --ext .js,.ts --fix",
     "typecheck": "tsc --noEmit",
     "test": "pnpm run test:unit",
-    "test:unit": "vitest run --runInBand",
+    "test:unit": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
     "audit:prod": "pnpm audit --prod",

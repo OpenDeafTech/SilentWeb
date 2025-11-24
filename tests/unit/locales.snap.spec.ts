@@ -24,7 +24,22 @@ function readLocaleCatalog(locale: string) {
     throw new Error(`Missing messages file for ${locale}`);
   }
   const raw = fs.readFileSync(messagesFile, "utf8");
-  return JSON.parse(raw);
+  return sortCatalog(JSON.parse(raw));
+}
+
+function sortCatalog(value: unknown): unknown {
+  if (Array.isArray(value)) {
+    return value.map((item) => sortCatalog(item));
+  }
+  if (value && typeof value === "object") {
+    return Object.keys(value as Record<string, unknown>)
+      .sort()
+      .reduce<Record<string, unknown>>((acc, key) => {
+        acc[key] = sortCatalog((value as Record<string, unknown>)[key]);
+        return acc;
+      }, {});
+  }
+  return value;
 }
 
 describe("locale catalogs", () => {

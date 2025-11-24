@@ -34,7 +34,6 @@ desktop.ini
 
 # Tests & Reports
 jest-*
-vitest.*
 coverage/
 reports/
 

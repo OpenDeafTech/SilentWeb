@@ -1,9 +1,12 @@
 // tests/setup.js
-import { vi, beforeEach } from 'vitest';
-import { chrome as chromeMock } from './unit/chrome.mock.js';
+import { vi, beforeEach } from "vitest";
+
+import { chrome as chromeMock } from "./unit/chrome.mock.js";
 
 // Mock global chrome
-vi.stubGlobal('chrome', chromeMock);
+vi.stubGlobal("chrome", chromeMock);
+// Service worker scripts expect a global self; jsdom defines window but not self by default in Node.
+vi.stubGlobal("self", globalThis);
 
 // CacheStorage mock minimal
 const store = new Map();
@@ -19,22 +22,22 @@ globalThis.caches = {
       keys: vi.fn(async () => Array.from(bucket.keys())),
       match: vi.fn(async (req) => bucket.get(String(req?.url || req))),
       matchAll: vi.fn(async () => Array.from(bucket.values())),
-      put: vi.fn(async (req, res) => bucket.set(String(req?.url || req), res))
+      put: vi.fn(async (req, res) => bucket.set(String(req?.url || req), res)),
     };
   }),
   keys: vi.fn(async () => Array.from(store.keys())),
   delete: vi.fn(async (n) => store.delete(n)),
-  match: vi.fn(async () => undefined)
+  match: vi.fn(async () => undefined),
 };
 
 // Mock clients et fetch
 globalThis.clients = { claim: vi.fn() };
-globalThis.fetch = vi.fn(async () =>
-  new Response('net', { status: 200, headers: { 'content-type': 'text/plain' } })
+globalThis.fetch = vi.fn(
+  async () => new Response("net", { status: 200, headers: { "content-type": "text/plain" } })
 );
 
 // Reset avant chaque test
 beforeEach(() => {
   vi.clearAllMocks();
-  document.body.innerHTML = '';
+  document.body.innerHTML = "";
 });
