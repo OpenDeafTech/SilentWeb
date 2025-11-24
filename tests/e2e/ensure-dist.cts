@@ -26,3 +26,8 @@ function ensureDistBuild() {
 }
 
 module.exports = { ensureDistBuild };
+
+// Allow running this helper directly (e.g., from an npm script).
+if (require.main === module) {
+  ensureDistBuild();
+}
