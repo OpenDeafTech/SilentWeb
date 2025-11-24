@@ -49,6 +49,13 @@
         top: 0;
         z-index: 10;
         backdrop-filter: blur(8px);
+        transition: transform 180ms ease, opacity 180ms ease;
+      }
+
+      header.header-hidden {
+        transform: translateY(-100%);
+        opacity: 0;
+        pointer-events: none;
       }
 
       .hero {
@@ -533,5 +540,39 @@ pnpm run build</code></pre>
 
     <footer>
       Fait avec soin pour la communauté SilentWeb. 
+    </footer>
+
+    <script>
+      (() => {
+        const header = document.querySelector("header");
+        if (!header) return;
+
+        let lastY = window.scrollY;
+        const threshold = 18;
+
+        const show = () => header.classList.remove("header-hidden");
+        const hide = () => header.classList.add("header-hidden");
+
+        const onScroll = () => {
+          const current = window.scrollY;
+
+          if (current < 64) {
+            show();
+            lastY = current;
+            return;
+          }
+
+          if (current > lastY + threshold) {
+            hide();
+          } else if (current < lastY - threshold) {
+            show();
+          }
+
+          lastY = current;
+        };
+
+        window.addEventListener("scroll", onScroll, { passive: true });
+      })();
+    </script>
   </body>
 </html>
