@@ -1,46 +1,15 @@
+---
+layout: default
+---
+
 # SilentWeb — Documentation
 
 Bienvenue sur la documentation officielle du projet SilentWeb. Cette section est conçue pour GitHub Pages et offre une vue synthétique de l’extension, des guides d’installation et des ressources pour les contributrices et contributeurs.
 
-
+{% include nav.md %}
 
 ## Aperçu
 SilentWeb est une extension Firefox et Google Chrome open-source qui génère des sous-titres enrichis, des transcriptions locales et des alertes visuelles afin de faciliter la navigation des personnes sourdes ou malentendantes. L’intégralité du traitement est réalisée en local pour respecter la vie privée.
-
-## Navigation
-Utilisez le menu déroulant ci-dessous pour accéder rapidement aux sections clés de la documentation.
-
-<details open>
-<summary><strong>Guides essentiels</strong></summary>
-
-- [Guide très simple (1.4.2)](guide-simple.md) — installation manuelle pas-à-pas et premiers tests.
-- [Prise en main](getting-started.md) — configuration PNPM, scripts et commandes quotidiennes.
-- [Contribution](contributing.md) — conventions, checklists QA et attentes pour les PR.
-</details>
-
-<details>
-<summary><strong>Référence & architecture</strong></summary>
-
-- [Architecture & composants](architecture.md) — panorama du monorepo, flux messaging et bus.
-- [Arborescence commentée](/arborescence.md) — aperçu rapide des dossiers clés.
-- [Playbook sécurité](security-templates.md) — manifest, CSP et bonnes pratiques pour reviewer.
-</details>
-
-<details>
-<summary><strong>Localisation & contenus</strong></summary>
-
-- [Playbook traduction](translation-playbook.md) — pipeline CSV, prompts LLM et QA linguistique.
-- [Guide simple des traductions](guide-simple.md) — rappeler les étapes manuelles.
-- Scripts `locales:*` (`scripts/locales-pipeline.mjs`, `scripts/locales-sync.mjs`, etc.) — décrits dans `translation-playbook.md`.
-</details>
-
-<details>
-<summary><strong>Qualité, publication & outils</strong></summary>
-
-- [Release pipeline](/.github/workflows/release.yml) — étapes de build/signature.
-- Guide E2E (`tests/e2e/**`, [playwright.config.ts](/playwright.config.ts)) — Playwright, fixtures média et astuce `serve:e2e`.
-- [Web-ext config](/web-ext.config.js) — options de lancement Firefox/Chromium.
-</details>
 
 ## Fonctionnalités principales
 - Transcription en temps réel (audio + OCR selon le contexte de la page)

@@ -1,4 +1,10 @@
+---
+layout: default
+---
+
 # Prise en main
+
+{% include nav.md %}
 
 Ce guide accompagne les nouvelles personnes contributrices pour installer l’environnement, lancer l’extension et vérifier qu’elle fonctionne.
 

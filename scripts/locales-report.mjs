@@ -138,7 +138,16 @@ async function main() {
 
   const generatedAt = new Date().toISOString();
 
-  const content = `<!-- This file is auto-generated via \`pnpm run locales:report\`. -->
+  const navInclude = "{% include nav.md %}";
+
+  const content = `---
+layout: default
+title: Tableau de bord des locales
+---
+
+${navInclude}
+
+<!-- This file is auto-generated via \`pnpm run locales:report\`. -->
 # Tableau de bord des locales
 
 - Référence: ${lintResult.referenceLocale}

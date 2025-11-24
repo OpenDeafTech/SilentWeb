@@ -1,4 +1,10 @@
+---
+layout: default
+---
+
 # Contribution
+
+{% include nav.md %}
 
 Merci de vouloir améliorer SilentWeb ! Ce guide résume les bonnes pratiques pour proposer une fonctionnalité, corriger un bug ou traduire l’interface.
 

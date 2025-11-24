@@ -1,4 +1,10 @@
+---
+layout: default
+---
+
 # SilentWeb 1.4.2 — Guide très simple
+
+{% include nav.md %}
 
 Ce document explique SilentWeb avec des mots du quotidien. Il peut être lu par toute personne, même sans connaissance informatique. Prenez le temps de suivre chaque étape tranquillement.
 

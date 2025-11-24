@@ -1,4 +1,10 @@
+---
+layout: default
+---
+
 # Translation Playbook — SilentWeb
+
+{% include nav.md %}
 
 ## Objectif
 

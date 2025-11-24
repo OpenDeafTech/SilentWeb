@@ -1,4 +1,10 @@
+---
+layout: default
+---
+
 # Architecture et composants
+
+{% include nav.md %}
 
 SilentWeb est structuré comme un monorepo PNPM avec plusieurs paquets spécialisés. Cette vue d’ensemble vous aidera à naviguer entre les dossiers et à comprendre comment les modules communiquent.
 
