@@ -1,9 +1,15 @@
 import { defineConfig } from "@playwright/test";
 
+import { ensureDistBuild } from "./tests/e2e/ensure-dist";
+
 const shouldRunE2E = process.env.RUN_E2E === "true";
 const e2ePort = process.env.E2E_SERVER_PORT ?? "3000";
 const baseUrl = `http://127.0.0.1:${e2ePort}`;
 const healthcheckUrl = `${baseUrl}/tests/e2e/fixtures/index.html`;
+
+if (shouldRunE2E) {
+  ensureDistBuild();
+}
 
 if (!shouldRunE2E) {
   console.log("Skipping Playwright E2E tests (set RUN_E2E=true to enable the browser matrix).");

@@ -1,8 +1,12 @@
 import { defineConfig } from "@playwright/test";
 
+import { ensureDistBuild } from "./tests/e2e/ensure-dist";
+
 const perfPort = process.env.PERF_SERVER_PORT ?? "4173";
 const baseUrl = `http://127.0.0.1:${perfPort}`;
 const healthcheckUrl = `${baseUrl}/tests/e2e/fixtures/index.html`;
+
+ensureDistBuild();
 
 export default defineConfig({
   testDir: "./tests/perf",
