@@ -50,6 +50,7 @@
         z-index: 10;
         backdrop-filter: blur(8px);
         transition: transform 180ms ease, opacity 180ms ease;
+        will-change: transform, opacity;
       }
 
       header.header-hidden {
@@ -547,31 +548,38 @@ pnpm run build</code></pre>
         const header = document.querySelector("header");
         if (!header) return;
 
-        let lastY = window.scrollY;
+        const root = document.documentElement;
         const threshold = 18;
+        let lastY = root.scrollTop;
+        let scheduled = false;
 
         const show = () => header.classList.remove("header-hidden");
         const hide = () => header.classList.add("header-hidden");
 
-        const onScroll = () => {
-          const current = window.scrollY;
+        const run = () => {
+          const current = root.scrollTop;
 
           if (current < 64) {
             show();
             lastY = current;
-            return;
-          }
-
-          if (current > lastY + threshold) {
+          } else if (current > lastY + threshold) {
             hide();
+            lastY = current;
           } else if (current < lastY - threshold) {
             show();
+            lastY = current;
           }
+          scheduled = false;
+        };
 
-          lastY = current;
+        const onScroll = () => {
+          if (scheduled) return;
+          scheduled = true;
+          requestAnimationFrame(run);
         };
 
         window.addEventListener("scroll", onScroll, { passive: true });
+        run();
       })();
     </script>
   </body>
