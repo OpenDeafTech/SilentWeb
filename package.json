@@ -2,7 +2,7 @@
   "name": "silentweb",
   "version": "1.4.2",
   "description": "SilentWeb — Extension Firefox open-source pour l’accessibilité (sous-titres, transcription, alertes visuelles).",
-  "main": "web-ext.config.js",
+  "main": "web-ext.config.cjs",
   "directories": {
     "doc": "docs",
     "test": "tests"

@@ -37,6 +37,18 @@ async function copyOpusRecorder() {
   console.log("[build:assets] Copied opus-recorder.min.js");
 }
 
+async function copyLocales() {
+  const src = path.resolve(rootDir, "_locales");
+  const dest = path.resolve(distDir, "_locales");
+  try {
+    await cp(src, dest, { recursive: true, force: true });
+    console.log("[build:assets] Copied _locales/ -> dist/_locales/");
+  } catch (error) {
+    console.error("[build:assets] Failed to copy _locales/ assets", error);
+    throw error;
+  }
+}
+
 async function ensureIcons() {
   const iconMap = [
     { src: "oreille-barree-256.png", dest: "icon-48.png" },
@@ -56,4 +68,5 @@ async function ensureIcons() {
 
 await copyPublic();
 await copyOpusRecorder();
+await copyLocales();
 await ensureIcons();

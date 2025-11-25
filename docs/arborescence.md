@@ -12,7 +12,7 @@ SilentWeb/
 ├── package.json              # scripts build, lint, test, dev, web-ext ajoutés
 ├── tsconfig.json             # racine composite
 ├── tsconfig.base.json        # options partagées
-├── web-ext.config.js         # config Firefox (sourceDir, artefactsDir, run)
+├── web-ext.config.cjs        # config Firefox (sourceDir, artefactsDir, run)
 ├── eslint.config.js          # flat config eslint + plugins import/unused
 ├── .prettierrc               # règles Prettier
 ├── .prettierignore

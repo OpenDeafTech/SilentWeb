@@ -1,4 +1,4 @@
-// web-ext.config.js
+// web-ext.config.cjs
 /** @type {import('web-ext').Config} */
 module.exports = {
   // Dossier de sortie après build
