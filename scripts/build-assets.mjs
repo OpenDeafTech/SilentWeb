@@ -3,7 +3,7 @@
  * Copy public assets (manifest, icons, etc.) and vendor files into dist/.
  * Ensures the Chrome bundle is self-contained after `pnpm run build`.
  */
-import { cp, mkdir, copyFile, access } from "node:fs/promises";
+import { cp, mkdir, copyFile, access, rm } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -41,6 +41,7 @@ async function copyLocales() {
   const src = path.resolve(rootDir, "_locales");
   const dest = path.resolve(distDir, "_locales");
   try {
+    await rm(dest, { recursive: true, force: true });
     await cp(src, dest, { recursive: true, force: true });
     console.log("[build:assets] Copied _locales/ -> dist/_locales/");
   } catch (error) {
