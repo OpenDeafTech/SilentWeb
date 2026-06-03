@@ -11,7 +11,7 @@
     "clean": "rimraf dist web-ext-artifacts && mkdir -p dist/content dist/worker dist/vendor",
     "build:inject": "terser src/content/inject.js -c -m -o dist/content/inject.min.js --source-map 'filename=inject.min.js.map,url=inject.min.js.map,includeSources'",
     "build:overlay:js": "terser src/content/overlay.js -c -m -o dist/content/overlay.min.js --source-map 'filename=overlay.min.js.map,url=overlay.min.js.map,includeSources'",
-    "build:overlay:css": "cleancss -o dist/content/overlay.min.css --source-map src/content/overlay.css",
+    "build:overlay:css": "cleancss --source-map -o dist/content/overlay.min.css src/content/overlay/overlay.css",
     "build:sw": "terser worker/sw.js -c -m -o dist/worker/sw.min.js --source-map 'filename=sw.min.js.map,url=sw.min.js.map,includeSources'",
     "build:assets": "node scripts/build-assets.mjs",
     "build:ts": "tsc -p tsconfig.json",
@@ -56,40 +56,35 @@
     "node": ">=20.0.0",
     "pnpm": ">=9.0.0"
   },
-  "packageManager": "pnpm@9.12.0",
+  "packageManager": "pnpm@11.5.1",
   "dependencies": {
     "opus-recorder": "^8.0.5",
-    "webextension-polyfill": "^0.10.0"
-  },
-  "pnpm": {
-    "overrides": {
-      "node-fetch": "2.6.11"
-    }
+    "webextension-polyfill": "^0.12.0"
   },
   "devDependencies": {
     "@eslint/js": "9.39.1",
-    "@playwright/test": "^1.56.1",
+    "@playwright/test": "^1.60.0",
     "@types/firefox-webext-browser": "^143.0.0",
-    "@types/node": "^24.10.1",
-    "@vitest/coverage-v8": "4.0.13",
+    "@types/node": "^25.9.1",
+    "@vitest/coverage-v8": "4.1.8",
     "clean-css-cli": "^5.6.3",
-    "cssnano": "^7.1.2",
+    "cssnano": "^8.0.1",
     "eslint": "9.39.1",
     "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-unused-imports": "4.3.0",
-    "globals": "^15.9.0",
-    "jsdom": "^27.2.0",
-    "lint-staged": "^16.2.7",
+    "eslint-plugin-unused-imports": "4.4.1",
+    "globals": "^17.6.0",
+    "jsdom": "^29.1.1",
+    "lint-staged": "^17.0.7",
     "node-fetch": "3.3.2",
-    "prettier": "^3.6.2",
-    "rimraf": "^6.1.2",
+    "prettier": "^3.8.3",
+    "rimraf": "^6.1.3",
     "simple-git-hooks": "^2.13.1",
-    "terser": "^5.44.1",
+    "terser": "^5.48.0",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.47.0",
-    "vite": "^7.2.4",
-    "vitest": "4.0.13",
-    "web-ext": "^9.2.0"
+    "typescript-eslint": "^8.60.1",
+    "vite": "^8.0.16",
+    "vitest": "4.1.8",
+    "web-ext": "^10.3.0"
   },
   "resolutions": {
     "glob": "^10.3.10"
@@ -103,5 +98,8 @@
   },
   "simple-git-hooks": {
     "pre-commit": "node scripts/run-lint-staged.mjs"
+  },
+  "overrides": {
+    "node-fetch": "2.6.11"
   }
 }
