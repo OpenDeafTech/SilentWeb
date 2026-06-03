@@ -11,6 +11,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
 const distDir = path.resolve(rootDir, "dist");
 const publicDir = path.resolve(rootDir, "public");
+const packagePublicDir = path.resolve(rootDir, "packages", "public");
 
 async function copyPublic() {
   try {
@@ -19,6 +20,28 @@ async function copyPublic() {
   } catch (error) {
     console.error("[build:assets] Failed to copy public/ assets", error);
     throw error;
+  }
+
+  try {
+    await cp(packagePublicDir, distDir, { recursive: true, force: true });
+    console.log("[build:assets] Copied packages/public/ -> dist/");
+  } catch (error) {
+    if (error.code === "ENOENT") {
+      console.warn("[build:assets] packages/public/ not found, skipping.");
+    } else {
+      console.error("[build:assets] Failed to copy packages/public/ assets", error);
+      throw error;
+    }
+  }
+}
+
+async function verifyManifest() {
+  const manifestPath = path.resolve(distDir, "manifest.json");
+  try {
+    await access(manifestPath);
+    console.log("[build:assets] Found dist/manifest.json");
+  } catch {
+    throw new Error("dist/manifest.json is missing after assets copy. Ensure public/manifest.json or packages/public/manifest.json exists.");
   }
 }
 
@@ -71,3 +94,4 @@ await copyPublic();
 await copyOpusRecorder();
 await copyLocales();
 await ensureIcons();
+await verifyManifest();
