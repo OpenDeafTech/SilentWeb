@@ -5,7 +5,11 @@
   "action": { "default_title": "SilentWeb" },
   "background": { "service_worker": "js/sw.js", "type": "module" },
   "content_scripts": [
-    { "matches": ["<all_urls>"], "js": ["js/inject.js", "js/overlay.js"] }
+    {
+      "matches": ["<all_urls>"],
+      "js": ["js/inject.js", "js/overlay.js"],
+      "css": ["content/overlay.min.css"]
+    }
   ],
   "permissions": [],
   "host_permissions": ["<all_urls>"],
