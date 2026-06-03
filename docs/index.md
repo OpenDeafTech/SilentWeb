@@ -52,6 +52,8 @@ Le dossier `dist/` contient le bundle MV3 prêt à être chargé via `about:debu
 - Lisez le guide [Contributing](./contributing.md) pour les règles de style et de revue.
 - Commandes utiles : `pnpm run lint`, `pnpm test` (Vitest), `pnpm run test:e2e` (Playwright), `pnpm run validate:locales`.
 - Pour packager : `pnpm run release` crée `web-ext-artifacts/` après la suite QA (`ci:test`).
+- Pour générer un package Firefox : `pnpm run build:firefox` et consultez `packages/extension/web-ext-artifacts/`.
+- Pour préparer le build Chrome/Chromium : `pnpm run build:chrome` puis chargez `dist/` dans `chrome://extensions`.
 - Signalez les bugs via une [issue GitHub](https://github.com/OpenDeafTech/SilentWeb/issues) avec étapes de reproduction et logs.
 
 ## Traduire {#traduire}

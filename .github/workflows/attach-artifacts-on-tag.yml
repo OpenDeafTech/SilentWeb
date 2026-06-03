@@ -1,0 +1,52 @@
+name: Build and attach artifacts on tag
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build-and-attach:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install PNPM globally
+        run: |
+          npm install -g pnpm@11.5.1
+          pnpm --version
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile --prod=false
+
+      - name: Build extension (Chrome + Firefox)
+        run: pnpm --filter @silentweb/extension run build:all-browsers
+
+      - name: Copy artifacts to workspace root
+        run: node scripts/copy-artifacts.mjs
+
+      - name: Upload workflow artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: web-extension-artifacts
+          path: |
+            silentweb-*.zip
+            silentweb-*.xpi
+
+      - name: Attach artifacts to GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: SilentWeb ${{ github.ref_name }}
+          files: |
+            silentweb-*.zip
+            silentweb-*.xpi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -37,9 +37,10 @@ De nombreux contenus vidéo ou audio restent inaccessibles. SilentWeb répond à
 
 ## Prérequis
 
-- **Node.js 20+** (recommandé)
-- **pnpm 9+** (le projet utilise un workspace monorepo)
-- Firefox Developer Edition pour le mode `web-ext run` et Google Chrome 114+ pour valider le build Chromium
+- **Node.js 22+** (recommandé)
+- **pnpm 11+** (le projet utilise un workspace monorepo)
+- Firefox Developer Edition pour `web-ext run`
+- Google Chrome 114+ pour valider le build Chromium
 
 Vérifiez vos versions :
 
@@ -63,16 +64,18 @@ L’extension prête à être chargée se trouve ensuite dans `dist/` (scripts, 
 
 ## Scripts PNPM utiles
 
-| Script                  | Description                                                                 |
-| ----------------------- | --------------------------------------------------------------------------- |
-| `pnpm run dev`          | Lance l’extension avec `web-ext` dans Firefox Dev Edition et rechargements. |
-| `pnpm run build`        | Nettoie `dist/` puis construit TypeScript, content scripts, overlay et SW.  |
-| `pnpm run build:chrome` | Alias de `build`, pensé pour les pipelines Chrome/Chromium (même bundle).   |
-| `pnpm run test`         | Exécute la suite Vitest (unitaires, mocks).                                 |
-| `pnpm run test:e2e`     | Lance les scénarios Playwright (nécessite Firefox + dépendances).           |
-| `pnpm run lint`         | Vérifie le code JS/TS via ESLint.                                           |
-| `pnpm run format`       | Formate le dépôt avec Prettier.                                             |
-| `pnpm run typecheck`    | Vérifie les types TypeScript sans émettre de fichiers.                      |
+| Script                        | Description                                                                                      |
+| ----------------------------- | ------------------------------------------------------------------------------------------------ |
+| `pnpm run dev`                | Lance l’extension avec `web-ext` dans Firefox Dev Edition et rechargements.                      |
+| `pnpm run build`              | Nettoie `dist/` puis construit TypeScript, content scripts, overlay et SW.                       |
+| `pnpm run build:chrome`       | Alias de `build`, pensé pour les pipelines Chrome/Chromium (même bundle).                        |
+| `pnpm run build:firefox`      | Nettoie, construit puis produit un package Firefox dans `packages/extension/web-ext-artifacts/`. |
+| `pnpm run build:all-browsers` | Compile le bundle et génère les packages Chrome + Firefox.                                       |
+| `pnpm run test`               | Exécute la suite Vitest (unitaires, mocks).                                                      |
+| `pnpm run test:e2e`           | Lance les scénarios Playwright (nécessite Firefox + dépendances).                                |
+| `pnpm run lint`               | Vérifie le code JS/TS via ESLint.                                                                |
+| `pnpm run format`             | Formate le dépôt avec Prettier.                                                                  |
+| `pnpm run typecheck`          | Vérifie les types TypeScript sans émettre de fichiers.                                           |
 
 > Astuce : utilisez `pnpm run test:watch` pour un cycle TDD rapide.
 
@@ -109,6 +112,24 @@ L’extension prête à être chargée se trouve ensuite dans `dist/` (scripts, 
 4. Sélectionnez `dist/manifest.json`.
 5. L’extension apparaît immédiatement dans la barre d’outils. Relancez l’opération pour tester une nouvelle build.
 
+### Empaquetage Firefox (.xpi)
+
+Pour générer un package Firefox installable, lancez :
+
+```bash
+pnpm run build:firefox
+```
+
+L’archive est créée dans `packages/extension/web-ext-artifacts/` et peut être distribuée sous la forme `silentweb-<version>.zip` ou convertie en `.xpi`.
+
+Pour copier automatiquement les artefacts produits à la racine du dépôt (pratique pour les releases locales), exécutez :
+
+```bash
+pnpm run copy:artifacts
+```
+
+Cette commande copie les fichiers depuis `packages/extension/web-ext-artifacts/` vers la racine et crée également une copie `.xpi` pour l’artefact Firefox.
+
 ## Charger l’extension dans Google Chrome
 
 1. Construisez les assets (`pnpm run build`) ; Chrome charge directement le dossier `dist/` sans étape supplémentaire.
@@ -116,6 +137,16 @@ L’extension prête à être chargée se trouve ensuite dans `dist/` (scripts, 
 3. Activez le **mode développeur** en haut à droite.
 4. Cliquez sur **Charger l’extension non empaquetée** puis sélectionnez le dossier `dist/`.
 5. SilentWeb est immédiatement disponible dans la barre d’extensions (Chrome 114+). Rechargez la page ou appuyez sur **Mettre à jour** pour tester une nouvelle build.
+
+### Empaquetage Chromium/Chrome
+
+Pour préparer le package Chrome, utilisez :
+
+```bash
+pnpm run build:chrome
+```
+
+Cela produit un dossier `dist/` prêt à être chargé dans `chrome://extensions` via **Charger l’extension non empaquetée**.
 
 ## Structure du projet
 

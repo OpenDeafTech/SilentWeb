@@ -7,7 +7,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["js/inject.js", "js/overlay.js"],
+      "js": ["content/inject.js", "content/overlay.js"],
       "css": ["content/overlay.min.css"]
     }
   ],
