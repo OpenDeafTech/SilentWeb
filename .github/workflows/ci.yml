@@ -13,7 +13,7 @@ permissions:
   contents: read
 
 env:
-  PNPM_VERSION: 9.12.0
+  PNPM_VERSION: 11.5.1
 
 jobs:
   build-test:
