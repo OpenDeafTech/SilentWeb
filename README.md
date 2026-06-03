@@ -59,6 +59,8 @@ pnpm run build        # construit tous les artefacts dans dist/
 
 L’extension prête à être chargée se trouve ensuite dans `dist/` (scripts, worker, styles, manifest) et peut être chargée telle quelle dans Firefox ou Chrome.
 
+> Note : le CSS de l’overlay est généré à partir de `src/content/overlay/overlay.css` puis minifié en `dist/content/overlay.min.css`.
+
 ## Scripts PNPM utiles
 
 | Script                  | Description                                                                 |

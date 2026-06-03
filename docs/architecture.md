@@ -85,7 +85,7 @@ sequenceDiagram
 ## Builds
 - **TypeScript** : `pnpm run build:ts` compile le code TS en CJS/ESM selon `tsconfig.json`.
 - **Content scripts (JS)** : `pnpm run build:inject` / `build:overlay:js` utilisent `terser` pour minifier.
-- **CSS** : `build:overlay:css` avec `cleancss`.
+- **CSS** : `build:overlay:css` construit `dist/content/overlay.min.css` à partir de la source `src/content/overlay/overlay.css`.
 - **Service Worker** : `build:sw` minifie `worker/sw.js`.
 
 ## Tests
