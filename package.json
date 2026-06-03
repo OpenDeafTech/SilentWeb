@@ -19,6 +19,7 @@
     "build:all": "pnpm run build",
     "build:chrome": "pnpm run build",
     "release": "pnpm run build:all && pnpm run ci:test && pnpm exec web-ext build --source-dir dist --artifacts-dir web-ext-artifacts",
+    "copy:artifacts": "node scripts/copy-artifacts.mjs",
     "dev": "web-ext run --source-dir dist --firefox=firefox-developer-edition",
     "lint": "eslint src --ext .js,.ts",
     "lint:fix": "eslint src --ext .js,.ts --fix",

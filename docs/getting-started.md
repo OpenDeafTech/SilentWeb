@@ -9,8 +9,8 @@ layout: default
 Ce guide accompagne les nouvelles personnes contributrices pour installer l’environnement, lancer l’extension et vérifier qu’elle fonctionne.
 
 ## Prérequis
-- **Node.js 20+**
-- **pnpm 9+**
+- **Node.js 22+**
+- **pnpm 11+**
 - **Firefox Developer Edition** (facultatif mais recommandé pour `web-ext run`)
 - Git et un terminal compatible Bash/Zsh
 
@@ -46,6 +46,28 @@ Deux options :
   1. Exécutez `pnpm run build`.
   2. Ouvrez `about:debugging#/runtime/this-firefox` dans Firefox.
   3. Cliquez sur *Charger un module complémentaire temporaire* et sélectionnez `dist/manifest.json`.
+
+## Générer les artefacts de packaging
+
+### Firefox (.xpi)
+
+Pour produire la version Firefox packagée, exécutez :
+
+```bash
+pnpm run build:firefox
+```
+
+Le package est créé dans `packages/extension/web-ext-artifacts/`. Le résultat est un fichier `silentweb-<version>.zip` contenant le `.xpi` installable.
+
+### Chrome/Chromium
+
+Pour préparer le build Chrome, utilisez :
+
+```bash
+pnpm run build:chrome
+```
+
+Le dossier `dist/` est alors prêt à être chargé via `chrome://extensions` > **Charger l’extension non empaquetée**.
 
 ## Scripts utiles
 | Script | Description |
