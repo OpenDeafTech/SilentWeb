@@ -11,7 +11,7 @@
     "clean": "rimraf dist web-ext-artifacts && mkdir -p dist/content dist/worker dist/vendor",
     "build:inject": "terser src/content/inject.js -c -m -o dist/content/inject.min.js --source-map 'filename=inject.min.js.map,url=inject.min.js.map,includeSources'",
     "build:overlay:js": "terser src/content/overlay.js -c -m -o dist/content/overlay.min.js --source-map 'filename=overlay.min.js.map,url=overlay.min.js.map,includeSources'",
-    "build:overlay:css": "cleancss -o dist/content/overlay.min.css --source-map src/content/overlay.css",
+    "build:overlay:css": "cleancss --source-map -o dist/content/overlay.min.css src/content/overlay/overlay.css",
     "build:sw": "terser worker/sw.js -c -m -o dist/worker/sw.min.js --source-map 'filename=sw.min.js.map,url=sw.min.js.map,includeSources'",
     "build:assets": "node scripts/build-assets.mjs",
     "build:ts": "tsc -p tsconfig.json",
