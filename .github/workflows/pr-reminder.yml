@@ -1,0 +1,55 @@
+name: PR Reminder (security-review)
+
+on:
+  schedule:
+    - cron: "0 9 * * *" # every day at 09:00 UTC
+  workflow_dispatch:
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Remind about inactive security-review PRs
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const thresholdDays = 3;
+            const labelName = 'security-review';
+            const now = new Date();
+
+            const { data: prs } = await github.rest.pulls.list({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              per_page: 100
+            });
+
+            for (const pr of prs) {
+              const hasLabel = pr.labels && pr.labels.some(l => l.name === labelName);
+              if (!hasLabel) continue;
+
+              const updated = new Date(pr.updated_at);
+              const diffDays = Math.floor((now - updated) / (1000 * 60 * 60 * 24));
+              if (diffDays < thresholdDays) continue;
+
+              // avoid duplicate reminders: check for a previous bot reminder in comments
+              const comments = await github.rest.issues.listComments({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: pr.number,
+                per_page: 100
+              });
+
+              const alreadyReminded = comments.data.some(c => c.user && c.user.type === 'Bot' && c.body && c.body.includes('reminder: PR inactivity'));
+              if (alreadyReminded) continue;
+
+              const body = `reminder: PR inactivity — cette PR (#${pr.number}) a été inactive pendant ${diffDays} jours. Merci aux reviewers assignés et aux maintainers de relancer la revue.\n\nPR: ${pr.html_url}`;
+
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: pr.number,
+                body
+              });
+            }
