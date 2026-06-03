@@ -9,6 +9,7 @@
     "dev": "rollup -c -w",
     "build:firefox": "pnpm run clean && pnpm run build && pnpm run fx:build",
     "build:chrome": "pnpm run clean && pnpm run build",
+    "build:all-browsers": "pnpm run build:chrome && pnpm run build:firefox",
     "fx:run": "web-ext run --source-dir dist",
     "fx:build": "web-ext build --overwrite-dest --source-dir dist --artifacts-dir web-ext-artifacts",
     "fx:sign": "web-ext sign --source-dir dist --artifacts-dir web-ext-artifacts"
