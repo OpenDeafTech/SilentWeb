@@ -86,10 +86,10 @@ jobs:
           node-version: 22
           cache: pnpm
 
-      - name: Enable Corepack and install PNPM
+      - name: Install PNPM globally
         run: |
-          corepack enable
-          corepack prepare pnpm@${{ env.PNPM_VERSION }} --activate
+          npm install -g pnpm@${{ env.PNPM_VERSION }}
+          pnpm --version
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile --prod=false
