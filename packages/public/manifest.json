@@ -3,7 +3,7 @@
   "name": "SilentWeb",
   "version": "1.0.0",
   "action": { "default_title": "SilentWeb" },
-  "background": { "service_worker": "js/sw.js", "type": "module" },
+  "background": { "service_worker": "worker/sw.js", "type": "module" },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
